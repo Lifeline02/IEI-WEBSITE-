@@ -84,6 +84,13 @@ const featuredWorksData = [
         subtitle: 'Coaching',
         category: 'strategy',
     },
+    {
+        id: 13,
+        img: 'assets/img/case/case-7.jpg',
+        title: 'Virtual Facilitation testing',
+        subtitle: 'Coaching',
+        category: 'strategy',
+    },
 
 ]
 
