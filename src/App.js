@@ -18,8 +18,6 @@ import ServicesDetails from "./pages/ServicesDetails/ServicesDetails";
 import Team from "./pages/Team/Team";
 import TeamDetails from "./pages/TeamDetails/TeamDetails";
 
-
-
 function App() {
   return (
     <>
