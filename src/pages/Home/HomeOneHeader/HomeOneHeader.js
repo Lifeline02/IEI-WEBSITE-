@@ -16,29 +16,28 @@ const HomeOneHeader = () => {
                <div className="header__top d-none d-md-block">
                   <div className="container">
                      <div className="row align-items-center">
-                        <div className="col-xl-6 col-lg-5 col-md-4">
+                        <div className="col-xl-5 col-lg-4 col-md-3">
                            <div className="header__social">
                               <ul>
-                                 <li><a href="#"><i ><FaFacebookF/></i> </a></li>
+                                 <li><a href="https://www.facebook.com/ieianchorpens"><i ><FaFacebookF/></i> </a></li>
                                  <li><a href="#"><i ><FaTwitter/> </i></a> </li>
-                                 <li><a href="#"><i ><FaLinkedinIn/></i></a></li>
-                                 <li><a href="#"><i > <FaPinterestP/> </i></a></li>
+                                 <li><a href="https://www.linkedin.com/company/iei-anchor-pension-managers-limited/"><i ><FaLinkedinIn/></i></a></li>
                               </ul>
                            </div>
                         </div>
-                        <div className="col-xl-6 col-lg-7 col-md-8">
+                        <div className="col-xl-7 col-lg-8 col-md-9">
                            <div className="header__info f-right">
                               <ul>
                                  <li>
-                                    <a href="tel:(+468)-254-762-443">
+                                    <a href="tel:+2348165722731">
                                        <i > <FaPhoneAlt/> </i>
-                                       (+468) 254 762 443
+                                       (+234) 0816 5722 731
                                     </a>
                                  </li>
                                  <li>
-                                    <a href="mailto:info@consulting.com">
+                                    <a href="mailto:cservice@ieianchorpensions.com.ng">
                                        <i > <FaEnvelope/> </i>
-                                       info@consulting.com
+                                       cservice@ieianchorpensions.com.ng
                                     </a>
                                  </li>
                                  <li>
@@ -95,35 +94,61 @@ const HomeOneHeader = () => {
                                              </li>
                                           </ul>
                                        </li>
-                                       <li><NavLink to="/about">About Us </NavLink></li>
                                        <li>
-                                          <NavLink to="/services">Services</NavLink>
+                                          <NavLink to="/about">About</NavLink>
                                           <ul className="submenu">
-                                             <li><NavLink to="/services">Services</NavLink></li>
-                                             <li><NavLink to="/servicesDetails">Services Details</NavLink></li>
+                                             <li><NavLink to="/directors">Directors</NavLink></li>
+                                             <li><NavLink to="/management">Management</NavLink></li>
+                                             <li><NavLink to="/teams">Teams</NavLink></li>
+                                             <li><NavLink to="/career">Career</NavLink></li>
                                           </ul>
                                        </li>
                                        <li>
-                                          <NavLink to="/portfolio">Insights</NavLink>
+                                          <NavLink to="/services">Pension Management</NavLink>
                                           <ul className="submenu">
-                                             <li><NavLink to="/portfolio">portfolio</NavLink></li>
-                                             <li><NavLink to="/portfolioDetails">portfolio Details</NavLink></li>
-                                             <li><NavLink to="/team">team</NavLink></li>
-                                             <li><NavLink to="/teamDetails">team Details</NavLink></li>
+                                             <li><NavLink to="/services">Benfit Application</NavLink></li>
+                                             <li><NavLink to="/servicesDetails">Pension Calculator</NavLink></li>
+                                             <li><NavLink to="/servicesDetails">Micropension</NavLink></li>
+                                             <li><NavLink to="/servicesDetails">Voluntary Contributions</NavLink></li>
+                                             <li><NavLink to="/servicesDetails">Data Recapture</NavLink></li>
+                                             <li><NavLink to="/servicesDetails">Open Account</NavLink></li>
+                                             <li><NavLink to="/servicesDetails">Transfer Now</NavLink></li>
                                           </ul>
                                        </li>
                                        <li>
-                                          <NavLink to="/blogs">Blog</NavLink>
+                                          <NavLink to="/portfolio">Funds Management</NavLink>
                                           <ul className="submenu">
-                                             <li><NavLink to="/blogs">Blog</NavLink></li>
-                                             <li><NavLink to="/blogDetails">Blog Details</NavLink></li>
+                                             <li><NavLink to="/portfolio">Multi fund Structure</NavLink></li>
+                                             <li><NavLink to="/portfolioDetails">Strategy</NavLink></li>
+                                             <li><NavLink to="/team">Portfolio</NavLink></li>
+                                             <li><NavLink to="/teamDetails">Scheme</NavLink></li>
+                                             <li><NavLink to="/teamDetails">Rate of Return Table</NavLink></li>
                                           </ul>
                                        </li>
-                                       <li><NavLink to="/contact">Contact Us</NavLink></li>
+                                       <li>
+                                          <NavLink to="/contact">Contact</NavLink>
+                                          <ul className="submenu">
+                                             <li><NavLink to="/contact">Contact us</NavLink></li>
+                                             <li><NavLink to="/blogDetails">Branches</NavLink></li>
+                                             <li><NavLink to="/blogDetails">Self Service</NavLink></li>
+                                             <li><NavLink to="/blogDetails">Feedback</NavLink></li>
+                                          </ul>
+                                       </li>
+                                       <li>
+                                          <NavLink to="/contact">Resources</NavLink>
+                                          <ul className="submenu">
+                                             <li><NavLink to="/contact">Download</NavLink></li>
+                                             <li><NavLink to="/blogDetails">Financial Statements</NavLink></li>
+                                             <li><NavLink to="/blogDetails">Online Statements</NavLink></li>
+                                             <li><NavLink to="/blogDetails">Blog</NavLink></li>
+                                             <li><NavLink to="/blogDetails">Newsletter</NavLink></li>
+                                          </ul>
+                                       </li>
                                     </ul>
                                  </nav>
                               </div>
-                              <div className="header__btn d-none d-sm-block d-lg-none d-xl-block ml-50">
+                              {/*!-- removed d-sm-block d-lg-none d-xl-block here -- */}
+                              <div className="header__btn d-none  ml-50">
                                  <Link to="/contact" className="z-btn z-btn-white">Get a Quote</Link>
                               </div>
                               <div onClick={handleShow} className="sidebar__menu d-lg-none">
