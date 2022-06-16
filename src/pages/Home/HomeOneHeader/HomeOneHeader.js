@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { FaFacebookF, FaTwitter, FaPinterestP, FaPhoneAlt, FaEnvelope, FaSearch, FaLinkedinIn } from 'react-icons/fa';
+import { FaFacebookF, FaTwitter, FaInstagram, FaPhoneAlt, FaEnvelope, FaSearch, FaLinkedinIn } from 'react-icons/fa';
 import { Link, NavLink } from 'react-router-dom';
 import Sidebar from '../../../components/Sidebar/Sidebar';
 import useGlobalContext from '../../../hooks/useGlobalContext';
@@ -19,9 +19,10 @@ const HomeOneHeader = () => {
                         <div className="col-xl-5 col-lg-4 col-md-3">
                            <div className="header__social">
                               <ul>
-                                 <li><a href="https://www.facebook.com/ieianchorpens"><i ><FaFacebookF/></i> </a></li>
-                                 <li><a href="#"><i ><FaTwitter/> </i></a> </li>
-                                 <li><a href="https://www.linkedin.com/company/iei-anchor-pension-managers-limited/"><i ><FaLinkedinIn/></i></a></li>
+                                 <li><a href="https://www.facebook.com/ieianchorpens" target="_blank"><i ><FaFacebookF/></i> </a></li>
+                                 <li><a href="https://twitter.com/ieianchorpens" target="_blank"><i ><FaTwitter/> </i></a> </li>
+                                 <li><a href="https://www.linkedin.com/company/iei-anchor-pension-managers-limited/" target="_blank"><i ><FaLinkedinIn/></i></a></li>
+                                 <li><a href="https://www.instagram.com/ieianchorpens/" target="_blank"><i ><FaInstagram/></i></a></li>
                               </ul>
                            </div>
                         </div>
