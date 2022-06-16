@@ -4,13 +4,8 @@ import About from "./pages/About/About";
 import BlogDetails from "./pages/BlogDetails/BlogDetails";
 import Blogs from "./pages/Blogs/Blogs";
 import Contact from "./pages/Contact/Contact";
-import HeaderStyleFive from "./pages/HeaderStyleFive/HeaderStyleFive";
-import HeaderStyleFour from "./pages/HeaderStyleFour/HeaderStyleFour";
-import HeaderStyleSeven from "./pages/HeaderStyleSeven/HeaderStyleSeven";
 import HeaderStyleSix from "./pages/HeaderStyleSix/HeaderStyleSix";
 import Home from './pages/Home/Home';
-import HomeThree from "./pages/HomeThree/HomeThree";
-import HomeTwo from "./pages/HomeTwo/HomeTwo";
 import Portfolio from "./pages/Portfolio/Portfolio";
 import PortfolioDetails from "./pages/PortfolioDetails/PortfolioDetails";
 import Services from "./pages/Services/Services";
@@ -24,14 +19,8 @@ function App() {
       <BrowserRouter>
         <ScrollTop/>
         <Routes>
-            <Route path="/" element={<Home/>} />
-            <Route path="/home" element={<Home/>} />
-            <Route path="/homeTwo" element={<HomeTwo/>} />
-            <Route path="/homeThree" element={<HomeThree/>} />
-            <Route path="/headerStyleFour" element={<HeaderStyleFour/>} />
-            <Route path="/headerStyleFive" element={<HeaderStyleFive/>} />
-            <Route path="/headerStyleSix" element={<HeaderStyleSix/>} />
-            <Route path="/headerStyleSeven" element={<HeaderStyleSeven/>} />
+            <Route path="/" element={<HeaderStyleSix/>} />
+            <Route path="/home" element={<HeaderStyleSix/>} />
             <Route path="/about" element={<About/>} />
             <Route path="/services" element={<Services/>} />
             <Route path="/servicesDetails" element={<ServicesDetails/>} />
