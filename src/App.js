@@ -19,8 +19,8 @@ function App() {
       <BrowserRouter>
         <ScrollTop/>
         <Routes>
-            <Route path="/" element={<HeaderStyleSix/>} />
-            <Route path="/home" element={<HeaderStyleSix/>} />
+            <Route path="/" element={<Home/>} />
+            <Route path="/home" element={<Home/>} />
             <Route path="/about" element={<About/>} />
             <Route path="/services" element={<Services/>} />
             <Route path="/servicesDetails" element={<ServicesDetails/>} />

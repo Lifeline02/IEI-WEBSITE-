@@ -10,7 +10,7 @@ const Sidebar = ({ show, handleClose }) => {
    return (
       <>
 
-         <div >
+         <div>
             <Offcanvas show={show} onHide={handleClose} placement='end' className='side__bar'>
                <Offcanvas.Header closeButton>
                   <div className="logo">
@@ -43,28 +43,6 @@ const Sidebar = ({ show, handleClose }) => {
                                  <div className='side_navBar'>
                                     <Collapsible trigger={<NavLink to="/home">Home</NavLink>} triggerTagName="div"
                                        triggerOpenedClassName="icon_close" triggerClassName="iconAdd" open={false}>
-                                       <ul className="sidebar_sub_menu text-white">
-
-                                          <li className='pt-10'><NavLink to="/home">Home style 1</NavLink></li>
-
-                                          <Collapsible trigger={<li className='border-0'><NavLink to="/homeTwo">Home style 2</NavLink> </li>} triggerTagName="div" triggerOpenedClassName="sub_child icon_close" triggerClassName="sub_child iconAdd" open={false}>
-                                             <ul className="sidebar_sub_menu sub_child_menu submenu text-white">
-                                                <li><NavLink to="/home">Home Style 1</NavLink></li>
-                                                <li><NavLink to="/homeTwo">Home Style 2</NavLink></li>
-                                                <li><NavLink to="/homeThree">Home Style 3</NavLink></li>
-                                             </ul>
-                                          </Collapsible>
-
-                                          <Collapsible trigger={<li className='border-0'><NavLink to="/homeThree">Home style 3</NavLink></li>} triggerTagName="div" triggerOpenedClassName="sub_child icon_close" triggerClassName="sub_child iconAdd" open={false}>
-                                             <ul className="sidebar_sub_menu sub_child_menu submenu text-white">
-                                                <li><NavLink to="/headerStyleFour">Header Syle 4</NavLink></li>
-                                                <li><NavLink to="/headerStyleFive">Header Syle 5</NavLink></li>
-                                                <li><NavLink to="/headerStyleSix">Header Syle 6</NavLink></li>
-                                                <li><NavLink to="/headerStyleSeven">Header Syle 7</NavLink></li>
-                                             </ul>
-                                          </Collapsible>
-
-                                       </ul>
                                     </Collapsible>
 
                                    <div className='about iconAdd'>
@@ -108,15 +86,13 @@ const Sidebar = ({ show, handleClose }) => {
                               <div className="tab-pane fade" id="info" role="tabpanel" aria-labelledby="info-tab">
                                  <div className="sidebar__info">
                                     <div className="logo mb-40">
-                                       <a href="index.html">
-                                          <img src="assets/img/logo/logo.png" alt="logo"/>
-                                       </a>
+                        
                                     </div>
                                     <p>We must explain to you how all seds this mistakens idea off denouncing pleasures and praising pain was born and I will give you a completed accounts of the system and expound.</p>
-                                    <a href="contact.html" className="z-btn z-btn-white">contact us</a>
+                                    <a href="/contact" className="z-btn z-btn-white">contact us</a>
                                     <div className="sidebar__search">
                                        <form action="#">
-                                          <input type="text" placeholder="Your Keywords.."/>
+                                          <input type="text" placeholder="Search.."/>
                                           <button type="submit"><i > <FaSearch /> </i></button>
                                        </form>
                                     </div>
@@ -135,7 +111,7 @@ const Sidebar = ({ show, handleClose }) => {
                                                 <i > <FaEnvelope /> </i>
                                              </div>
                                              <div className="text ">
-                                                <span><a href="mailto:support@zibber.com">support@zibber.com</a></span>
+                                                <span><a href="mailto:cservice@ieianchorpensions.com.ng">cservice@ieianchorpensions.com.ng</a></span>
                                              </div>
                                           </li>
                                           <li>
@@ -143,7 +119,7 @@ const Sidebar = ({ show, handleClose }) => {
                                                 <i ><FaPhoneAlt /> </i>
                                              </div>
                                              <div className="text">
-                                                <span><a href="tel:(+642)-394-396-432">(+642) 394 396 432</a></span>
+                                                <span><a href="tel:+2348165722731">(+234) 0816 5722 731</a></span>
                                              </div>
                                           </li>
                                        </ul>

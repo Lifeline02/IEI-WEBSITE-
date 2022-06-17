@@ -74,26 +74,6 @@ const HomeOneHeader = () => {
                                     <ul>
                                        <li>
                                           <NavLink  to="/home">Home</NavLink>
-                                          <ul className="submenu">
-                                             <li><NavLink to="/home">Home Style 1</NavLink></li>
-                                             <li>
-                                                <NavLink to="/homeTwo">Home Style 2</NavLink>
-                                                <ul className="submenu">
-                                                   <li><NavLink to="/home">Home Style 1</NavLink></li>
-                                                   <li><NavLink to="/homeTwo">Home Style 2</NavLink></li>
-                                                   <li><NavLink to="/homeThree">Home Style 3</NavLink></li>
-                                                </ul>
-                                             </li>
-                                             <li>
-                                                <NavLink to="/homeThree">Home Style 3</NavLink>
-                                                <ul className="submenu">
-                                                   <li><NavLink to="/headerStyleFour">Header Syle 4</NavLink></li>
-                                                   <li><NavLink to="/headerStyleFive">Header Syle 5</NavLink></li>
-                                                   <li><NavLink to="/headerStyleSix">Header Syle 6</NavLink></li>
-                                                   <li><NavLink to="/headerStyleSeven">Header Syle 7</NavLink></li>
-                                                </ul>
-                                             </li>
-                                          </ul>
                                        </li>
                                        <li>
                                           <NavLink to="/about">About</NavLink>
@@ -123,7 +103,7 @@ const HomeOneHeader = () => {
                                              <li><NavLink to="/portfolioDetails">Strategy</NavLink></li>
                                              <li><NavLink to="/team">Portfolio</NavLink></li>
                                              <li><NavLink to="/teamDetails">Scheme</NavLink></li>
-                                             <li><NavLink to="/teamDetails">Rate of Return Table</NavLink></li>
+                                             <li><NavLink to="/teamDetails">Rate of Return</NavLink></li>
                                           </ul>
                                        </li>
                                        <li>
@@ -138,6 +118,7 @@ const HomeOneHeader = () => {
                                        <li>
                                           <NavLink to="/contact">Resources</NavLink>
                                           <ul className="submenu">
+                                             <li><NavLink to="/contact">FAQ</NavLink></li>
                                              <li><NavLink to="/contact">Download</NavLink></li>
                                              <li><NavLink to="/blogDetails">Financial Statements</NavLink></li>
                                              <li><NavLink to="/blogDetails">Online Statements</NavLink></li>
@@ -149,8 +130,7 @@ const HomeOneHeader = () => {
                                  </nav>
                               </div>
                               {/*!-- removed d-sm-block d-lg-none d-xl-block here -- */}
-                              <div className="header__btn d-none  ml-50">
-                                 <Link to="/contact" className="z-btn z-btn-white">Get a Quote</Link>
+                              <div className="header__btn   ml-100">
                               </div>
                               <div onClick={handleShow} className="sidebar__menu d-lg-none">
                                  <div className="sidebar-toggle-btn" id="sidebar-toggle">

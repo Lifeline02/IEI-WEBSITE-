@@ -1,5 +1,5 @@
 import React from 'react';
-import { FaEnvelope, FaFacebookF, FaPhoneAlt, FaTwitter, FaVimeoV } from 'react-icons/fa';
+import { FaEnvelope, FaFacebookF, FaPhoneAlt, FaTwitter, FaLinkedinIn, FaInstagram } from 'react-icons/fa';
 import { BiMap } from 'react-icons/bi';
 import { Link } from 'react-router-dom';
 
@@ -112,28 +112,34 @@ const Footer = () => {
                      <div className="row align-items-center">
                         <div className="col-xl-6 col-lg-6 col-md-6">
                            <div className="footer__copyright-text">
-                              <p>Copyright © 2022 All Rights Reserved passion by <Link to="/">Theme_Pure</Link></p>
+                              <p>Copyright © {new Date().getFullYear()} All Rights Reserved by IEI Anchor Pensions.</p>
                            </div>
                         </div>
                         <div className="col-xl-6 col-lg-6 col-md-6">
                            <div className="footer__social theme-social f-right">
                               <ul>
                                  <li>
-                                    <a href="#">
+                                    <a href="https://www.facebook.com/ieianchorpens" target="_blank">
                                        <i ><FaFacebookF/></i>
                                        <i ><FaFacebookF/></i>
                                     </a>
                                  </li>
                                  <li>
-                                    <a href="#">
+                                    <a href="https://twitter.com/ieianchorpens" target="_blank">
                                        <i ><FaTwitter/> </i>
                                        <i ><FaTwitter/> </i>
                                     </a>
                                  </li>
                                  <li>
-                                    <a href="#">
-                                       <i ><FaVimeoV/> </i>
-                                       <i ><FaVimeoV/> </i>
+                                    <a href="https://www.linkedin.com/company/iei-anchor-pension-managers-limited/" target="_blank">
+                                       <i ><FaLinkedinIn/> </i>
+                                       <i ><FaLinkedinIn/> </i>
+                                    </a>
+                                 </li>
+                                 <li>
+                                    <a href="https://www.instagram.com/ieianchorpens/" target="_blank">
+                                       <i ><FaInstagram/> </i>
+                                       <i ><FaInstagram/> </i>
                                     </a>
                                  </li>
                               </ul>
