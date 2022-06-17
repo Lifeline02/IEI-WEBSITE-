@@ -5,7 +5,7 @@ import BlogDetails from "./pages/BlogDetails/BlogDetails";
 import Blogs from "./pages/Blogs/Blogs";
 import Contact from "./pages/Contact/Contact";
 import HeaderStyleSix from "./pages/HeaderStyleSix/HeaderStyleSix";
-import Home from './pages/Home/Home';
+import Home from "./pages/Home/Home";
 import Portfolio from "./pages/Portfolio/Portfolio";
 import PortfolioDetails from "./pages/PortfolioDetails/PortfolioDetails";
 import Services from "./pages/Services/Services";
@@ -17,20 +17,20 @@ function App() {
   return (
     <>
       <BrowserRouter>
-        <ScrollTop/>
+        <ScrollTop />
         <Routes>
-            <Route path="/" element={<Home/>} />
-            <Route path="/home" element={<Home/>} />
-            <Route path="/about" element={<About/>} />
-            <Route path="/services" element={<Services/>} />
-            <Route path="/servicesDetails" element={<ServicesDetails/>} />
-            <Route path="/portfolio" element={<Portfolio/>} />
-            <Route path="/portfolioDetails" element={<PortfolioDetails/>} />
-            <Route path="/team" element={<Team/>} />
-            <Route path="/teamDetails" element={<TeamDetails/>} />
-            <Route path="/blogs" element={<Blogs/>} />
-            <Route path="/blogDetails" element={<BlogDetails/>} />
-            <Route path="/contact" element={<Contact/>} />
+          <Route path="/" element={<HeaderStyleSix />} />
+          <Route path="/home" element={<HeaderStyleSix />} />
+          <Route path="/about" element={<About />} />
+          <Route path="/services" element={<Services />} />
+          <Route path="/servicesDetails" element={<ServicesDetails />} />
+          <Route path="/portfolio" element={<Portfolio />} />
+          <Route path="/portfolioDetails" element={<PortfolioDetails />} />
+          <Route path="/team" element={<Team />} />
+          <Route path="/teamDetails" element={<TeamDetails />} />
+          <Route path="/blogs" element={<Blogs />} />
+          <Route path="/blogDetails" element={<BlogDetails />} />
+          <Route path="/contact" element={<Contact />} />
         </Routes>
       </BrowserRouter>
     </>
