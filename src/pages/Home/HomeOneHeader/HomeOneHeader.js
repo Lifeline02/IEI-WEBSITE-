@@ -130,7 +130,7 @@ const HomeOneHeader = () => {
                                  </nav>
                               </div>
                               {/*!-- removed d-sm-block d-lg-none d-xl-block here -- */}
-                              <div className="header__btn   ml-100">
+                              <div className="header__btn myspecial   ml-100">
                               </div>
                               <div onClick={handleShow} className="sidebar__menu d-lg-none">
                                  <div className="sidebar-toggle-btn" id="sidebar-toggle">
