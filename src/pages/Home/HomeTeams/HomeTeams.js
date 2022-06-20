@@ -24,12 +24,9 @@ const HomeTeams = () => {
                </div>
                <div className="row">
 
-                  <SingleTeam image="1" name="Berlin Corleone" title="CEO & founder" />
-                  <SingleTeam image="2" name="Norman Gordon" title="Associate Consultant" />
-                  <SingleTeam image="3" name="Indigo Violet" title="Project Manager" />
-                  <SingleTeam image="4" name="Dylan Meringue" title="Support" />
-                  <SingleTeam image="5" name="Berlin Corleone" title="App Developer" />
-                  <SingleTeam image="6" name="Shahnewaz Sakil" title="Web Developer" />
+                  <SingleTeam image="1" name="Sen(Dr.) Rufai Hanga" title="Chairman" />
+                  <SingleTeam image="2" name="Jolaade Oduntan" title="Managing Director/CEO" />
+                  <SingleTeam image="3" name="Sen. Usman Kibiya Umar" title="Non-Executive Director" />
 
                   <div className="col-xl-3 col-lg-4 col-md-6">
                      <div className="team__item team__item-add p-relative text-center fix mb-30" >

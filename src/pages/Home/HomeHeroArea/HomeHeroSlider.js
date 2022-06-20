@@ -17,6 +17,18 @@ const HomeHeroArea = () => {
          id: 2,
          bgImg:'home_slider_2',
       },
+      {
+         id: 3,
+         bgImg:'home_slider_3',
+      },
+      {
+         id: 4,
+         bgImg:'home_slider_4',
+      },
+      {
+         id: 5,
+         bgImg:'home_slider_5',
+      },
    ]
    // slick setting
    const settings = {
@@ -50,10 +62,10 @@ const HomeHeroArea = () => {
                            <div className="row">
                               <div className="col-xl-9 col-lg-9 col-md-10 col-sm-10">
                                  <div className="slider__content">
-                                    <span>We’ve added a new exciting feature in v2.0.</span>
-                                    <h1>Get all the essentials <br /> in a lightweight package</h1>
+                                    <span></span>
+                                    <h1></h1>
                                     <div className="slider__btn">
-                                       <Link to="/contact" className="z-btn z-btn-transparent">Get a quote</Link>
+                                       <Link to="/contact" className="z-btn z-btn-transparent"></Link>
                                     </div>
                                  </div>
                               </div>

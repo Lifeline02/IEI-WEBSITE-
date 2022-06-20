@@ -13,12 +13,12 @@ const HomeFeatures = () => {
                <div className="features__inner fix">
                   <div className="row g-0 ">
 
-                     <HomeSingleFeature icon={<FiBook />} title="Ifrs and Management Reporting" />
-                     <HomeSingleFeature icon={<FaLightbulb />} title="See term life insurance rates" />
-                     <HomeSingleFeature icon={<BsHouseDoor />} title="Get health insurance quotes" />
-                     <HomeSingleFeature icon={<IoDocumentTextOutline />} title="Boat and Yacht Insurance" />
-                     <HomeSingleFeature icon={<FiLock />} title="Umbrella Insurance" />
-                     <HomeSingleFeature icon={<FaRibbon />} title="How we think and work" />
+                     <HomeSingleFeature icon={<FiBook />} title="RSA Fund I: 1.500" />
+                     <HomeSingleFeature icon={<FiBook />} title="RSA Fund II: 1.500" />
+                     <HomeSingleFeature icon={<FiBook />} title="RSA Fund III: 1.300" />
+                     <HomeSingleFeature icon={<FiBook />} title="RSA Fund IV: 1.200" />
+                     <HomeSingleFeature icon={<FiBook />} title="RSA Fund V: 1.100" />
+                     <HomeSingleFeature icon={<FiBook />} title="RSA Fund VI: 1.100" />
 
                   </div>
                </div>

@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { FaFacebookF, FaTwitter, FaInstagram, FaPhoneAlt, FaEnvelope, FaSearch, FaLinkedinIn } from 'react-icons/fa';
+import { FaFacebookF, FaTwitter, FaInstagram, FaPhoneAlt, FaEnvelope, FaSearch, FaLinkedinIn, FaUserAlt } from 'react-icons/fa';
 import { Link, NavLink } from 'react-router-dom';
 import Sidebar from '../../../components/Sidebar/Sidebar';
 import useGlobalContext from '../../../hooks/useGlobalContext';
@@ -42,8 +42,9 @@ const HomeOneHeader = () => {
                                     </a>
                                  </li>
                                  <li>
-                                    <a href="#" className="search-toggle">
-                                       <i > <FaSearch/> </i>
+                                    <a href="https://ffpro.ieianchorpensions.com.ng/pfaweb/#/login"  target="_blank" className=" ">
+                                       <i> <FaUserAlt/> </i>
+                                       Login
                                     </a>
                                  </li>
                               </ul>
@@ -94,12 +95,22 @@ const HomeOneHeader = () => {
                                              <li><NavLink to="/servicesDetails">Data Recapture</NavLink></li>
                                              <li><NavLink to="/servicesDetails">Open Account</NavLink></li>
                                              <li><NavLink to="/servicesDetails">Transfer Now</NavLink></li>
+                                             <li><NavLink to="/servicesDetails">Onboarding</NavLink></li>
                                           </ul>
                                        </li>
                                        <li>
                                           <NavLink to="/portfolio">Funds Management</NavLink>
                                           <ul className="submenu">
-                                             <li><NavLink to="/portfolio">Multi fund Structure</NavLink></li>
+                                             <li>
+                                                <NavLink to="/portfolio">Multi fund Structure</NavLink>
+                                                   <ul className="submenu">
+                                                      <li><NavLink to="/portfolio">Fund I</NavLink></li>
+                                                      <li><NavLink to="/portfolioDetails">Strategy</NavLink></li>
+                                                      <li><NavLink to="/team">Portfolio</NavLink></li>
+                                                      <li><NavLink to="/teamDetails">Scheme</NavLink></li>
+                                                      <li><NavLink to="/teamDetails">Rate of Return</NavLink></li>
+                                                   </ul>
+                                             </li>
                                              <li><NavLink to="/portfolioDetails">Strategy</NavLink></li>
                                              <li><NavLink to="/team">Portfolio</NavLink></li>
                                              <li><NavLink to="/teamDetails">Scheme</NavLink></li>

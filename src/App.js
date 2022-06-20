@@ -1,4 +1,5 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Caveat from "./components/Caveat";
 import ScrollTop from "./components/ScrollTop";
 import About from "./pages/About/About";
 import BlogDetails from "./pages/BlogDetails/BlogDetails";
@@ -18,9 +19,10 @@ function App() {
     <>
       <BrowserRouter>
         <ScrollTop />
+        <Caveat />
         <Routes>
-          <Route path="/" element={<HeaderStyleSix />} />
-          <Route path="/home" element={<HeaderStyleSix />} />
+          <Route path="/" element={<Home />} />
+          <Route path="/home" element={<Home />} />
           <Route path="/about" element={<About />} />
           <Route path="/services" element={<Services />} />
           <Route path="/servicesDetails" element={<ServicesDetails />} />

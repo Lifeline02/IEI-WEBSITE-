@@ -24,12 +24,12 @@ const Home = () => {
             <HomeHeroSlider/>
             <HomeFeatures/>
             <HomeAbout/>
-            <HomeCapabilities/>
             <HomeServices/>
             <HomeCounterArea/>
             <HomeTeams/>
             <CommonCtaArea/>
             <HomePricing/>
+            <HomeCapabilities/>
             <HomeBrands/>
             <HomeContact/>
             <Footer/>

@@ -23,6 +23,7 @@
     &__item{
         padding: 30px 35px;
         background: $black-3;
+        min-height: 360px;
         @include border-radius(20px);
         &-add{
             background: $white;
