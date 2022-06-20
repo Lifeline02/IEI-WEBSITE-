@@ -18,7 +18,7 @@ function Caveat({ swal }, props) {
                 title: `<p style="color:red">CAVEAT NOTICE!!!</p>`,
                 html: `<div>
                         <p>Processing withdrawal applications on your Retirement Savings Account (RSA) is FREE. IEI-Anchor Pensions will not ask for gratification in any form, either monetary or material before or after processing your withdrawal application.</p>
-                        <p style="margin:80px 0 30px 0;"><a style="color:white; background-color:#000; padding:10px; href="https://tinyurl.com/y3q9svrs">Take a survey</a></P>
+                        <p style="margin:80px 0 30px 0;"><a style="color:white; background-color:#000; padding:10px;" href="https://tinyurl.com/y3q9svrs" target="_blank">Take a survey</a></P>
                         <div>`,
                 showCancelButton: false,
                 showConfirmButton: false,
