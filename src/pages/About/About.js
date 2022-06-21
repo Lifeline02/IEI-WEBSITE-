@@ -18,7 +18,6 @@ const About = () => {
          <AboutArea/>
          <HomeTwoFaq/>
          <HomeTwoAchievement/>
-         <HomeBrands/>
          <Footer/>
       </>
    );
