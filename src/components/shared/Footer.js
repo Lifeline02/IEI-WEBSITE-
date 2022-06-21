@@ -108,15 +108,15 @@ const Footer = () => {
                      </div>
                      <div class="mobile_app">
                         <a href="https://tinyurl.com/mthtpkzf" className='px-3'>
-                           <img src="assets/img/mobile/playstore.png" alt="Android"  width='240px' height="70px"/>
+                           <img src="/assets/img/mobile/playstore.png" alt="Android"  width='240px' height="70px"/>
                         </a>
 
                         <a href="https://tinyurl.com/mr2mpcbu" className='px-3'>
-                           <img src="assets/img/mobile/apple.png" alt="Android" width='240px' height="70px"/>
+                           <img src="/assets/img/mobile/apple.png" alt="Android" width='240px' height="70px"/>
                         </a>
 
                         <a href="#" className='px-3 d-inline-block'>
-                           <img src="assets/img/mobile/ndpr.png" alt="ndpr audit" width='240px' height="70px"/>
+                           <img src="/assets/img/mobile/ndpr.png" alt="ndpr audit" width='240px' height="70px"/>
                         </a>
                           
                            

@@ -1,4 +1,6 @@
 import { useState } from 'react';
+import { useEffect } from "react";
+import { useLocation } from "react-router-dom";
 import { FaFacebookF, FaTwitter, FaInstagram, FaPhoneAlt, FaEnvelope, FaSearch, FaLinkedinIn, FaUserAlt } from 'react-icons/fa';
 import { Link, NavLink } from 'react-router-dom';
 import Sidebar from '../../../components/Sidebar/Sidebar';
@@ -9,6 +11,8 @@ const HomeOneHeader = () => {
    const handleClose = () => setShow(false);
    const handleShow = () => setShow(true);
    const { stickyMenu } = useGlobalContext();
+
+
    return (
       <>
          <header>
@@ -59,12 +63,12 @@ const HomeOneHeader = () => {
                         <div className="col-xl-3 col-lg-3 col-md-6 col-sm-6 col-6">
                            <div className="logo">
                               <NavLink to="/">
-                                 <img src="assets/img/logo/logo.png" alt="logo"/>
+                                 <img src="/assets/img/logo/logo.png" alt="logo"/>
                               </NavLink>
                            </div>
                            <div className="logo-gradient">
                               <NavLink to="/">
-                                 <img src="assets/img/logo/logo.png" alt="logo"/>
+                                 <img src="/assets/img/logo/logo.png" alt="logo"/>
                               </NavLink>
                            </div>
                         </div>
@@ -89,7 +93,7 @@ const HomeOneHeader = () => {
                                           <NavLink to="/services">Pension Management</NavLink>
                                           <ul className="submenu">
                                              <li><NavLink to="/services">Benfit Application</NavLink></li>
-                                             <li><NavLink to="/servicesDetails">Pension Calculator</NavLink></li>
+                                             <li><NavLink to="/penCalculator">Pension Calculator</NavLink></li>
                                              <li><NavLink to="/servicesDetails">Micropension</NavLink></li>
                                              <li><NavLink to="/servicesDetails">Voluntary Contributions</NavLink></li>
                                              <li><NavLink to="/servicesDetails">Data Recapture</NavLink></li>

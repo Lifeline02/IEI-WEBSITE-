@@ -2,7 +2,6 @@ import React from 'react';
 import HomeOneHeader from './HomeOneHeader/HomeOneHeader';
 import HomeHeroSlider from './HomeHeroArea/HomeHeroSlider';
 import HomeFeatures from './HomeFeatures/HomeFeatures';
-import HomeAbout from './HomeAbout/HomeAbout';
 import HomeCapabilities from './HomeCapabilities/HomeCapabilities';
 import HomeServices from './HomeServices/HomeServices';
 import HomeCounterArea from './HomeCounterArea/HomeCounterArea';
@@ -13,6 +12,7 @@ import HomeContact from './HomeContact/HomeContact';
 import Footer from '../../components/shared/Footer';
 import CommonCtaArea from '../../components/CommonCtaArea/CommonCtaArea';
 import PageHelmet from '../../components/shared/PageHelmet';
+import HomeCalculator from './PenCalculator/PenCalculator';
 
 
 const Home = () => {
@@ -23,12 +23,9 @@ const Home = () => {
             <HomeOneHeader/>
             <HomeHeroSlider/>
             <HomeFeatures/>
-            <HomeAbout/>
-            <HomeServices/>
+            <HomeCalculator/>
             <HomeCounterArea/>
             <HomeTeams/>
-            <CommonCtaArea/>
-            <HomePricing/>
             <HomeCapabilities/>
             <HomeBrands/>
             <HomeContact/>

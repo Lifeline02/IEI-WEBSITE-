@@ -1,28 +1,37 @@
 import React from 'react';
 import { BiMap } from 'react-icons/bi';
 import { FaEnvelope, FaFacebookF, FaPhoneAlt, FaTwitter, FaVimeoV } from 'react-icons/fa';
-import { Link } from 'react-router-dom';
+import { Link,useParams } from 'react-router-dom';
+
+import teamData from '../../../data/teamData';
 
 const TeamDetailsArea = () => {
-   return (
-      <>
-         <section className="team__details pt-120 pb-160">
-            <div className="container">
+
+   const {teamId}  = useParams();
+
+   console.log("hello", teamId);
+
+   const SingleTeam = () => {
+       const team  = teamData.find(team => {
+          return team.id ===  parseInt(teamId)
+       })
+
+       return team ? (
+               <div className="container">
                <div className="team__details-inner p-relative white-bg">
                   <div className="team__details-shape p-absolute">
-                     <img src="assets/img/icon/team/shape-1.png" alt=""/>
+                     <img src="/assets/img/icon/team/shape-1.png" alt=""/>
                   </div>
                   <div className="row">
                      <div className="col-xl-6 col-lg-6">
                         <div className="team__details-img w-img mr-70">
-                           <img src="assets/img/team/details/team-01.jpg" alt=""/>
+                           <img src={`/${team.img}`} alt={team.name} />
                         </div>
                      </div>
                      <div className="col-xl-6 col-lg-6">
                         <div className="team__details-content pt-105">
-                           <span>UI/UX Designer</span>
-                           <h3>Parsley Montana</h3>
-                           <p>So I said on your bike mate easy peasy dropped a clanger blow  porkies is fantastic show off show.!</p>
+                           <span>{team.position}</span>
+                           <h3>{team.name}</h3>
                            <div className="team__details-contact mb-45">
                               <ul>
                                  <li>
@@ -30,7 +39,7 @@ const TeamDetailsArea = () => {
                                        <i > <FaEnvelope/> </i>
                                     </div>
                                     <div className="text theme-color ">
-                                       <span><a href="mailto:support@zibber.com">support@zibber.com</a></span>
+                                       <span><a href="mailto:cservice@ieianchorpensions.com.ng">cservice@ieianchorpensions.com.ng</a></span>
                                     </div>
                                  </li>
                                  <li>
@@ -38,7 +47,7 @@ const TeamDetailsArea = () => {
                                        <i ><FaPhoneAlt /> </i>
                                     </div>
                                     <div className="text theme-color">
-                                       <span><a href="tel:(+642)-394-396-432">(+642) 394 396 432</a></span>
+                                       <span><a href="tel:+23408165722731">(234) 0816 5722 731</a></span>
                                     </div>
                                  </li>
                                  <li>
@@ -46,7 +55,7 @@ const TeamDetailsArea = () => {
                                        <i > <BiMap /> </i>
                                     </div>
                                     <div className="text">
-                                       <span>Ave 14th Street, Mirpur 210, <br/> San Franciso, USA 3296.</span>
+                                       <span>22, Otukpo Street, Off Gimbiya Street,<br /> Area 11, Garki, Abuja, Nigeria</span>
                                     </div>
                                  </li>
                               </ul>
@@ -81,14 +90,27 @@ const TeamDetailsArea = () => {
                   <div className="col-xl-10 offset-xl-1">
                      <div className="team__details-info mt-60">
                         <h4 >Information</h4>
-                        <p >jolly good codswallop what a plonker he nicked it bog-standard porkies gosh the full monty, wind up at public school hanky panky cheeky bugger Richard do one some dodgy chav bite your arm off. Argy-bargy excuse my French brown bread up the duff bleeder fanny around spend a penny barmy bonnet, bubble and squeak brolly bugger no biggie smashing get stuffed mate old lurgy, cup of tea nice one mufty that I knackered some dodgy chav. Say vagabond morish crikey excuse my French bonnet William blatant spend a penny, knackered bite your arm off what a plonker blimey smashing a blinding shot pardon me grub, wind up cracking goal Jeffrey hanky panky are you taking the piss such a fibber hunky-dory.</p>
-                        <p >So I said on your bike mate easy peasy dropped a clanger blow off porkies is fantastic show off show off pick your nose and blow off, faff about bubble and squeak bugger all mate happy days hotpot don't get shirty with me jolly good gormless barmy.</p>
-
-                        <Link to="/contact" className="z-btn mt-10">Appionment</Link>
+                        <p>
+                           {team.detail}
+                        </p>
+                        <Link to="/contact" className="z-btn mt-10">Contact</Link>
                      </div>
                   </div>
                </div>
             </div>
+       ):
+       (
+         <div className="text-center">
+             <span>TEAM MEMBER NOT FOUND</span>
+         </div>
+       )
+   }
+   return (
+      <>
+         <section className="team__details pt-120 pb-160">
+            {
+               teamId ? <SingleTeam /> :<div className="text-center"><span>TEAM MEMBER NOT FOUND</span></div>
+            }
          </section>
       </>
    );

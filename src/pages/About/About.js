@@ -2,11 +2,11 @@ import React from 'react';
 import CommonPageHeader from '../../components/CommonPageHeader/CommonPageHeader';
 import Footer from '../../components/shared/Footer';
 import PageHelmet from '../../components/shared/PageHelmet';
-import HomeAbout from '../Home/HomeAbout/HomeAbout';
 import HomeBrands from '../Home/HomeBrands/HomeBrands';
 import HomeOneHeader from '../Home/HomeOneHeader/HomeOneHeader';
 import HomeTwoAchievement from '../HomeTwo/HomeTwoAchievement/HomeTwoAchievement';
 import HomeTwoFaq from '../HomeTwo/HomeTwoFaq/HomeTwoFaq';
+import AboutArea from './AboutArea/AboutArea';
 
 const About = () => {
    return (
@@ -15,7 +15,7 @@ const About = () => {
 
          <HomeOneHeader/>
          <CommonPageHeader title="About Us" subtitle="About" />
-         <HomeAbout/>
+         <AboutArea/>
          <HomeTwoFaq/>
          <HomeTwoAchievement/>
          <HomeBrands/>

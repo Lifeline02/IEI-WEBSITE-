@@ -1,9 +1,6 @@
 import React from 'react';
 import HomeSingleFeature from '../../../components/HomeSingleFeature/HomeSingleFeature';
-import { FiBook, FiLock} from 'react-icons/fi';
-import { FaLightbulb, FaRibbon } from 'react-icons/fa';
-import { BsHouseDoor } from 'react-icons/bs';
-import { IoDocumentTextOutline } from 'react-icons/io5';
+import { FiBook} from 'react-icons/fi';
 
 const HomeFeatures = () => {
    return (
