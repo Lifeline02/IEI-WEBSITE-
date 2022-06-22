@@ -2,7 +2,7 @@ import React from 'react';
 import { CgArrowLongRight } from 'react-icons/cg';
 import { Link } from 'react-router-dom';
 
-const HomeSingleFeature = ({icon,title}) => {
+const HomeSingleFeature = ({icon,title, description}) => {
    return (
       <>
          <div className="col-xl-2 col-lg-2 col-md-4 col-sm-4">
@@ -14,6 +14,7 @@ const HomeSingleFeature = ({icon,title}) => {
                      <i> {icon} </i>
                   </div>
                   <h3> {title} </h3>
+                  <span style={{'color': '#ffffffde', 'fontSize':'14px'}}>{description}</span>
                   <div className="features__btn">
                      <Link to="/servicesDetails" className="link-btn">
                         <i > <CgArrowLongRight /> </i>

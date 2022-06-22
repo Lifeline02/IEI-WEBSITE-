@@ -65,7 +65,7 @@ const HomeHeroArea = () => {
                                     <span></span>
                                     <h1></h1>
                                     <div className="slider__btn">
-                                       <Link to="/contact" className="z-btn z-btn-transparent"></Link>
+                                       <Link to="/contact" className="z-btn">Start Here</Link>
                                     </div>
                                  </div>
                               </div>

@@ -58,7 +58,7 @@ const HomeOneHeader = () => {
                   </div>
                </div>
                <div id="header__sticky" className={stickyMenu ? "sticky header__bottom" : "header__bottom"}>
-                  <div className="container">
+                  <div className="container-fluid">
                      <div className="row align-items-center">
                         <div className="col-xl-3 col-lg-3 col-md-6 col-sm-6 col-6">
                            <div className="logo">
@@ -90,12 +90,18 @@ const HomeOneHeader = () => {
                                           </ul>
                                        </li>
                                        <li>
-                                          <NavLink to="/services">Pension Management</NavLink>
+                                          <NavLink to="/services">Retirement Plans</NavLink>
                                           <ul className="submenu">
-                                             <li><NavLink to="/services">Benfit Application</NavLink></li>
+                                             <li>
+                                                <NavLink to="/services">Benfit Administrations</NavLink>
+                                                <ul className="submenu">
+                                                   <li><NavLink to="/servicesDetails">Micropension</NavLink></li>
+                                                   <li><NavLink to="/servicesDetails">Voluntary Contributions</NavLink></li>
+                                                   <li><NavLink to="/servicesDetails">Benefit Payment</NavLink></li>
+                                                </ul>
+                                             </li>
                                              <li><NavLink to="/penCalculator">Pension Calculator</NavLink></li>
-                                             <li><NavLink to="/servicesDetails">Micropension</NavLink></li>
-                                             <li><NavLink to="/servicesDetails">Voluntary Contributions</NavLink></li>
+
                                              <li><NavLink to="/servicesDetails">Data Recapture</NavLink></li>
                                              <li><NavLink to="/servicesDetails">Open Account</NavLink></li>
                                              <li><NavLink to="/servicesDetails">Transfer Now</NavLink></li>
@@ -109,10 +115,11 @@ const HomeOneHeader = () => {
                                                 <NavLink to="/portfolio">Multi fund Structure</NavLink>
                                                    <ul className="submenu">
                                                       <li><NavLink to="/portfolio">Fund I</NavLink></li>
-                                                      <li><NavLink to="/portfolioDetails">Strategy</NavLink></li>
-                                                      <li><NavLink to="/team">Portfolio</NavLink></li>
-                                                      <li><NavLink to="/teamDetails">Scheme</NavLink></li>
-                                                      <li><NavLink to="/teamDetails">Rate of Return</NavLink></li>
+                                                      <li><NavLink to="/portfolioDetails">Fund II</NavLink></li>
+                                                      <li><NavLink to="/team">Fund III</NavLink></li>
+                                                      <li><NavLink to="/teamDetails">Fund IV</NavLink></li>
+                                                      <li><NavLink to="/teamDetails">Fund V</NavLink></li>
+                                                      <li><NavLink to="/teamDetails">Fund VI</NavLink></li>
                                                    </ul>
                                              </li>
                                              <li><NavLink to="/portfolioDetails">Strategy</NavLink></li>

@@ -13,6 +13,7 @@ import Footer from '../../components/shared/Footer';
 import CommonCtaArea from '../../components/CommonCtaArea/CommonCtaArea';
 import PageHelmet from '../../components/shared/PageHelmet';
 import HomeCalculator from './PenCalculator/PenCalculator';
+import BankAccount from '../../components/BanckAccount/BankAccount';
 
 
 const Home = () => {
@@ -23,6 +24,7 @@ const Home = () => {
             <HomeOneHeader/>
             <HomeHeroSlider/>
             <HomeFeatures/>
+            <BankAccount />
             <HomeCalculator/>
             <HomeCounterArea/>
             <HomeTeams/>
