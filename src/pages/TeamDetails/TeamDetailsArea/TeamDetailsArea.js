@@ -35,50 +35,9 @@ const TeamDetailsArea = () => {
                            <div className="team__details-contact mb-45">
                               <ul>
                                  <li>
-                                    <div className="icon theme-color ">
-                                       <i > <FaEnvelope/> </i>
+                                    <div className="text pe-4">
+                                       <span> {team.detail} </span>
                                     </div>
-                                    <div className="text theme-color ">
-                                       <span><a href="mailto:cservice@ieianchorpensions.com.ng">cservice@ieianchorpensions.com.ng</a></span>
-                                    </div>
-                                 </li>
-                                 <li>
-                                    <div className="icon theme-color">
-                                       <i ><FaPhoneAlt /> </i>
-                                    </div>
-                                    <div className="text theme-color">
-                                       <span><a href="tel:+23408165722731">(234) 0816 5722 731</a></span>
-                                    </div>
-                                 </li>
-                                 <li>
-                                    <div className="icon">
-                                       <i > <BiMap /> </i>
-                                    </div>
-                                    <div className="text">
-                                       <span>22, Otukpo Street, Off Gimbiya Street,<br /> Area 11, Garki, Abuja, Nigeria</span>
-                                    </div>
-                                 </li>
-                              </ul>
-                           </div>
-                           <div className="team__details-social theme-social" >
-                              <ul>
-                                 <li>
-                                    <a href="#">
-                                       <i ><FaFacebookF /></i>
-                                       <i ><FaFacebookF /></i>
-                                    </a>
-                                 </li>
-                                 <li>
-                                    <a href="#">
-                                       <i ><FaTwitter /> </i>
-                                       <i ><FaTwitter /> </i>
-                                    </a>
-                                 </li>
-                                 <li>
-                                    <a href="#">
-                                       <i ><FaVimeoV /> </i>
-                                       <i ><FaVimeoV /> </i>
-                                    </a>
                                  </li>
                               </ul>
                            </div>
@@ -88,13 +47,6 @@ const TeamDetailsArea = () => {
                </div>
                <div className="row">
                   <div className="col-xl-10 offset-xl-1">
-                     <div className="team__details-info mt-60">
-                        <h4 >Information</h4>
-                        <p>
-                           {team.detail}
-                        </p>
-                        <Link to="/contact" className="z-btn mt-10">Contact</Link>
-                     </div>
                   </div>
                </div>
             </div>

@@ -23,6 +23,7 @@ const Footer = () => {
                                        <li><a href="#">Management</a></li>
                                        <li><a href="#">Teams</a></li>
                                        <li><a href="#">Career</a></li>
+                                       <li><a href="#">Data Protection</a></li>
                                        <li><a href="#">Privacy Policy</a></li>
                                        <li><a href="#">Cookie Policy</a></li>
                                     </ul>

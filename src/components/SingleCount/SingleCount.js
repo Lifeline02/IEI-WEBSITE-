@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import CountUp from 'react-countup';
 import VisibilitySensor from 'react-visibility-sensor';
 
-const SingleCount = ({counter,title,color}) => {
+const SingleCount = ({counter,title,color, link}) => {
    const [viewCountUp,setViewCountUp] = useState(false);
 
    const onVisibilityChange = (isVisible) => {
@@ -16,10 +16,15 @@ const SingleCount = ({counter,title,color}) => {
             <div className="counter__item text-center mb-30">
                <h2 className={`counter ${color && color}`}>
                   <VisibilitySensor onChange={onVisibilityChange} offset={{ top: 10 }} delayedCall>
-                     <CountUp end={viewCountUp ? counter : 0} duration={8} />
+                     <a href={`${link}`} style={{color: color}}>
+                        <CountUp end={viewCountUp ? counter : 0} duration={8}/>
+                     </a>     
                   </VisibilitySensor>
                </h2>
-               <span>{title}</span>
+               <a href={`${link}`}>
+                  <span>{title}</span>
+               </a>
+               
             </div>
          </div>
       </>

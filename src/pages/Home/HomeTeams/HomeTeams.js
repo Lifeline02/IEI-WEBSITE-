@@ -9,11 +9,10 @@ const HomeTeams = () => {
       <>
          <section className="team__area pt-30 pb-110">
             <div className="container">
-               <div className="row align-items-center mb-55">
+               <div className="row align-items-center mb-5">
                   <div className="col-xl-6 col-lg-8 col-md-8 col-sm-8">
                      <div className="section__title section__title-3 mb-30">
                         <span>Our Team</span>
-                        <h2>Meet our amazing directors and management team.</h2>
                      </div>
                   </div>
                   <div className="col-xl-6 col-lg-4 col-md-4 col-sm-4">

@@ -14,13 +14,14 @@ import CommonCtaArea from '../../components/CommonCtaArea/CommonCtaArea';
 import PageHelmet from '../../components/shared/PageHelmet';
 import HomeCalculator from './PenCalculator/PenCalculator';
 import BankAccount from '../../components/BanckAccount/BankAccount';
+import Testimonial from '../Testimonials/Testimonial';
 
 
 const Home = () => {
     return (
         <>
             <PageHelmet pageTitle="Home Page" />
-
+            <EPCCOS />
             <HomeOneHeader/>
             <HomeHeroSlider/>
             <HomeFeatures/>
@@ -29,11 +30,42 @@ const Home = () => {
             <HomeCounterArea/>
             <HomeTeams/>
             <HomeCapabilities/>
+            <Testimonial/>
             <HomeBrands/>
             <HomeContact/>
             <Footer/>
         </>
     );
 };
+
+
+const style =  {
+      p_style: {
+          position: 'fixed',
+          zIndex:'2000',
+          width:'100px',
+          height:'50px',
+          right:'0px',
+          top:'70px',
+          textAlign:'center',
+          backgroundColor: '#c59825',
+          borderRadius:'25px 0 0 25px'
+      },
+      a_style: {
+          textAlign:'center',
+          textDecoration: 'none',
+          width:'100%',
+          height:'100%',
+          lineHeight:'3',
+          color:'#fff'
+      }
+
+}
+
+const EPCCOS = () =>{
+    return (
+        <p style={style.p_style}><a href="https://apps.nibss-plc.com.ng/EPCCOS/login;jsessionid=26AB9979142CA84F38202ACA6726646F" style={style.a_style} target="_blank">EPCCOS</a></p>
+    )
+}
 
 export default Home;

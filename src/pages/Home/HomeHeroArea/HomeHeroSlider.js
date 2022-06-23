@@ -64,8 +64,8 @@ const HomeHeroArea = () => {
                                  <div className="slider__content">
                                     <span></span>
                                     <h1></h1>
-                                    <div className="slider__btn">
-                                       <Link to="/contact" className="z-btn">Start Here</Link>
+                                    <div className="slider__btn position-relative" style={{bottom:"-50px"}}>
+                                       <Link to="/contact" className="z-btn">Get Started</Link>
                                     </div>
                                  </div>
                               </div>

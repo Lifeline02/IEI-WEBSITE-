@@ -16,11 +16,10 @@ const ManagementArea = () => {
       <>
          <section className="team__area pt-115 pb-110">
             <div className="container">
-               <div className="row align-items-center mb-55">
+               <div className="row align-items-center mb-1">
                   <div className="col-xl-6 col-lg-8 col-md-8 col-sm-8">
                      <div className="section__title section__title-3 mb-30">
-                        <span>Our Management</span>
-                        <h2>We help to create a better retirement plan for you.</h2>
+                        <span>Management Team</span>
                      </div>
                   </div>
                </div>

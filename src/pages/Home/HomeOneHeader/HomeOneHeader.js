@@ -84,8 +84,7 @@ const HomeOneHeader = () => {
                                           <NavLink to="/about">About</NavLink>
                                           <ul className="submenu">
                                              <li><NavLink to="/directors">Directors</NavLink></li>
-                                             <li><NavLink to="/management">Management</NavLink></li>
-                                             <li><NavLink to="/teams">Teams</NavLink></li>
+                                             <li><NavLink to="/management">Management Team</NavLink></li>
                                              <li><NavLink to="/career">Career</NavLink></li>
                                           </ul>
                                        </li>
@@ -126,6 +125,7 @@ const HomeOneHeader = () => {
                                              <li><NavLink to="/team">Portfolio</NavLink></li>
                                              <li><NavLink to="/teamDetails">Scheme</NavLink></li>
                                              <li><NavLink to="/teamDetails">Rate of Return</NavLink></li>
+                                             <li><NavLink to="/teamDetails">Unit Price</NavLink></li>
                                           </ul>
                                        </li>
                                        <li>
@@ -146,6 +146,7 @@ const HomeOneHeader = () => {
                                              <li><NavLink to="/blogDetails">Online Statements</NavLink></li>
                                              <li><NavLink to="/blogDetails">Blog</NavLink></li>
                                              <li><NavLink to="/blogDetails">Newsletter</NavLink></li>
+                                             <li><NavLink to="/blogDetails">Data Protection</NavLink></li>
                                           </ul>
                                        </li>
                                     </ul>
