@@ -8,6 +8,7 @@ import Contact from "./pages/Contact/Contact";
 import Director from "./pages/Directors/Director";
 import HeaderStyleSix from "./pages/HeaderStyleSix/HeaderStyleSix";
 import Home from "./pages/Home/Home";
+import Management from "./pages/Management/Management";
 import Calculator from "./pages/PenManagement/Calculator";
 import Portfolio from "./pages/Portfolio/Portfolio";
 import PortfolioDetails from "./pages/PortfolioDetails/PortfolioDetails";
@@ -29,6 +30,7 @@ function App() {
           <Route path="/services" element={<Services />} />
           <Route path="/servicesDetails" element={<ServicesDetails />} />
           <Route path="/directors" element={<Director />} />
+          <Route path="/management" element={<Management />} />
           <Route path="/portfolio" element={<Portfolio />} />
           <Route path="/portfolioDetails" element={<PortfolioDetails />} />
           <Route path="/team" element={<Team />} />
