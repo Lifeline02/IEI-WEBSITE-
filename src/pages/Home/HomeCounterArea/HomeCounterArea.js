@@ -9,11 +9,10 @@ const HomeCounterArea = () => {
                <div className="counter__inner white-bg wow fadeInUp" data-wow-delay=".2s">
                   <div className="row">
 
-                     <SingleCount counter={1749} title="Happy Clients" />
-                     <SingleCount counter={796} title="Project Completed" />
-                     <SingleCount counter={573} title="Support Given" />
-                     <SingleCount counter={2739} title="Offices Worldwide" />
-
+                     <SingleCount counter={40} title="Branches" link="/branches" color={'#C59825'} />
+                     <SingleCount counter={5} title="Awards" link="/awards" />
+                     <SingleCount counter={147776} title="RSA Registered"  link="/clients" color={'#4636ff'} />
+                     <SingleCount counter={9884} title="Success Stories" link="/testimonies" color={'hsl(128, 65%, 42%)'} />
                   </div>
                </div>
             </div>

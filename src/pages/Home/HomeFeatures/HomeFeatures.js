@@ -1,9 +1,6 @@
 import React from 'react';
 import HomeSingleFeature from '../../../components/HomeSingleFeature/HomeSingleFeature';
-import { FiBook, FiLock} from 'react-icons/fi';
-import { FaLightbulb, FaRibbon } from 'react-icons/fa';
-import { BsHouseDoor } from 'react-icons/bs';
-import { IoDocumentTextOutline } from 'react-icons/io5';
+import { FiBook} from 'react-icons/fi';
 
 const HomeFeatures = () => {
    return (
@@ -13,12 +10,12 @@ const HomeFeatures = () => {
                <div className="features__inner fix">
                   <div className="row g-0 ">
 
-                     <HomeSingleFeature icon={<FiBook />} title="Ifrs and Management Reporting" />
-                     <HomeSingleFeature icon={<FaLightbulb />} title="See term life insurance rates" />
-                     <HomeSingleFeature icon={<BsHouseDoor />} title="Get health insurance quotes" />
-                     <HomeSingleFeature icon={<IoDocumentTextOutline />} title="Boat and Yacht Insurance" />
-                     <HomeSingleFeature icon={<FiLock />} title="Umbrella Insurance" />
-                     <HomeSingleFeature icon={<FaRibbon />} title="How we think and work" />
+                     <HomeSingleFeature icon={<FiBook />} title="RSA Fund I: 1.500"  description="Only on request but NOT accessible to Retirees and active contributors of 50 years and above."/>
+                     <HomeSingleFeature icon={<FiBook />} title="RSA Fund II: 1.500" description="Default fund for RSA holders of 49 years and below."/>
+                     <HomeSingleFeature icon={<FiBook />} title="RSA Fund III: 1.300" description="Default fund for RSA holders of 50 years and above."/>
+                     <HomeSingleFeature icon={<FiBook />} title="RSA Fund IV: 1.200" description="Only for Retirees" />
+                     <HomeSingleFeature icon={<FiBook />} title="RSA Fund V: 1.100" description="Only for Micro Pension Fund"/>
+                     <HomeSingleFeature icon={<FiBook />} title="RSA Fund VI: 1.100"description="Non-Interest fund" />
 
                   </div>
                </div>

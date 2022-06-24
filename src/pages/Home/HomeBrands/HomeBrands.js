@@ -49,15 +49,15 @@ const HomeBrands = () => {
                <div className="row">
                   <div className="col-xl-4 offset-xl-1 col-lg-4 offset-lg-1">
                      <div className="section__title mb-30">
-                        <span>Our Clients</span>
+                        <span>Our partners</span>
                      </div>
                   </div>
                   <div className="col-xl-6 col-lg-7">
                      <div className="section__title section__title-3 wow fadeInUp" data-wow-delay=".2s">
-                        <h2>More than 7,962 designers use konsul.</h2>
+                        <h2>Meet our amazing partners</h2>
                      </div>
                      <div className="brand__subtitle mb-90 wow fadeInUp" data-wow-delay=".4s">
-                        <p>Design anything from simple icons to fully featured websites and applications.</p>
+                        <p>This partners of ours have trusted us for year to render seamless service.</p>
                      </div>
                   </div>
                </div>
@@ -68,6 +68,8 @@ const HomeBrands = () => {
                      <SingleBrandItem img_1="2" img_2="6" />
                      <SingleBrandItem img_1="3" img_2="7" />
                      <SingleBrandItem img_1="4" img_2="8" />
+                     <SingleBrandItem img_1="2" img_2="6" />
+                     <SingleBrandItem img_1="2" img_2="6" />
                      <SingleBrandItem img_1="2" img_2="6" />
                   </Slider>
 

@@ -1,5 +1,7 @@
 import { useState } from 'react';
-import { FaFacebookF, FaTwitter, FaInstagram, FaPhoneAlt, FaEnvelope, FaSearch, FaLinkedinIn } from 'react-icons/fa';
+import { useEffect } from "react";
+import { useLocation } from "react-router-dom";
+import { FaFacebookF, FaTwitter, FaInstagram, FaPhoneAlt, FaEnvelope, FaSearch, FaLinkedinIn, FaUserAlt } from 'react-icons/fa';
 import { Link, NavLink } from 'react-router-dom';
 import Sidebar from '../../../components/Sidebar/Sidebar';
 import useGlobalContext from '../../../hooks/useGlobalContext';
@@ -9,6 +11,8 @@ const HomeOneHeader = () => {
    const handleClose = () => setShow(false);
    const handleShow = () => setShow(true);
    const { stickyMenu } = useGlobalContext();
+
+
    return (
       <>
          <header>
@@ -42,8 +46,9 @@ const HomeOneHeader = () => {
                                     </a>
                                  </li>
                                  <li>
-                                    <a href="#" className="search-toggle">
-                                       <i > <FaSearch/> </i>
+                                    <a href="https://ffpro.ieianchorpensions.com.ng/pfaweb/#/login"  target="_blank" className=" ">
+                                       <i> <FaUserAlt/> </i>
+                                       Login
                                     </a>
                                  </li>
                               </ul>
@@ -53,17 +58,17 @@ const HomeOneHeader = () => {
                   </div>
                </div>
                <div id="header__sticky" className={stickyMenu ? "sticky header__bottom" : "header__bottom"}>
-                  <div className="container">
+                  <div className="container-fluid">
                      <div className="row align-items-center">
                         <div className="col-xl-3 col-lg-3 col-md-6 col-sm-6 col-6">
                            <div className="logo">
                               <NavLink to="/">
-                                 <img src="assets/img/logo/logo.png" alt="logo"/>
+                                 <img src="/assets/img/logo/logo.png" alt="logo"/>
                               </NavLink>
                            </div>
                            <div className="logo-gradient">
                               <NavLink to="/">
-                                 <img src="assets/img/logo/logo.png" alt="logo"/>
+                                 <img src="/assets/img/logo/logo.png" alt="logo"/>
                               </NavLink>
                            </div>
                         </div>
@@ -79,31 +84,48 @@ const HomeOneHeader = () => {
                                           <NavLink to="/about">About</NavLink>
                                           <ul className="submenu">
                                              <li><NavLink to="/directors">Directors</NavLink></li>
-                                             <li><NavLink to="/management">Management</NavLink></li>
-                                             <li><NavLink to="/teams">Teams</NavLink></li>
+                                             <li><NavLink to="/management">Management Team</NavLink></li>
                                              <li><NavLink to="/career">Career</NavLink></li>
                                           </ul>
                                        </li>
                                        <li>
-                                          <NavLink to="/services">Pension Management</NavLink>
+                                          <NavLink to="/services">Retirement Plans</NavLink>
                                           <ul className="submenu">
-                                             <li><NavLink to="/services">Benfit Application</NavLink></li>
-                                             <li><NavLink to="/servicesDetails">Pension Calculator</NavLink></li>
-                                             <li><NavLink to="/servicesDetails">Micropension</NavLink></li>
-                                             <li><NavLink to="/servicesDetails">Voluntary Contributions</NavLink></li>
+                                             <li>
+                                                <NavLink to="/services">Benfit Administrations</NavLink>
+                                                <ul className="submenu">
+                                                   <li><NavLink to="/servicesDetails">Micropension</NavLink></li>
+                                                   <li><NavLink to="/servicesDetails">Voluntary Contributions</NavLink></li>
+                                                   <li><NavLink to="/servicesDetails">Benefit Payment</NavLink></li>
+                                                </ul>
+                                             </li>
+                                             <li><NavLink to="/penCalculator">Pension Calculator</NavLink></li>
+
                                              <li><NavLink to="/servicesDetails">Data Recapture</NavLink></li>
                                              <li><NavLink to="/servicesDetails">Open Account</NavLink></li>
                                              <li><NavLink to="/servicesDetails">Transfer Now</NavLink></li>
+                                             <li><NavLink to="/servicesDetails">Onboarding</NavLink></li>
                                           </ul>
                                        </li>
                                        <li>
                                           <NavLink to="/portfolio">Funds Management</NavLink>
                                           <ul className="submenu">
-                                             <li><NavLink to="/portfolio">Multi fund Structure</NavLink></li>
+                                             <li>
+                                                <NavLink to="/portfolio">Multi fund Structure</NavLink>
+                                                   <ul className="submenu">
+                                                      <li><NavLink to="/portfolio">Fund I</NavLink></li>
+                                                      <li><NavLink to="/portfolioDetails">Fund II</NavLink></li>
+                                                      <li><NavLink to="/team">Fund III</NavLink></li>
+                                                      <li><NavLink to="/teamDetails">Fund IV</NavLink></li>
+                                                      <li><NavLink to="/teamDetails">Fund V</NavLink></li>
+                                                      <li><NavLink to="/teamDetails">Fund VI</NavLink></li>
+                                                   </ul>
+                                             </li>
                                              <li><NavLink to="/portfolioDetails">Strategy</NavLink></li>
                                              <li><NavLink to="/team">Portfolio</NavLink></li>
                                              <li><NavLink to="/teamDetails">Scheme</NavLink></li>
                                              <li><NavLink to="/teamDetails">Rate of Return</NavLink></li>
+                                             <li><NavLink to="/teamDetails">Unit Price</NavLink></li>
                                           </ul>
                                        </li>
                                        <li>
@@ -124,13 +146,14 @@ const HomeOneHeader = () => {
                                              <li><NavLink to="/blogDetails">Online Statements</NavLink></li>
                                              <li><NavLink to="/blogDetails">Blog</NavLink></li>
                                              <li><NavLink to="/blogDetails">Newsletter</NavLink></li>
+                                             <li><NavLink to="/blogDetails">Data Protection</NavLink></li>
                                           </ul>
                                        </li>
                                     </ul>
                                  </nav>
                               </div>
                               {/*!-- removed d-sm-block d-lg-none d-xl-block here -- */}
-                              <div className="header__btn   ml-100">
+                              <div className="header__btn myspecial   ml-100">
                               </div>
                               <div onClick={handleShow} className="sidebar__menu d-lg-none">
                                  <div className="sidebar-toggle-btn" id="sidebar-toggle">
