@@ -140,7 +140,7 @@ const HomeOneHeader = () => {
                                        <li>
                                           <NavLink to="/contact">Resources</NavLink>
                                           <ul className="submenu">
-                                             <li><NavLink to="/contact">FAQ</NavLink></li>
+                                             <li><NavLink to="/faq">FAQ</NavLink></li>
                                              <li><NavLink to="/contact">Download</NavLink></li>
                                              <li><NavLink to="/blogDetails">Financial Statements</NavLink></li>
                                              <li><NavLink to="/blogDetails">Online Statements</NavLink></li>

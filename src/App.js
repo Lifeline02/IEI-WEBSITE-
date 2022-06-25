@@ -6,6 +6,7 @@ import BlogDetails from "./pages/BlogDetails/BlogDetails";
 import Blogs from "./pages/Blogs/Blogs";
 import Contact from "./pages/Contact/Contact";
 import Director from "./pages/Directors/Director";
+import FAQ from "./pages/FAQ/FAQ";
 import HeaderStyleSix from "./pages/HeaderStyleSix/HeaderStyleSix";
 import Home from "./pages/Home/Home";
 import Management from "./pages/Management/Management";
@@ -38,6 +39,7 @@ function App() {
           <Route path="/blogs" element={<Blogs />} />
           <Route path="/blogDetails" element={<BlogDetails />} />
           <Route path="/penCalculator" element={<Calculator />} />
+          <Route path="/faq" element={<FAQ />} />
           <Route path="/contact" element={<Contact />} />
         </Routes>
       </BrowserRouter>
