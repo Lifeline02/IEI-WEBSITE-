@@ -16,7 +16,7 @@ const FAQArea = () => {
                   </div>
                   <div className="col-xl-6 col-lg-6 col-md-7 offset-xl-2 offset-lg-1">
                      <div className="faq__accordion p-relative">
-
+                        <di><h2>Question title (3)</h2></di>
                         <div className="accordion" id="accordionExample" >
                            <div className="card accordion-item">
                               <div className="card-header accordion-header" id="acc_1" >
@@ -28,6 +28,142 @@ const FAQArea = () => {
                               </div>
 
                               <div id="collapse_1" className="collapse show" aria-labelledby="acc_1" data-bs-parent="#accordionExample">
+                                 <div className="card-body accordion-body">
+                                    <p>He nicked it show off show pick your nose and blow off such a fiber bleeding well get stuffed mate no biggie, in my flat bugger wind up cheesed off blower burke james bond cheeky.</p>
+                                 </div>
+                              </div>
+                           </div>
+                           <div className="card">
+                              <div className="card-header" id="acc_2">
+                                 <h5 className="mb-0">
+                                    <button className="btn btn-link collapsed" data-bs-toggle="collapse" data-bs-target="#collapse_2" aria-expanded="true" aria-controls="collapse_2">
+                                       What are your best interest rates?
+                                    </button>
+                                 </h5>
+                              </div>
+
+                              <div id="collapse_2" className="collapse" aria-labelledby="acc_2" data-bs-parent="#accordionExample">
+                                 <div className="card-body accordion-body">
+                                    <p>He nicked it show off show pick your nose and blow off such a fiber bleeding well get stuffed mate no biggie, in my flat bugger wind up cheesed off blower burke james bond cheeky.</p>
+                                 </div>
+                              </div>
+                           </div>
+                           <div className="card">
+                              <div className="card-header" id="acc_3">
+                                 <h5 className="mb-0">
+                                    <button className="btn btn-link collapsed" data-bs-toggle="collapse" data-bs-target="#collapse_3" aria-expanded="true" aria-controls="collapse_3">
+                                       How do you calculate cost of services?
+                                    </button>
+                                 </h5>
+                              </div>
+
+                              <div id="collapse_3" className="collapse" aria-labelledby="acc_3" data-bs-parent="#accordionExample">
+                                 <div className="card-body accordion-body">
+                                    <p>He nicked it show off show pick your nose and blow off such a fiber bleeding well get stuffed mate no biggie, in my flat bugger wind up cheesed off blower burke james bond cheeky.</p>
+                                 </div>
+                              </div>
+                           </div>
+                           <div className="card">
+                              <div className="card-header" id="acc_4">
+                                 <h5 className="mb-0">
+                                    <button className="btn btn-link collapsed" data-bs-toggle="collapse" data-bs-target="#collapse_4" aria-expanded="true" aria-controls="collapse_4">
+                                       How do you calculate cost of services?
+                                    </button>
+                                 </h5>
+                              </div>
+
+                              <div id="collapse_4" className="collapse" aria-labelledby="acc_4" data-bs-parent="#accordionExample">
+                                 <div className="card-body accordion-body">
+                                    <p>He nicked it show off show pick your nose and blow off such a fiber bleeding well get stuffed mate no biggie, in my flat bugger wind up cheesed off blower burke james bond cheeky.</p>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div className="row">
+                  <div className="col-xl-6 col-lg-6 col-md-6">
+                    <div className="faq__accordion p-relative">
+                            <div><h2>Question title (3)</h2></div>
+                            <div className="accordion" id="accordionExample" >
+                            <div className="card accordion-item">
+                                <div className="card-header accordion-header" id="acc_1" >
+                                    <h5 className="mb-0">
+                                        <button className="btn btn-link" data-bs-toggle="collapse" data-bs-target="#collapse_1" aria-expanded="false" aria-controls="collapse_1">
+                                        Can you help my business grow?
+                                        </button>
+                                    </h5>
+                                </div>
+
+                                <div id="collapse_1" className="collapse" aria-labelledby="acc_1" data-bs-parent="#accordionExample">
+                                    <div className="card-body accordion-body">
+                                        <p>He nicked it show off show pick your nose and blow off such a fiber bleeding well get stuffed mate no biggie, in my flat bugger wind up cheesed off blower burke james bond cheeky.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="card">
+                                <div className="card-header" id="acc_2">
+                                    <h5 className="mb-0">
+                                        <button className="btn btn-link collapsed" data-bs-toggle="collapse" data-bs-target="#collapse_2" aria-expanded="true" aria-controls="collapse_2">
+                                        What are your best interest rates?
+                                        </button>
+                                    </h5>
+                                </div>
+
+                                <div id="collapse_2" className="collapse" aria-labelledby="acc_2" data-bs-parent="#accordionExample">
+                                    <div className="card-body accordion-body">
+                                        <p>He nicked it show off show pick your nose and blow off such a fiber bleeding well get stuffed mate no biggie, in my flat bugger wind up cheesed off blower burke james bond cheeky.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="card">
+                                <div className="card-header" id="acc_3">
+                                    <h5 className="mb-0">
+                                        <button className="btn btn-link collapsed" data-bs-toggle="collapse" data-bs-target="#collapse_3" aria-expanded="true" aria-controls="collapse_3">
+                                        How do you calculate cost of services?
+                                        </button>
+                                    </h5>
+                                </div>
+
+                                <div id="collapse_3" className="collapse" aria-labelledby="acc_3" data-bs-parent="#accordionExample">
+                                    <div className="card-body accordion-body">
+                                        <p>He nicked it show off show pick your nose and blow off such a fiber bleeding well get stuffed mate no biggie, in my flat bugger wind up cheesed off blower burke james bond cheeky.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="card">
+                                <div className="card-header" id="acc_4">
+                                    <h5 className="mb-0">
+                                        <button className="btn btn-link collapsed" data-bs-toggle="collapse" data-bs-target="#collapse_4" aria-expanded="true" aria-controls="collapse_4">
+                                        How do you calculate cost of services?
+                                        </button>
+                                    </h5>
+                                </div>
+
+                                <div id="collapse_4" className="collapse" aria-labelledby="acc_4" data-bs-parent="#accordionExample">
+                                    <div className="card-body accordion-body">
+                                        <p>He nicked it show off show pick your nose and blow off such a fiber bleeding well get stuffed mate no biggie, in my flat bugger wind up cheesed off blower burke james bond cheeky.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            </div>
+                     </div>
+                    </div>
+                  <div className="col-xl-6 col-lg-6 col-md-6">
+                     <div className="faq__accordion p-relative">
+                         <di><h2>Question title (3)</h2></di>
+                        <div className="accordion" id="accordionExample2" >
+                           <div className="card accordion-item">
+                              <div className="card-header accordion-header" id="acc_1" >
+                                 <h5 className="mb-0">
+                                    <button className="btn btn-link" data-bs-toggle="collapse" data-bs-target="#collapse_6" aria-expanded="true" aria-controls="collapse_1">
+                                       Can you help my business grow?
+                                    </button>
+                                 </h5>
+                              </div>
+
+                              <div id="collapse_6" className="collapse" aria-labelledby="acc_1" data-bs-parent="#accordionExample2">
                                  <div className="card-body accordion-body">
                                     <p>He nicked it show off show pick your nose and blow off such a fiber bleeding well get stuffed mate no biggie, in my flat bugger wind up cheesed off blower burke james bond cheeky.</p>
                                  </div>
