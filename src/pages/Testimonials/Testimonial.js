@@ -16,7 +16,7 @@ const Testimonial = () => {
       name: "Aleeyu Giza",
       title: "Dedicated Client",
       message:
-        "I want to thank and congratulate your personnel for their outstanding professionalism in dealing with customers. I was pleased with the service I received since the personnel was dedicated, accountable, hospitable, and always willing to offer Services. is a good one having you there.",
+        "I want to thank and congratulate your personnel for their outstanding professionalism in dealing with customers. I was pleased with the service I received since the personnel was dedicated, accountable, hospitable, and always willing to offer help. is a good one having you there.",
     },
 
     {
