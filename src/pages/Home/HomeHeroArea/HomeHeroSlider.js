@@ -87,4 +87,3 @@ const HomeHeroArea = () => {
 };
 
 export default HomeHeroArea;
-
