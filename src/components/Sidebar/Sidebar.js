@@ -73,9 +73,28 @@ const Sidebar = ({ show, handleClose }) => {
                           open={false}
                         ></Collapsible>
 
-                        <div className="about iconAdd">
-                          <NavLink to="/about">About Us </NavLink>
-                        </div>
+                        <Collapsible
+                          trigger={<NavLink to="/services">About</NavLink>}
+                          triggerTagName="div"
+                          triggerOpenedClassName="icon_close"
+                          triggerClassName="iconAdd"
+                          open={false}
+                        >
+                          <ul className="sidebar_sub_menu submenu text-white">
+                            <li>
+                              <NavLink to="/directors">Directors</NavLink>
+                            </li>
+                            <li>
+                              <NavLink to="/management">
+                                Management Team
+                              </NavLink>
+                            </li>
+
+                            <li>
+                              <NavLink to="/career">Career</NavLink>
+                            </li>
+                          </ul>
+                        </Collapsible>
 
                         <Collapsible
                           trigger={
@@ -93,8 +112,14 @@ const Sidebar = ({ show, handleClose }) => {
                               </NavLink>
                             </li>
                             <li>
-                              <NavLink to="/servicesDetails">
+                              <NavLink to="/penCalculator">
                                 Pension Calculator
+                              </NavLink>
+                            </li>
+
+                            <li>
+                              <NavLink to="/servicesDetails">
+                                Data Recapture
                               </NavLink>
                             </li>
 
@@ -106,7 +131,13 @@ const Sidebar = ({ show, handleClose }) => {
 
                             <li>
                               <NavLink to="/servicesDetails">
-                                Data Recapture
+                                Transfer Now
+                              </NavLink>
+                            </li>
+
+                            <li>
+                              <NavLink to="/servicesDetails">
+                                Onboarding
                               </NavLink>
                             </li>
                           </ul>
@@ -123,7 +154,9 @@ const Sidebar = ({ show, handleClose }) => {
                         >
                           <ul className="sidebar_sub_menu submenu text-white text-capitalize">
                             <li>
-                              <NavLink to="/portfolio">Strategy</NavLink>
+                              <NavLink to="/portfolio">
+                                Multi Fund Structure
+                              </NavLink>
                             </li>
                             <li>
                               <NavLink to="/portfolioDetails">
@@ -131,10 +164,50 @@ const Sidebar = ({ show, handleClose }) => {
                               </NavLink>
                             </li>
                             <li>
-                              <NavLink to="/team">team</NavLink>
+                              <NavLink to="/team">Strategy</NavLink>
                             </li>
                             <li>
+                              <NavLink to="/teamDetails">Portfolio</NavLink>
+                            </li>
+
+                            <li>
                               <NavLink to="/teamDetails">Scheme</NavLink>
+                            </li>
+
+                            <li>
+                              <NavLink to="/teamDetails">
+                                Rate Of Return
+                              </NavLink>
+                            </li>
+
+                            <li>
+                              <NavLink to="/teamDetails">Unit Price</NavLink>
+                            </li>
+                          </ul>
+                        </Collapsible>
+
+                        <Collapsible
+                          trigger={<NavLink to="/blogs">Contact</NavLink>}
+                          triggerTagName="div"
+                          triggerOpenedClassName="icon_close"
+                          triggerClassName="iconAdd"
+                          open={false}
+                        >
+                          <ul className="sidebar_sub_menu submenu text-white">
+                            {" "}
+                            <li>
+                              <NavLink to="/contact">Contact Us</NavLink>
+                            </li>
+                            <li>
+                              <NavLink to="/blogs">Branches</NavLink>
+                            </li>
+                            <li>
+                              <NavLink to="/https://ffpro.ieianchorpensions.com.ng/pfaweb/#/login">
+                                Self Service
+                              </NavLink>
+                            </li>
+                            <li>
+                              <NavLink to="/blogDetails">Feedback</NavLink>
                             </li>
                           </ul>
                         </Collapsible>
@@ -149,16 +222,21 @@ const Sidebar = ({ show, handleClose }) => {
                           <ul className="sidebar_sub_menu submenu text-white">
                             {" "}
                             <li>
-                              <NavLink to="/services">FAQs</NavLink>
+                              <NavLink to="/services">FAQ</NavLink>
                             </li>
                             <li>
-                              <NavLink to="/blogs">Rate Of Return</NavLink>
+                              <NavLink to="/blogs">Download</NavLink>
                             </li>
                             <li>
-                              <NavLink to="/blogDetails">Transfer Now</NavLink>
+                              <NavLink to="/blogDetails">
+                                Online Statements
+                              </NavLink>
                             </li>
                             <li>
-                              <NavLink to="/blogDetails">Download</NavLink>
+                              <NavLink to="/blogDetails">Blog</NavLink>
+                            </li>
+                            <li>
+                              <NavLink to="/blogDetails">Newsletter</NavLink>
                             </li>
                             <li>
                               <NavLink to="/blogDetails">
@@ -167,10 +245,6 @@ const Sidebar = ({ show, handleClose }) => {
                             </li>
                           </ul>
                         </Collapsible>
-
-                        <div className="about iconAdd border-0">
-                          <NavLink to="/contact">Contact Us </NavLink>
-                        </div>
                       </div>
                     </div>
 
@@ -184,25 +258,17 @@ const Sidebar = ({ show, handleClose }) => {
                         <div className="logo mb-40"></div>
                         <p>
                           A global financial institution, providing excellent
-                          pension solutions to our customers. <br></br> "To be a
-                          dependable partner, helping our clients to protect and
-                          grow their pension assets and creating superior value
-                          for all stakeholders".
+                          pension solutions to our customers.
+                        </p>
+                        <p>
+                          "To be a dependable partner, helping our clients to
+                          protect and grow their pension assets and creating
+                          superior value for all stakeholders".
                         </p>
                         <a href="/contact" className="z-btn z-btn-white">
                           contact us
                         </a>
-                        <div className="sidebar__search">
-                          <form action="#">
-                            <input type="text" placeholder="Search.." />
-                            <button type="submit">
-                              <i>
-                                {" "}
-                                <FaSearch />{" "}
-                              </i>
-                            </button>
-                          </form>
-                        </div>
+
                         <div className="sidebar__contact mt-30">
                           <ul>
                             <li>
