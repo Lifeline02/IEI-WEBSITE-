@@ -1,43 +1,43 @@
-import { useState,useEffect } from "react";
+import { useState, useEffect } from "react";
 import { useLocation } from "react-router-dom";
 
-import { withSwal } from 'react-sweetalert2';
+import { withSwal } from "react-sweetalert2";
 
 function Caveat({ swal }, props) {
-    const { pathname } = useLocation();
-    const [show, setShow] = useState(false);
+  const { pathname } = useLocation();
+  const [show, setShow] = useState(false);
 
+  console.log("New Paths", props);
 
-    console.log("New Paths", props);
-
-    useEffect(() => {
-
-
-        if(pathname === "/" || pathname === "/home"){
-            swal.fire({
-                title: `<p style="color:red">CAVEAT NOTICE!!!</p>`,
-                html: `<div>
+  useEffect(() => {
+    if (pathname === "/" || pathname === "/home") {
+      swal
+        .fire({
+          title: `<p style="color:red">CAVEAT NOTICE!!!</p>`,
+          html: `<div>
                         <p>Processing withdrawal applications on your Retirement Savings Account (RSA) is FREE. IEI-Anchor Pensions will not ask for gratification in any form, either monetary or material before or after processing your withdrawal application.</p>
+                        <p>Please do not make payment to any staff of IEI-Anchor Pensions as charges for services rendered or to be rendered.</p>
                         <p style="margin:80px 0 30px 0;"><a style="color:white; background-color:#000; padding:10px;" href="https://tinyurl.com/y3q9svrs" target="_blank">Take a survey</a></P>
                         <div>`,
-                showCancelButton: false,
-                showConfirmButton: false,
-                didOpen: () => {
-                    // run when swal is opened...
-                },
-                didClose: () => {
-                    // run when swal is closed...
-                }
-            }).then(result => {
-                // when confirmed and promise resolved...
-            }).catch(error => {
-                // when promise rejected...
-            });
-        }
-    }, [pathname]);
+          showCancelButton: false,
+          showConfirmButton: false,
+          didOpen: () => {
+            // run when swal is opened...
+          },
+          didClose: () => {
+            // run when swal is closed...
+          },
+        })
+        .then((result) => {
+          // when confirmed and promise resolved...
+        })
+        .catch((error) => {
+          // when promise rejected...
+        });
+    }
+  }, [pathname]);
 
-    return null;
+  return null;
 }
-
 
 export default withSwal(Caveat);

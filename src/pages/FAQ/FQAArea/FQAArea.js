@@ -9,9 +9,9 @@ const FAQArea = () => {
             <div className="col-xl-4 col-lg-5 col-md-5">
               <div className="faq__content">
                 <div className="section-title mb-45">
-                  <h4>
+                  <h3>
                     Do you have <br /> Any question
-                  </h4>
+                  </h3>
                   <p>
                     We help you weather today's uncertainty through our best
                     team.
@@ -22,7 +22,7 @@ const FAQArea = () => {
             <div className="col-xl-6 col-lg-6 col-md-7 offset-xl-2 offset-lg-1">
               <div className="faq__accordion p-relative">
                 <di>
-                  <h4>General FAQs (21)</h4>
+                  <h3>General FAQs (21)</h3>
                 </di>
                 <div className="accordion" id="accordionExample">
                   <div className="card accordion-item">
@@ -654,10 +654,10 @@ const FAQArea = () => {
                       data-bs-parent="#accordionExample"
                     >
                       <div className="card-body accordion-body">
-                        <h4>
+                        <h3>
                           Below are the following documents that would be
                           needed:
-                        </h4>
+                        </h3>
                         <p>
                           1. Letter of Administration issued from high
                           court/enrolment order/will admitted to probate stating
@@ -722,9 +722,9 @@ const FAQArea = () => {
             <div className="col-xl-6 col-lg-6 col-md-6">
               <div className="faq__accordion p-relative">
                 <div>
-                  <h4>About My Retirement (10)</h4>
+                  <h3>About My Retirement (10)</h3>
                 </div>
-                <div className="accordion" id="accordionExample">
+                <div className="accordion" id="accordionExample2">
                   <div className="card accordion-item">
                     <div className="card-header accordion-header" id="acc_1">
                       <h5 className="mb-0">
@@ -744,7 +744,7 @@ const FAQArea = () => {
                       id="collapse_1"
                       className="collapse"
                       aria-labelledby="acc_1"
-                      data-bs-parent="#accordionExample"
+                      data-bs-parent="#accordionExample2"
                     >
                       <div className="card-body accordion-body">
                         <p>A minimum RSA Balance of NGN550,000</p>
@@ -771,7 +771,7 @@ const FAQArea = () => {
                       id="collapse_2"
                       className="collapse"
                       aria-labelledby="acc_2"
-                      data-bs-parent="#accordionExample"
+                      data-bs-parent="#accordionExample2"
                     >
                       <div className="card-body accordion-body">
                         <p>
@@ -802,7 +802,7 @@ const FAQArea = () => {
                       id="collapse_3"
                       className="collapse"
                       aria-labelledby="acc_3"
-                      data-bs-parent="#accordionExample"
+                      data-bs-parent="#accordionExample2"
                     >
                       <div className="card-body accordion-body">
                         <p>
@@ -834,7 +834,7 @@ const FAQArea = () => {
                       id="collapse_4"
                       className="collapse"
                       aria-labelledby="acc_4"
-                      data-bs-parent="#accordionExample"
+                      data-bs-parent="#accordionExample2"
                     >
                       <div className="card-body accordion-body">
                         <p>Yes</p>
@@ -862,7 +862,7 @@ const FAQArea = () => {
                       id="collapse_5"
                       className="collapse"
                       aria-labelledby="acc_5"
-                      data-bs-parent="#accordionExample"
+                      data-bs-parent="#accordionExample2"
                     >
                       <div className="card-body accordion-body">
                         <p>Yes</p>
@@ -889,7 +889,7 @@ const FAQArea = () => {
                       id="collapse_6"
                       className="collapse"
                       aria-labelledby="acc_6"
-                      data-bs-parent="#accordionExample"
+                      data-bs-parent="#accordionExample2"
                     >
                       <div className="card-body accordion-body">
                         <p>
@@ -919,7 +919,7 @@ const FAQArea = () => {
                       id="collapse_7"
                       className="collapse"
                       aria-labelledby="acc_7"
-                      data-bs-parent="#accordionExample"
+                      data-bs-parent="#accordionExample2"
                     >
                       <div className="card-body accordion-body">
                         <p>
@@ -950,7 +950,7 @@ const FAQArea = () => {
                       id="collapse_8"
                       className="collapse"
                       aria-labelledby="acc_8"
-                      data-bs-parent="#accordionExample"
+                      data-bs-parent="#accordionExample2"
                     >
                       <div className="card-body accordion-body">
                         <p>
@@ -981,7 +981,7 @@ const FAQArea = () => {
                       id="collapse_9"
                       className="collapse"
                       aria-labelledby="acc_9"
-                      data-bs-parent="#accordionExample"
+                      data-bs-parent="#accordionExample2"
                     >
                       <div className="card-body accordion-body">
                         <p>
@@ -1011,7 +1011,7 @@ const FAQArea = () => {
                       id="collapse_10"
                       className="collapse"
                       aria-labelledby="acc_10"
-                      data-bs-parent="#accordionExample"
+                      data-bs-parent="#accordionExample2"
                     >
                       <div className="card-body accordion-body">
                         <p>
@@ -1027,16 +1027,16 @@ const FAQArea = () => {
             <div className="col-xl-6 col-lg-6 col-md-6">
               <div className="faq__accordion p-relative">
                 <di>
-                  <h4>Multi Funds (11)</h4>
+                  <h3>Multi Funds (11)</h3>
                 </di>
-                <div className="accordion" id="accordionExample2">
+                <div className="accordion" id="accordionExample3">
                   <div className="card accordion-item">
                     <div className="card-header accordion-header" id="acc_1">
                       <h5 className="mb-0">
                         <button
                           className="btn btn-link"
                           data-bs-toggle="collapse"
-                          data-bs-target="#collapse_6"
+                          data-bs-target="#collapse_1"
                           aria-expanded="true"
                           aria-controls="collapse_1"
                         >
@@ -1046,10 +1046,10 @@ const FAQArea = () => {
                     </div>
 
                     <div
-                      id="collapse_6"
+                      id="collapse_1"
                       className="collapse"
                       aria-labelledby="acc_1"
-                      data-bs-parent="#accordionExample2"
+                      data-bs-parent="#accordionExample3"
                     >
                       <div className="card-body accordion-body">
                         <p>
@@ -1064,7 +1064,7 @@ const FAQArea = () => {
                     </div>
                   </div>
                   <div className="card">
-                    <div className="card-header" id="acc_2">
+                    <div className="card-header" id="acc_3">
                       <h5 className="mb-0">
                         <button
                           className="btn btn-link collapsed"
@@ -1082,7 +1082,7 @@ const FAQArea = () => {
                       id="collapse_2"
                       className="collapse"
                       aria-labelledby="acc_2"
-                      data-bs-parent="#accordionExample"
+                      data-bs-parent="#accordionExample3"
                     >
                       <div className="card-body accordion-body">
                         <p>
@@ -1121,7 +1121,7 @@ const FAQArea = () => {
                       id="collapse_3"
                       className="collapse"
                       aria-labelledby="acc_3"
-                      data-bs-parent="#accordionExample"
+                      data-bs-parent="#accordionExample3"
                     >
                       <div className="card-body accordion-body">
                         <p>
@@ -1152,7 +1152,7 @@ const FAQArea = () => {
                       id="collapse_4"
                       className="collapse"
                       aria-labelledby="acc_4"
-                      data-bs-parent="#accordionExample"
+                      data-bs-parent="#accordionExample3"
                     >
                       <div className="card-body accordion-body">
                         <p>
@@ -1183,7 +1183,7 @@ const FAQArea = () => {
                       id="collapse_5"
                       className="collapse"
                       aria-labelledby="acc_5"
-                      data-bs-parent="#accordionExample"
+                      data-bs-parent="#accordionExample3"
                     >
                       <div className="card-body accordion-body">
                         <p>
@@ -1215,7 +1215,7 @@ const FAQArea = () => {
                       id="collapse_6"
                       className="collapse"
                       aria-labelledby="acc_6"
-                      data-bs-parent="#accordionExample"
+                      data-bs-parent="#accordionExample3"
                     >
                       <div className="card-body accordion-body">
                         <p>
@@ -1247,7 +1247,7 @@ const FAQArea = () => {
                       id="collapse_7"
                       className="collapse"
                       aria-labelledby="acc_7"
-                      data-bs-parent="#accordionExample"
+                      data-bs-parent="#accordionExample3"
                     >
                       <div className="card-body accordion-body">
                         <p>
@@ -1280,7 +1280,7 @@ const FAQArea = () => {
                       id="collapse_8"
                       className="collapse"
                       aria-labelledby="acc_8"
-                      data-bs-parent="#accordionExample"
+                      data-bs-parent="#accordionExample3"
                     >
                       <div className="card-body accordion-body">
                         <p>
@@ -1313,7 +1313,7 @@ const FAQArea = () => {
                       id="collapse_9"
                       className="collapse"
                       aria-labelledby="acc_9"
-                      data-bs-parent="#accordionExample"
+                      data-bs-parent="#accordionExample3"
                     >
                       <div className="card-body accordion-body">
                         <p>
@@ -1347,7 +1347,7 @@ const FAQArea = () => {
                       id="collapse_10"
                       className="collapse"
                       aria-labelledby="acc_10"
-                      data-bs-parent="#accordionExample"
+                      data-bs-parent="#accordionExample3"
                     >
                       <div className="card-body accordion-body">
                         <p>
@@ -1379,7 +1379,7 @@ const FAQArea = () => {
                       id="collapse_11"
                       className="collapse"
                       aria-labelledby="acc_11"
-                      data-bs-parent="#accordionExample"
+                      data-bs-parent="#accordionExample3"
                     >
                       <div className="card-body accordion-body">
                         <p>
@@ -1399,7 +1399,7 @@ const FAQArea = () => {
             <div className="col-xl-6 col-lg-6 col-md-6">
               <div className="faq__accordion p-relative">
                 <di>
-                  <h4>Micro Pension Funds (8)</h4>
+                  <h3>Micro Pension Funds (8)</h3>
                 </di>
                 <div className="accordion" id="accordionExample2">
                   <div className="card accordion-item">
@@ -1664,7 +1664,7 @@ const FAQArea = () => {
             <div className="col-xl-6 col-lg-6 col-md-6">
               <div className="faq__accordion p-relative">
                 <di>
-                  <h4>Corvid 19 - Impact On Investment Returns (10)</h4>
+                  <h3>Corvid 19 - Impact On Investment Returns (10)</h3>
                 </di>
                 <div className="accordion" id="accordionExample2">
                   <div className="card accordion-item">
@@ -2051,7 +2051,7 @@ const FAQArea = () => {
             <div className="col-xl-6 col-lg-6 col-md-6">
               <div className="faq__accordion p-relative">
                 <di>
-                  <h4>My Retirement Savings Account (11)</h4>
+                  <h3>My Retirement Savings Account (11)</h3>
                 </di>
                 <div className="accordion" id="accordionExample2">
                   <div className="card accordion-item">
@@ -2396,7 +2396,7 @@ const FAQArea = () => {
             <div className="col-xl-6 col-lg-6 col-md-6">
               <div className="faq__accordion p-relative">
                 <di>
-                  <h4>RSA FUND VI (NON-INTEREST FUND) (16)</h4>
+                  <h3>RSA FUND VI (NON-INTEREST FUND) (16)</h3>
                 </di>
                 <div className="accordion" id="accordionExample2">
                   <div className="card accordion-item">
