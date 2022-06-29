@@ -24,7 +24,7 @@ const FAQArea = () => {
                 <di>
                   <h3>General FAQs (21)</h3>
                 </di>
-                <div className="accordion" id="accordionExample">
+                <div className="accordion" id="accordion1">
                   <div className="card accordion-item">
                     <div className="card-header accordion-header" id="acc_1">
                       <h5 className="mb-0">
@@ -42,9 +42,9 @@ const FAQArea = () => {
 
                     <div
                       id="collapse_1"
-                      className="collapse show"
+                      className="collapse"
                       aria-labelledby="acc_1"
-                      data-bs-parent="#accordionExample"
+                      data-bs-parent="#accordion1"
                     >
                       <div className="card-body accordion-body">
                         <p>
@@ -77,7 +77,7 @@ const FAQArea = () => {
                       id="collapse_2"
                       className="collapse"
                       aria-labelledby="acc_2"
-                      data-bs-parent="#accordionExample"
+                      data-bs-parent="#accordion1"
                     >
                       <div className="card-body accordion-body">
                         <p>The scheme is backed by the Pension Act 2004.</p>
@@ -103,7 +103,7 @@ const FAQArea = () => {
                       id="collapse_3"
                       className="collapse"
                       aria-labelledby="acc_3"
-                      data-bs-parent="#accordionExample"
+                      data-bs-parent="#accordion1"
                     >
                       <div className="card-body accordion-body">
                         <p>
@@ -138,7 +138,7 @@ const FAQArea = () => {
                       id="collapse_4"
                       className="collapse"
                       aria-labelledby="acc_4"
-                      data-bs-parent="#accordionExample"
+                      data-bs-parent="#accordion1"
                     >
                       <div className="card-body accordion-body">
                         <p>
@@ -169,7 +169,7 @@ const FAQArea = () => {
                       id="collapse_5"
                       className="collapse"
                       aria-labelledby="acc_5"
-                      data-bs-parent="#accordionExample"
+                      data-bs-parent="#accordion1"
                     >
                       <div className="card-body accordion-body">
                         <p>
@@ -201,7 +201,7 @@ const FAQArea = () => {
                       id="collapse_6"
                       className="collapse"
                       aria-labelledby="acc_6"
-                      data-bs-parent="#accordionExample"
+                      data-bs-parent="#accordion1"
                     >
                       <div className="card-body accordion-body">
                         <p>
@@ -232,7 +232,7 @@ const FAQArea = () => {
                       id="collapse_7"
                       className="collapse"
                       aria-labelledby="acc_7"
-                      data-bs-parent="#accordionExample"
+                      data-bs-parent="#accordion1"
                     >
                       <div className="card-body accordion-body">
                         <p>
@@ -262,7 +262,7 @@ const FAQArea = () => {
                       id="collapse_8"
                       className="collapse"
                       aria-labelledby="acc_8"
-                      data-bs-parent="#accordionExample"
+                      data-bs-parent="#accordion1"
                     >
                       <div className="card-body accordion-body">
                         <p>
@@ -293,7 +293,7 @@ const FAQArea = () => {
                       id="collapse_9"
                       className="collapse"
                       aria-labelledby="acc_9"
-                      data-bs-parent="#accordionExample"
+                      data-bs-parent="#accordion1"
                     >
                       <div className="card-body accordion-body">
                         <p>
@@ -324,7 +324,7 @@ const FAQArea = () => {
                       id="collapse_10"
                       className="collapse"
                       aria-labelledby="acc_10"
-                      data-bs-parent="#accordionExample"
+                      data-bs-parent="#accordion1"
                     >
                       <div className="card-body accordion-body">
                         <p>
@@ -355,7 +355,7 @@ const FAQArea = () => {
                       id="collapse_11"
                       className="collapse"
                       aria-labelledby="acc_11"
-                      data-bs-parent="#accordionExample"
+                      data-bs-parent="#accordion1"
                     >
                       <div className="card-body accordion-body">
                         <p>
@@ -387,7 +387,7 @@ const FAQArea = () => {
                       id="collapse_12"
                       className="collapse"
                       aria-labelledby="acc_12"
-                      data-bs-parent="#accordionExample"
+                      data-bs-parent="#accordion1"
                     >
                       <div className="card-body accordion-body">
                         <p>
@@ -420,7 +420,7 @@ const FAQArea = () => {
                       id="collapse_13"
                       className="collapse"
                       aria-labelledby="acc_13"
-                      data-bs-parent="#accordionExample"
+                      data-bs-parent="#accordion1"
                     >
                       <div className="card-body accordion-body">
                         <p>
@@ -456,7 +456,7 @@ const FAQArea = () => {
                       id="collapse_14"
                       className="collapse"
                       aria-labelledby="acc_14"
-                      data-bs-parent="#accordionExample"
+                      data-bs-parent="#accordion1"
                     >
                       <div className="card-body accordion-body">
                         <p>
@@ -489,7 +489,7 @@ const FAQArea = () => {
                       id="collapse_15"
                       className="collapse"
                       aria-labelledby="acc_15"
-                      data-bs-parent="#accordionExample"
+                      data-bs-parent="#accordion1"
                     >
                       <div className="card-body accordion-body">
                         <p>
@@ -521,7 +521,7 @@ const FAQArea = () => {
                       id="collapse_16"
                       className="collapse"
                       aria-labelledby="acc_16"
-                      data-bs-parent="#accordionExample"
+                      data-bs-parent="#accordion1"
                     >
                       <div className="card-body accordion-body">
                         <p>
@@ -552,7 +552,7 @@ const FAQArea = () => {
                       id="collapse_17"
                       className="collapse"
                       aria-labelledby="acc_17"
-                      data-bs-parent="#accordionExample"
+                      data-bs-parent="#accordion1"
                     >
                       <div className="card-body accordion-body">
                         <p>
@@ -584,7 +584,7 @@ const FAQArea = () => {
                       id="collapse_18"
                       className="collapse"
                       aria-labelledby="acc_18"
-                      data-bs-parent="#accordionExample"
+                      data-bs-parent="#accordion1"
                     >
                       <div className="card-body accordion-body">
                         <p>
@@ -619,7 +619,7 @@ const FAQArea = () => {
                       id="collapse_19"
                       className="collapse"
                       aria-labelledby="acc_19"
-                      data-bs-parent="#accordionExample"
+                      data-bs-parent="#accordion1"
                     >
                       <div className="card-body accordion-body">
                         <p>
@@ -651,7 +651,7 @@ const FAQArea = () => {
                       id="collapse_20"
                       className="collapse"
                       aria-labelledby="acc_20"
-                      data-bs-parent="#accordionExample"
+                      data-bs-parent="#accordion1"
                     >
                       <div className="card-body accordion-body">
                         <h3>
@@ -692,7 +692,7 @@ const FAQArea = () => {
                       id="collapse_21"
                       className="collapse"
                       aria-labelledby="acc_21"
-                      data-bs-parent="#accordionExample"
+                      data-bs-parent="#accordions1"
                     >
                       <div className="card-body accordion-body">
                         <p>
@@ -726,14 +726,14 @@ const FAQArea = () => {
                 </div>
                 <div className="accordion" id="accordionExample2">
                   <div className="card accordion-item">
-                    <div className="card-header accordion-header" id="acc_1">
+                    <div className="card-header accordion-header" id="acc_11">
                       <h5 className="mb-0">
                         <button
                           className="btn btn-link"
                           data-bs-toggle="collapse"
                           data-bs-target="#collapse_1"
                           aria-expanded="false"
-                          aria-controls="collapse_1"
+                          aria-controls="collapse_11"
                         >
                           What RSA balance will qualify a retiree for Lump Sum?
                         </button>
@@ -741,9 +741,9 @@ const FAQArea = () => {
                     </div>
 
                     <div
-                      id="collapse_1"
+                      id="collapse_11"
                       className="collapse"
-                      aria-labelledby="acc_1"
+                      aria-labelledby="acc_11"
                       data-bs-parent="#accordionExample2"
                     >
                       <div className="card-body accordion-body">
@@ -752,14 +752,14 @@ const FAQArea = () => {
                     </div>
                   </div>
                   <div className="card">
-                    <div className="card-header" id="acc_2">
+                    <div className="card-header" id="acc_21">
                       <h5 className="mb-0">
                         <button
                           className="btn btn-link collapsed"
                           data-bs-toggle="collapse"
-                          data-bs-target="#collapse_2"
+                          data-bs-target="#collapse_21"
                           aria-expanded="true"
-                          aria-controls="collapse_2"
+                          aria-controls="collapse_21"
                         >
                           What is the relationship between Monthly Pension and
                           Lump Sum?
@@ -768,9 +768,9 @@ const FAQArea = () => {
                     </div>
 
                     <div
-                      id="collapse_2"
+                      id="collapse_21"
                       className="collapse"
-                      aria-labelledby="acc_2"
+                      aria-labelledby="acc_21"
                       data-bs-parent="#accordionExample2"
                     >
                       <div className="card-body accordion-body">
@@ -783,14 +783,14 @@ const FAQArea = () => {
                     </div>
                   </div>
                   <div className="card">
-                    <div className="card-header" id="acc_3">
+                    <div className="card-header" id="acc_31">
                       <h5 className="mb-0">
                         <button
                           className="btn btn-link collapsed"
                           data-bs-toggle="collapse"
-                          data-bs-target="#collapse_3"
+                          data-bs-target="#collapse_31"
                           aria-expanded="true"
-                          aria-controls="collapse_3"
+                          aria-controls="collapse_31"
                         >
                           My colleague at the same grade/level has a higher
                           lumpsum?
@@ -799,9 +799,9 @@ const FAQArea = () => {
                     </div>
 
                     <div
-                      id="collapse_3"
+                      id="collapse_31"
                       className="collapse"
-                      aria-labelledby="acc_3"
+                      aria-labelledby="acc_31"
                       data-bs-parent="#accordionExample2"
                     >
                       <div className="card-body accordion-body">
@@ -815,14 +815,14 @@ const FAQArea = () => {
                     </div>
                   </div>
                   <div className="card">
-                    <div className="card-header" id="acc_4">
+                    <div className="card-header" id="acc_41">
                       <h5 className="mb-0">
                         <button
                           className="btn btn-link collapsed"
                           data-bs-toggle="collapse"
-                          data-bs-target="#collapse_4"
+                          data-bs-target="#collapse_41"
                           aria-expanded="true"
-                          aria-controls="collapse_4"
+                          aria-controls="collapse_41"
                         >
                           Do I need to use the checklist in documenting an
                           intending retiree?
@@ -831,9 +831,9 @@ const FAQArea = () => {
                     </div>
 
                     <div
-                      id="collapse_4"
+                      id="collapse_41"
                       className="collapse"
-                      aria-labelledby="acc_4"
+                      aria-labelledby="acc_41"
                       data-bs-parent="#accordionExample2"
                     >
                       <div className="card-body accordion-body">
@@ -843,14 +843,14 @@ const FAQArea = () => {
                   </div>
 
                   <div className="card">
-                    <div className="card-header" id="acc_5">
+                    <div className="card-header" id="acc_51">
                       <h5 className="mb-0">
                         <button
                           className="btn btn-link collapsed"
                           data-bs-toggle="collapse"
-                          data-bs-target="#collapse_5"
+                          data-bs-target="#collapse_51"
                           aria-expanded="true"
-                          aria-controls="collapse_5"
+                          aria-controls="collapse_51"
                         >
                           Do I need to verify my Letter of Administration with
                           the issuing Court before presenting it for processing?
@@ -859,9 +859,9 @@ const FAQArea = () => {
                     </div>
 
                     <div
-                      id="collapse_5"
+                      id="collapse_51"
                       className="collapse"
-                      aria-labelledby="acc_5"
+                      aria-labelledby="acc_51"
                       data-bs-parent="#accordionExample2"
                     >
                       <div className="card-body accordion-body">
@@ -871,14 +871,14 @@ const FAQArea = () => {
                   </div>
 
                   <div className="card">
-                    <div className="card-header" id="acc_6">
+                    <div className="card-header" id="acc_61">
                       <h5 className="mb-0">
                         <button
                           className="btn btn-link collapsed"
                           data-bs-toggle="collapse"
-                          data-bs-target="#collapse_6"
+                          data-bs-target="#collapse_61"
                           aria-expanded="true"
-                          aria-controls="collapse_6"
+                          aria-controls="collapse_61"
                         >
                           Can I withdraw from my RSA before retiring.
                         </button>
@@ -886,9 +886,9 @@ const FAQArea = () => {
                     </div>
 
                     <div
-                      id="collapse_6"
+                      id="collapse_61"
                       className="collapse"
-                      aria-labelledby="acc_6"
+                      aria-labelledby="acc_61"
                       data-bs-parent="#accordionExample2"
                     >
                       <div className="card-body accordion-body">
@@ -901,14 +901,14 @@ const FAQArea = () => {
                   </div>
 
                   <div className="card">
-                    <div className="card-header" id="acc_7">
+                    <div className="card-header" id="acc_71">
                       <h5 className="mb-0">
                         <button
                           className="btn btn-link collapsed"
                           data-bs-toggle="collapse"
-                          data-bs-target="#collapse_7"
+                          data-bs-target="#collapse_71"
                           aria-expanded="true"
-                          aria-controls="collapse_7"
+                          aria-controls="collapse_71"
                         >
                           Can I withdraw 25% payment more than once?
                         </button>
@@ -916,9 +916,9 @@ const FAQArea = () => {
                     </div>
 
                     <div
-                      id="collapse_7"
+                      id="collapse_71"
                       className="collapse"
-                      aria-labelledby="acc_7"
+                      aria-labelledby="acc_71"
                       data-bs-parent="#accordionExample2"
                     >
                       <div className="card-body accordion-body">
@@ -932,14 +932,14 @@ const FAQArea = () => {
                   </div>
 
                   <div className="card">
-                    <div className="card-header" id="acc_8">
+                    <div className="card-header" id="acc_81">
                       <h5 className="mb-0">
                         <button
                           className="btn btn-link collapsed"
                           data-bs-toggle="collapse"
-                          data-bs-target="#collapse_8"
+                          data-bs-target="#collapse_81"
                           aria-expanded="true"
-                          aria-controls="collapse_8"
+                          aria-controls="collapse_81"
                         >
                           What is annuity?
                         </button>
@@ -947,9 +947,9 @@ const FAQArea = () => {
                     </div>
 
                     <div
-                      id="collapse_8"
+                      id="collapse_81"
                       className="collapse"
-                      aria-labelledby="acc_8"
+                      aria-labelledby="acc_81"
                       data-bs-parent="#accordionExample2"
                     >
                       <div className="card-body accordion-body">
@@ -962,14 +962,14 @@ const FAQArea = () => {
                   </div>
 
                   <div className="card">
-                    <div className="card-header" id="acc_9">
+                    <div className="card-header" id="acc_91">
                       <h5 className="mb-0">
                         <button
                           className="btn btn-link collapsed"
                           data-bs-toggle="collapse"
-                          data-bs-target="#collapse_9"
+                          data-bs-target="#collapse_91"
                           aria-expanded="true"
-                          aria-controls="collapse_9"
+                          aria-controls="collapse_91"
                         >
                           Can I run simultaneously Programmed Withdrawal (PW)
                           and Annuity as a retiree?
@@ -978,9 +978,9 @@ const FAQArea = () => {
                     </div>
 
                     <div
-                      id="collapse_9"
+                      id="collapse_91"
                       className="collapse"
-                      aria-labelledby="acc_9"
+                      aria-labelledby="acc_91"
                       data-bs-parent="#accordionExample2"
                     >
                       <div className="card-body accordion-body">
@@ -993,14 +993,14 @@ const FAQArea = () => {
                   </div>
 
                   <div className="card">
-                    <div className="card-header" id="acc_10">
+                    <div className="card-header" id="acc_101">
                       <h5 className="mb-0">
                         <button
                           className="btn btn-link collapsed"
                           data-bs-toggle="collapse"
-                          data-bs-target="#collapse_10"
+                          data-bs-target="#collapse_101"
                           aria-expanded="true"
-                          aria-controls="collapse_10"
+                          aria-controls="collapse_101"
                         >
                           Is there any fixed percentage for lumpsum?
                         </button>
@@ -1008,9 +1008,9 @@ const FAQArea = () => {
                     </div>
 
                     <div
-                      id="collapse_10"
+                      id="collapse_101"
                       className="collapse"
-                      aria-labelledby="acc_10"
+                      aria-labelledby="acc_101"
                       data-bs-parent="#accordionExample2"
                     >
                       <div className="card-body accordion-body">
@@ -1031,14 +1031,14 @@ const FAQArea = () => {
                 </di>
                 <div className="accordion" id="accordionExample3">
                   <div className="card accordion-item">
-                    <div className="card-header accordion-header" id="acc_1">
+                    <div className="card-header accordion-header" id="acc_12">
                       <h5 className="mb-0">
                         <button
                           className="btn btn-link"
                           data-bs-toggle="collapse"
-                          data-bs-target="#collapse_1"
+                          data-bs-target="#collapse_12"
                           aria-expanded="true"
-                          aria-controls="collapse_1"
+                          aria-controls="collapse_12"
                         >
                           What is the multi-fund structure?
                         </button>
@@ -1048,7 +1048,7 @@ const FAQArea = () => {
                     <div
                       id="collapse_1"
                       className="collapse"
-                      aria-labelledby="acc_1"
+                      aria-labelledby="acc_12"
                       data-bs-parent="#accordionExample3"
                     >
                       <div className="card-body accordion-body">
@@ -1064,14 +1064,14 @@ const FAQArea = () => {
                     </div>
                   </div>
                   <div className="card">
-                    <div className="card-header" id="acc_3">
+                    <div className="card-header" id="acc_32">
                       <h5 className="mb-0">
                         <button
                           className="btn btn-link collapsed"
                           data-bs-toggle="collapse"
-                          data-bs-target="#collapse_2"
+                          data-bs-target="#collapse_22"
                           aria-expanded="true"
-                          aria-controls="collapse_2"
+                          aria-controls="collapse_22"
                         >
                           Can I decide which fund to be assigned to?
                         </button>
@@ -1079,9 +1079,9 @@ const FAQArea = () => {
                     </div>
 
                     <div
-                      id="collapse_2"
+                      id="collapse_22"
                       className="collapse"
-                      aria-labelledby="acc_2"
+                      aria-labelledby="acc_22"
                       data-bs-parent="#accordionExample3"
                     >
                       <div className="card-body accordion-body">
@@ -1101,14 +1101,14 @@ const FAQArea = () => {
                     </div>
                   </div>
                   <div className="card">
-                    <div className="card-header" id="acc_3">
+                    <div className="card-header" id="acc_32">
                       <h5 className="mb-0">
                         <button
                           className="btn btn-link collapsed"
                           data-bs-toggle="collapse"
-                          data-bs-target="#collapse_3"
+                          data-bs-target="#collapse_32"
                           aria-expanded="true"
-                          aria-controls="collapse_3"
+                          aria-controls="collapse_32"
                         >
                           When I am in Fund I and then clock 50 years, will I be
                           asked to move to Fund II by choice or Fund III by
@@ -1118,9 +1118,9 @@ const FAQArea = () => {
                     </div>
 
                     <div
-                      id="collapse_3"
+                      id="collapse_32"
                       className="collapse"
-                      aria-labelledby="acc_3"
+                      aria-labelledby="acc_32"
                       data-bs-parent="#accordionExample3"
                     >
                       <div className="card-body accordion-body">
@@ -1134,14 +1134,14 @@ const FAQArea = () => {
                     </div>
                   </div>
                   <div className="card">
-                    <div className="card-header" id="acc_4">
+                    <div className="card-header" id="acc_42">
                       <h5 className="mb-0">
                         <button
                           className="btn btn-link collapsed"
                           data-bs-toggle="collapse"
-                          data-bs-target="#collapse_4"
+                          data-bs-target="#collapse_42"
                           aria-expanded="true"
-                          aria-controls="collapse_4"
+                          aria-controls="collapse_42"
                         >
                           As a retiree, can I move to other funds?
                         </button>
@@ -1149,9 +1149,9 @@ const FAQArea = () => {
                     </div>
 
                     <div
-                      id="collapse_4"
+                      id="collapse_42"
                       className="collapse"
-                      aria-labelledby="acc_4"
+                      aria-labelledby="acc_42"
                       data-bs-parent="#accordionExample3"
                     >
                       <div className="card-body accordion-body">
@@ -1164,14 +1164,14 @@ const FAQArea = () => {
                   </div>
 
                   <div className="card">
-                    <div className="card-header" id="acc_5">
+                    <div className="card-header" id="acc_52">
                       <h5 className="mb-0">
                         <button
                           className="btn btn-link collapsed"
                           data-bs-toggle="collapse"
-                          data-bs-target="#collapse_5"
+                          data-bs-target="#collapse_52"
                           aria-expanded="true"
-                          aria-controls="collapse_5"
+                          aria-controls="collapse_52"
                         >
                           Is there any restriction/charge to my movement between
                           funds?
@@ -1180,9 +1180,9 @@ const FAQArea = () => {
                     </div>
 
                     <div
-                      id="collapse_5"
+                      id="collapse_52"
                       className="collapse"
-                      aria-labelledby="acc_5"
+                      aria-labelledby="acc_52"
                       data-bs-parent="#accordionExample3"
                     >
                       <div className="card-body accordion-body">
@@ -1196,14 +1196,14 @@ const FAQArea = () => {
                   </div>
 
                   <div className="card">
-                    <div className="card-header" id="acc_6">
+                    <div className="card-header" id="acc_62">
                       <h5 className="mb-0">
                         <button
                           className="btn btn-link collapsed"
                           data-bs-toggle="collapse"
-                          data-bs-target="#collapse_6"
+                          data-bs-target="#collapse_62"
                           aria-expanded="true"
-                          aria-controls="collapse_6"
+                          aria-controls="collapse_62"
                         >
                           Do I have the option of selecting the instruments my
                           funds can be invested in?
@@ -1212,9 +1212,9 @@ const FAQArea = () => {
                     </div>
 
                     <div
-                      id="collapse_6"
+                      id="collapse_62"
                       className="collapse"
-                      aria-labelledby="acc_6"
+                      aria-labelledby="acc_62"
                       data-bs-parent="#accordionExample3"
                     >
                       <div className="card-body accordion-body">
@@ -1229,14 +1229,14 @@ const FAQArea = () => {
                   </div>
 
                   <div className="card">
-                    <div className="card-header" id="acc_7">
+                    <div className="card-header" id="acc_72">
                       <h5 className="mb-0">
                         <button
                           className="btn btn-link collapsed"
                           data-bs-toggle="collapse"
-                          data-bs-target="#collapse_7"
+                          data-bs-target="#collapse_72"
                           aria-expanded="true"
-                          aria-controls="collapse_7"
+                          aria-controls="collapse_72"
                         >
                           Can I split my current savings to 2 different funds?
                         </button>
@@ -1244,9 +1244,9 @@ const FAQArea = () => {
                     </div>
 
                     <div
-                      id="collapse_7"
+                      id="collapse_72"
                       className="collapse"
-                      aria-labelledby="acc_7"
+                      aria-labelledby="acc_72"
                       data-bs-parent="#accordionExample3"
                     >
                       <div className="card-body accordion-body">
@@ -1261,14 +1261,14 @@ const FAQArea = () => {
                   </div>
 
                   <div className="card">
-                    <div className="card-header" id="acc_8">
+                    <div className="card-header" id="acc_82">
                       <h5 className="mb-0">
                         <button
                           className="btn btn-link collapsed"
                           data-bs-toggle="collapse"
-                          data-bs-target="#collapse_8"
+                          data-bs-target="#collapse_82"
                           aria-expanded="true"
-                          aria-controls="collapse_8"
+                          aria-controls="collapse_82"
                         >
                           If my date of birth is wrongly captured, under which
                           Fund Type will I be profiled?
@@ -1277,9 +1277,9 @@ const FAQArea = () => {
                     </div>
 
                     <div
-                      id="collapse_8"
+                      id="collapse_82"
                       className="collapse"
-                      aria-labelledby="acc_8"
+                      aria-labelledby="acc_82"
                       data-bs-parent="#accordionExample3"
                     >
                       <div className="card-body accordion-body">
@@ -1294,14 +1294,14 @@ const FAQArea = () => {
                   </div>
 
                   <div className="card">
-                    <div className="card-header" id="acc_9">
+                    <div className="card-header" id="acc_92">
                       <h5 className="mb-0">
                         <button
                           className="btn btn-link collapsed"
                           data-bs-toggle="collapse"
-                          data-bs-target="#collapse_9"
+                          data-bs-target="#collapse_92"
                           aria-expanded="true"
-                          aria-controls="collapse_9"
+                          aria-controls="collapse_92"
                         >
                           What is the relationship between the transfer window
                           and the Multi-Fund structure?
@@ -1310,9 +1310,9 @@ const FAQArea = () => {
                     </div>
 
                     <div
-                      id="collapse_9"
+                      id="collapse_92"
                       className="collapse"
-                      aria-labelledby="acc_9"
+                      aria-labelledby="acc_92"
                       data-bs-parent="#accordionExample3"
                     >
                       <div className="card-body accordion-body">
@@ -1329,14 +1329,14 @@ const FAQArea = () => {
                   </div>
 
                   <div className="card">
-                    <div className="card-header" id="acc_10">
+                    <div className="card-header" id="acc_102">
                       <h5 className="mb-0">
                         <button
                           className="btn btn-link collapsed"
                           data-bs-toggle="collapse"
-                          data-bs-target="#collapse_10"
+                          data-bs-target="#collapse_102"
                           aria-expanded="true"
-                          aria-controls="collapse_10"
+                          aria-controls="collapse_102"
                         >
                           Will the movement of Funds affect my account balance?
                         </button>
@@ -1344,9 +1344,9 @@ const FAQArea = () => {
                     </div>
 
                     <div
-                      id="collapse_10"
+                      id="collapse_102"
                       className="collapse"
-                      aria-labelledby="acc_10"
+                      aria-labelledby="acc_102"
                       data-bs-parent="#accordionExample3"
                     >
                       <div className="card-body accordion-body">
@@ -1360,14 +1360,14 @@ const FAQArea = () => {
                   </div>
 
                   <div className="card">
-                    <div className="card-header" id="acc_11">
+                    <div className="card-header" id="acc_112">
                       <h5 className="mb-0">
                         <button
                           className="btn btn-link collapsed"
                           data-bs-toggle="collapse"
-                          data-bs-target="#collapse_11"
+                          data-bs-target="#collapse_112"
                           aria-expanded="true"
-                          aria-controls="collapse_11"
+                          aria-controls="collapse_112"
                         >
                           What is the effect of movement to a new fund on my
                           Voluntary Contribution?
@@ -1376,9 +1376,9 @@ const FAQArea = () => {
                     </div>
 
                     <div
-                      id="collapse_11"
+                      id="collapse_112"
                       className="collapse"
-                      aria-labelledby="acc_11"
+                      aria-labelledby="acc_112"
                       data-bs-parent="#accordionExample3"
                     >
                       <div className="card-body accordion-body">
@@ -1401,16 +1401,16 @@ const FAQArea = () => {
                 <di>
                   <h3>Micro Pension Funds (8)</h3>
                 </di>
-                <div className="accordion" id="accordionExample2">
+                <div className="accordion" id="accordionExample4">
                   <div className="card accordion-item">
-                    <div className="card-header accordion-header" id="acc_1">
+                    <div className="card-header accordion-header" id="acc_3">
                       <h5 className="mb-0">
                         <button
                           className="btn btn-link"
                           data-bs-toggle="collapse"
-                          data-bs-target="#collapse_6"
+                          data-bs-target="#collapse_13"
                           aria-expanded="true"
-                          aria-controls="collapse_1"
+                          aria-controls="collapse_13"
                         >
                           What is Micro Pension Funds?
                         </button>
@@ -1418,10 +1418,10 @@ const FAQArea = () => {
                     </div>
 
                     <div
-                      id="collapse_6"
+                      id="collapse_13"
                       className="collapse"
-                      aria-labelledby="acc_1"
-                      data-bs-parent="#accordionExample2"
+                      aria-labelledby="acc_13"
+                      data-bs-parent="#accordionExample4"
                     >
                       <div className="card-body accordion-body">
                         <p>
@@ -1438,14 +1438,14 @@ const FAQArea = () => {
                     </div>
                   </div>
                   <div className="card">
-                    <div className="card-header" id="acc_2">
+                    <div className="card-header" id="acc_23">
                       <h5 className="mb-0">
                         <button
                           className="btn btn-link collapsed"
                           data-bs-toggle="collapse"
-                          data-bs-target="#collapse_2"
+                          data-bs-target="#collapse_23"
                           aria-expanded="true"
-                          aria-controls="collapse_2"
+                          aria-controls="collapse_23"
                         >
                           How old must I be to start Micro pensions?
                         </button>
@@ -1453,10 +1453,10 @@ const FAQArea = () => {
                     </div>
 
                     <div
-                      id="collapse_2"
+                      id="collapse_23"
                       className="collapse"
-                      aria-labelledby="acc_2"
-                      data-bs-parent="#accordionExample"
+                      aria-labelledby="acc_23"
+                      data-bs-parent="#accordionExample4"
                     >
                       <div className="card-body accordion-body">
                         <p>
@@ -1469,14 +1469,14 @@ const FAQArea = () => {
                     </div>
                   </div>
                   <div className="card">
-                    <div className="card-header" id="acc_3">
+                    <div className="card-header" id="acc_33">
                       <h5 className="mb-0">
                         <button
                           className="btn btn-link collapsed"
                           data-bs-toggle="collapse"
-                          data-bs-target="#collapse_3"
+                          data-bs-target="#collapse_33"
                           aria-expanded="true"
-                          aria-controls="collapse_3"
+                          aria-controls="collapse_33"
                         >
                           What is the difference between Micro Pension and
                           co-operative society?
@@ -1485,10 +1485,10 @@ const FAQArea = () => {
                     </div>
 
                     <div
-                      id="collapse_3"
+                      id="collapse_33"
                       className="collapse"
-                      aria-labelledby="acc_3"
-                      data-bs-parent="#accordionExample"
+                      aria-labelledby="acc_33"
+                      data-bs-parent="#accordionExample4"
                     >
                       <div className="card-body accordion-body">
                         <p>
@@ -1503,14 +1503,14 @@ const FAQArea = () => {
                     </div>
                   </div>
                   <div className="card">
-                    <div className="card-header" id="acc_4">
+                    <div className="card-header" id="acc_43">
                       <h5 className="mb-0">
                         <button
                           className="btn btn-link collapsed"
                           data-bs-toggle="collapse"
-                          data-bs-target="#collapse_4"
+                          data-bs-target="#collapse_43"
                           aria-expanded="true"
-                          aria-controls="collapse_4"
+                          aria-controls="collapse_43"
                         >
                           What is the difference between Micro Pensions and
                           Voluntary Contributions?
@@ -1519,10 +1519,10 @@ const FAQArea = () => {
                     </div>
 
                     <div
-                      id="collapse_4"
+                      id="collapse_43"
                       className="collapse"
-                      aria-labelledby="acc_4"
-                      data-bs-parent="#accordionExample"
+                      aria-labelledby="acc_43"
+                      data-bs-parent="#accordionExample4"
                     >
                       <div className="card-body accordion-body">
                         <p>
@@ -1535,14 +1535,14 @@ const FAQArea = () => {
                   </div>
 
                   <div className="card">
-                    <div className="card-header" id="acc_5">
+                    <div className="card-header" id="acc_53">
                       <h5 className="mb-0">
                         <button
                           className="btn btn-link collapsed"
                           data-bs-toggle="collapse"
-                          data-bs-target="#collapse_5"
+                          data-bs-target="#collapse_53"
                           aria-expanded="true"
-                          aria-controls="collapse_5"
+                          aria-controls="collapse_53"
                         >
                           Can I have access to my savings before retirement?
                         </button>
@@ -1550,10 +1550,10 @@ const FAQArea = () => {
                     </div>
 
                     <div
-                      id="collapse_5"
+                      id="collapse_53"
                       className="collapse"
-                      aria-labelledby="acc_5"
-                      data-bs-parent="#accordionExample"
+                      aria-labelledby="acc_53"
+                      data-bs-parent="#accordionExample4"
                     >
                       <div className="card-body accordion-body">
                         <p>
@@ -1569,14 +1569,14 @@ const FAQArea = () => {
                   </div>
 
                   <div className="card">
-                    <div className="card-header" id="acc_6">
+                    <div className="card-header" id="acc_63">
                       <h5 className="mb-0">
                         <button
                           className="btn btn-link collapsed"
                           data-bs-toggle="collapse"
-                          data-bs-target="#collapse_6"
+                          data-bs-target="#collapse_63"
                           aria-expanded="true"
-                          aria-controls="collapse_6"
+                          aria-controls="collapse_63"
                         >
                           Do I need my employer to make remittance for me?
                         </button>
@@ -1584,10 +1584,10 @@ const FAQArea = () => {
                     </div>
 
                     <div
-                      id="collapse_6"
+                      id="collapse_63"
                       className="collapse"
-                      aria-labelledby="acc_6"
-                      data-bs-parent="#accordionExample"
+                      aria-labelledby="acc_63"
+                      data-bs-parent="#accordionExample4"
                     >
                       <div className="card-body accordion-body">
                         <p>No.</p>
@@ -1596,14 +1596,14 @@ const FAQArea = () => {
                   </div>
 
                   <div className="card">
-                    <div className="card-header" id="acc_7">
+                    <div className="card-header" id="acc_73">
                       <h5 className="mb-0">
                         <button
                           className="btn btn-link collapsed"
                           data-bs-toggle="collapse"
-                          data-bs-target="#collapse_7"
+                          data-bs-target="#collapse_73"
                           aria-expanded="true"
-                          aria-controls="collapse_7"
+                          aria-controls="collapse_73"
                         >
                           How can I monitor my money with the Micro Pension?
                         </button>
@@ -1611,10 +1611,10 @@ const FAQArea = () => {
                     </div>
 
                     <div
-                      id="collapse_7"
+                      id="collapse_73"
                       className="collapse"
-                      aria-labelledby="acc_7"
-                      data-bs-parent="#accordionExample"
+                      aria-labelledby="acc_73"
+                      data-bs-parent="#accordionExample4"
                     >
                       <div className="card-body accordion-body">
                         <p>
@@ -1628,14 +1628,14 @@ const FAQArea = () => {
                   </div>
 
                   <div className="card">
-                    <div className="card-header" id="acc_8">
+                    <div className="card-header" id="acc_83">
                       <h5 className="mb-0">
                         <button
                           className="btn btn-link collapsed"
                           data-bs-toggle="collapse"
-                          data-bs-target="#collapse_8"
+                          data-bs-target="#collapse_83"
                           aria-expanded="true"
-                          aria-controls="collapse_8"
+                          aria-controls="collapse_83"
                         >
                           How often do I get to make remittance to my Micro
                           Pension account?
@@ -1644,10 +1644,10 @@ const FAQArea = () => {
                     </div>
 
                     <div
-                      id="collapse_8"
+                      id="collapse_83"
                       className="collapse"
-                      aria-labelledby="acc_8"
-                      data-bs-parent="#accordionExample"
+                      aria-labelledby="acc_83"
+                      data-bs-parent="#accordionExample4"
                     >
                       <div className="card-body accordion-body">
                         <p>
@@ -1666,16 +1666,16 @@ const FAQArea = () => {
                 <di>
                   <h3>Corvid 19 - Impact On Investment Returns (10)</h3>
                 </di>
-                <div className="accordion" id="accordionExample2">
+                <div className="accordion" id="accordionExample5">
                   <div className="card accordion-item">
-                    <div className="card-header accordion-header" id="acc_1">
+                    <div className="card-header accordion-header" id="acc_14">
                       <h5 className="mb-0">
                         <button
                           className="btn btn-link"
                           data-bs-toggle="collapse"
-                          data-bs-target="#collapse_6"
+                          data-bs-target="#collapse_14"
                           aria-expanded="true"
-                          aria-controls="collapse_1"
+                          aria-controls="collapse_14"
                         >
                           There has been reduction in my RSA account why?
                         </button>
@@ -1683,10 +1683,10 @@ const FAQArea = () => {
                     </div>
 
                     <div
-                      id="collapse_6"
+                      id="collapse_14"
                       className="collapse"
-                      aria-labelledby="acc_1"
-                      data-bs-parent="#accordionExample2"
+                      aria-labelledby="acc_4"
+                      data-bs-parent="#accordionExample5"
                     >
                       <div className="card-body accordion-body">
                         <p>
@@ -1718,14 +1718,14 @@ const FAQArea = () => {
                     </div>
                   </div>
                   <div className="card">
-                    <div className="card-header" id="acc_2">
+                    <div className="card-header" id="acc_24">
                       <h5 className="mb-0">
                         <button
                           className="btn btn-link collapsed"
                           data-bs-toggle="collapse"
-                          data-bs-target="#collapse_2"
+                          data-bs-target="#collapse_4"
                           aria-expanded="true"
-                          aria-controls="collapse_2"
+                          aria-controls="collapse_24"
                         >
                           The balance I received in December 2019 is higher than
                           what I received in Mar 2020
@@ -1734,10 +1734,10 @@ const FAQArea = () => {
                     </div>
 
                     <div
-                      id="collapse_2"
+                      id="collapse_24"
                       className="collapse"
-                      aria-labelledby="acc_2"
-                      data-bs-parent="#accordionExample"
+                      aria-labelledby="acc_24"
+                      data-bs-parent="#accordionExample5"
                     >
                       <div className="card-body accordion-body">
                         <p>
@@ -1758,14 +1758,14 @@ const FAQArea = () => {
                     </div>
                   </div>
                   <div className="card">
-                    <div className="card-header" id="acc_3">
+                    <div className="card-header" id="acc_34">
                       <h5 className="mb-0">
                         <button
                           className="btn btn-link collapsed"
                           data-bs-toggle="collapse"
-                          data-bs-target="#collapse_3"
+                          data-bs-target="#collapse_34"
                           aria-expanded="true"
-                          aria-controls="collapse_3"
+                          aria-controls="collapse_34"
                         >
                           Does it mean that there hasn’t been contribution on my
                           account since this year?
@@ -1774,10 +1774,10 @@ const FAQArea = () => {
                     </div>
 
                     <div
-                      id="collapse_3"
+                      id="collapse_34"
                       className="collapse"
-                      aria-labelledby="acc_3"
-                      data-bs-parent="#accordionExample"
+                      aria-labelledby="acc_34"
+                      data-bs-parent="#accordionExample5"
                     >
                       <div className="card-body accordion-body">
                         <p>
@@ -1790,14 +1790,14 @@ const FAQArea = () => {
                     </div>
                   </div>
                   <div className="card">
-                    <div className="card-header" id="acc_4">
+                    <div className="card-header" id="acc_44">
                       <h5 className="mb-0">
                         <button
                           className="btn btn-link collapsed"
                           data-bs-toggle="collapse"
-                          data-bs-target="#collapse_4"
+                          data-bs-target="#collapse_44"
                           aria-expanded="true"
-                          aria-controls="collapse_4"
+                          aria-controls="collapse_44"
                         >
                           If it is because of the Pandemic should it not be
                           affecting my ROI and not my current balance?
@@ -1806,10 +1806,10 @@ const FAQArea = () => {
                     </div>
 
                     <div
-                      id="collapse_4"
+                      id="collapse_44"
                       className="collapse"
-                      aria-labelledby="acc_4"
-                      data-bs-parent="#accordionExample"
+                      aria-labelledby="acc_44"
+                      data-bs-parent="#accordionExample5"
                     >
                       <div className="card-body accordion-body">
                         <p>
@@ -1821,14 +1821,14 @@ const FAQArea = () => {
                   </div>
 
                   <div className="card">
-                    <div className="card-header" id="acc_5">
+                    <div className="card-header" id="acc_54">
                       <h5 className="mb-0">
                         <button
                           className="btn btn-link collapsed"
                           data-bs-toggle="collapse"
-                          data-bs-target="#collapse_5"
+                          data-bs-target="#collapse_54"
                           aria-expanded="true"
-                          aria-controls="collapse_5"
+                          aria-controls="collapse_54"
                         >
                           Is the dip in investment ROI affecting all the funds?
                           Can I move back to Fund2?
@@ -1837,10 +1837,10 @@ const FAQArea = () => {
                     </div>
 
                     <div
-                      id="collapse_5"
+                      id="collapse_54"
                       className="collapse"
-                      aria-labelledby="acc_5"
-                      data-bs-parent="#accordionExample"
+                      aria-labelledby="acc_54"
+                      data-bs-parent="#accordionExample5"
                     >
                       <div className="card-body accordion-body">
                         <p>
@@ -1853,14 +1853,14 @@ const FAQArea = () => {
                   </div>
 
                   <div className="card">
-                    <div className="card-header" id="acc_6">
+                    <div className="card-header" id="acc_64">
                       <h5 className="mb-0">
                         <button
                           className="btn btn-link collapsed"
                           data-bs-toggle="collapse"
-                          data-bs-target="#collapse_6"
+                          data-bs-target="#collapse_64"
                           aria-expanded="true"
-                          aria-controls="collapse_6"
+                          aria-controls="collapse_64"
                         >
                           Can investments in my RSA be paused completely or
                           partially to avert losses in my portfolio until the
@@ -1870,10 +1870,10 @@ const FAQArea = () => {
                     </div>
 
                     <div
-                      id="collapse_6"
+                      id="collapse_64"
                       className="collapse"
-                      aria-labelledby="acc_6"
-                      data-bs-parent="#accordionExample"
+                      aria-labelledby="acc_64"
+                      data-bs-parent="#accordionExample5"
                     >
                       <div className="card-body accordion-body">
                         <p>
@@ -1891,14 +1891,14 @@ const FAQArea = () => {
                   </div>
 
                   <div className="card">
-                    <div className="card-header" id="acc_7">
+                    <div className="card-header" id="acc_74">
                       <h5 className="mb-0">
                         <button
                           className="btn btn-link collapsed"
                           data-bs-toggle="collapse"
-                          data-bs-target="#collapse_7"
+                          data-bs-target="#collapse_74"
                           aria-expanded="true"
-                          aria-controls="collapse_7"
+                          aria-controls="collapse_74"
                         >
                           How long does IEI-Anchor think this situation will
                           linger and what measures is being taken to protect our
@@ -1908,10 +1908,10 @@ const FAQArea = () => {
                     </div>
 
                     <div
-                      id="collapse_7"
+                      id="collapse_74"
                       className="collapse"
-                      aria-labelledby="acc_7"
-                      data-bs-parent="#accordionExample"
+                      aria-labelledby="acc_74"
+                      data-bs-parent="#accordionExample5"
                     >
                       <div className="card-body accordion-body">
                         <p>
@@ -1934,14 +1934,14 @@ const FAQArea = () => {
                   </div>
 
                   <div className="card">
-                    <div className="card-header" id="acc_8">
+                    <div className="card-header" id="acc_84">
                       <h5 className="mb-0">
                         <button
                           className="btn btn-link collapsed"
                           data-bs-toggle="collapse"
-                          data-bs-target="#collapse_8"
+                          data-bs-target="#collapse_84"
                           aria-expanded="true"
-                          aria-controls="collapse_8"
+                          aria-controls="collapse_84"
                         >
                           I recently moved to Fund I but my RSA balance keeps
                           dropping since I moved. Can I move back to Fund II
@@ -1951,10 +1951,10 @@ const FAQArea = () => {
                     </div>
 
                     <div
-                      id="collapse_8"
+                      id="collapse_84"
                       className="collapse"
-                      aria-labelledby="acc_8"
-                      data-bs-parent="#accordionExample"
+                      aria-labelledby="acc_84"
+                      data-bs-parent="#accordionExample5"
                     >
                       <div className="card-body accordion-body">
                         <p>
@@ -1982,14 +1982,14 @@ const FAQArea = () => {
                   </div>
 
                   <div className="card">
-                    <div className="card-header" id="acc_9">
+                    <div className="card-header" id="acc_94">
                       <h5 className="mb-0">
                         <button
                           className="btn btn-link collapsed"
                           data-bs-toggle="collapse"
-                          data-bs-target="#collapse_9"
+                          data-bs-target="#collapse_94"
                           aria-expanded="true"
-                          aria-controls="collapse_9"
+                          aria-controls="collapse_94"
                         >
                           Can I move back to Fund 1 after the pandemic is over?
                         </button>
@@ -1997,10 +1997,10 @@ const FAQArea = () => {
                     </div>
 
                     <div
-                      id="collapse_9"
+                      id="collapse_94"
                       className="collapse"
-                      aria-labelledby="acc_9"
-                      data-bs-parent="#accordionExample"
+                      aria-labelledby="acc_94"
+                      data-bs-parent="#accordionExample5"
                     >
                       <div className="card-body accordion-body">
                         <p>
@@ -2012,14 +2012,14 @@ const FAQArea = () => {
                   </div>
 
                   <div className="card">
-                    <div className="card-header" id="acc_10">
+                    <div className="card-header" id="acc_104">
                       <h5 className="mb-0">
                         <button
                           className="btn btn-link collapsed"
                           data-bs-toggle="collapse"
-                          data-bs-target="#collapse_10"
+                          data-bs-target="#collapse_104"
                           aria-expanded="true"
-                          aria-controls="collapse_10"
+                          aria-controls="collapse_104"
                         >
                           Will the current situation inflation affect the value
                           of my Programmed Withdrawal payment.
@@ -2028,10 +2028,10 @@ const FAQArea = () => {
                     </div>
 
                     <div
-                      id="collapse_10"
+                      id="collapse_104"
                       className="collapse"
-                      aria-labelledby="acc_10"
-                      data-bs-parent="#accordionExample"
+                      aria-labelledby="acc_104"
+                      data-bs-parent="#accordionExample5"
                     >
                       <div className="card-body accordion-body">
                         <p>
@@ -2053,16 +2053,16 @@ const FAQArea = () => {
                 <di>
                   <h3>My Retirement Savings Account (11)</h3>
                 </di>
-                <div className="accordion" id="accordionExample2">
+                <div className="accordion" id="accordionExample6">
                   <div className="card accordion-item">
-                    <div className="card-header accordion-header" id="acc_1">
+                    <div className="card-header accordion-header" id="acc_15">
                       <h5 className="mb-0">
                         <button
                           className="btn btn-link"
                           data-bs-toggle="collapse"
-                          data-bs-target="#collapse_6"
+                          data-bs-target="#collapse_15"
                           aria-expanded="true"
-                          aria-controls="collapse_1"
+                          aria-controls="collapse_15"
                         >
                           Do I need to check through the employer payment
                           schedule to confirm my Personal Identification Number
@@ -2073,10 +2073,10 @@ const FAQArea = () => {
                     </div>
 
                     <div
-                      id="collapse_6"
+                      id="collapse_15"
                       className="collapse"
-                      aria-labelledby="acc_1"
-                      data-bs-parent="#accordionExample2"
+                      aria-labelledby="acc_15"
+                      data-bs-parent="#accordionExample6"
                     >
                       <div className="card-body accordion-body">
                         <p>
@@ -2087,14 +2087,14 @@ const FAQArea = () => {
                     </div>
                   </div>
                   <div className="card">
-                    <div className="card-header" id="acc_2">
+                    <div className="card-header" id="acc_25">
                       <h5 className="mb-0">
                         <button
                           className="btn btn-link collapsed"
                           data-bs-toggle="collapse"
-                          data-bs-target="#collapse_2"
+                          data-bs-target="#collapse_25"
                           aria-expanded="true"
-                          aria-controls="collapse_2"
+                          aria-controls="collapse_25"
                         >
                           Can I make payments into our RSA Account without first
                           generating PINs for the clients?
@@ -2103,10 +2103,10 @@ const FAQArea = () => {
                     </div>
 
                     <div
-                      id="collapse_2"
+                      id="collapse_25"
                       className="collapse"
-                      aria-labelledby="acc_2"
-                      data-bs-parent="#accordionExample"
+                      aria-labelledby="acc_25"
+                      data-bs-parent="#accordionExample6"
                     >
                       <div className="card-body accordion-body">
                         <p>
@@ -2117,14 +2117,14 @@ const FAQArea = () => {
                     </div>
                   </div>
                   <div className="card">
-                    <div className="card-header" id="acc_3">
+                    <div className="card-header" id="acc_35">
                       <h5 className="mb-0">
                         <button
                           className="btn btn-link collapsed"
                           data-bs-toggle="collapse"
-                          data-bs-target="#collapse_3"
+                          data-bs-target="#collapse_35"
                           aria-expanded="true"
-                          aria-controls="collapse_3"
+                          aria-controls="collapse_35"
                         >
                           Do I need to forward a soft copy version of schedules
                           to Operations?
@@ -2133,10 +2133,10 @@ const FAQArea = () => {
                     </div>
 
                     <div
-                      id="collapse_3"
+                      id="collapse_35"
                       className="collapse"
-                      aria-labelledby="acc_3"
-                      data-bs-parent="#accordionExample"
+                      aria-labelledby="acc_35"
+                      data-bs-parent="#accordionExample6"
                     >
                       <div className="card-body accordion-body">
                         <p>
@@ -2146,12 +2146,12 @@ const FAQArea = () => {
                     </div>
                   </div>
                   <div className="card">
-                    <div className="card-header" id="acc_4">
+                    <div className="card-header" id="acc_45">
                       <h5 className="mb-0">
                         <button
                           className="btn btn-link collapsed"
                           data-bs-toggle="collapse"
-                          data-bs-target="#collapse_4"
+                          data-bs-target="#collapse_45"
                           aria-expanded="true"
                           aria-controls="collapse_4"
                         >
@@ -2162,10 +2162,10 @@ const FAQArea = () => {
                     </div>
 
                     <div
-                      id="collapse_4"
+                      id="collapse_45"
                       className="collapse"
-                      aria-labelledby="acc_4"
-                      data-bs-parent="#accordionExample"
+                      aria-labelledby="acc_45"
+                      data-bs-parent="#accordionExample6"
                     >
                       <div className="card-body accordion-body">
                         <p>Yes. It is required to identify the RSA Holder.</p>
@@ -2174,14 +2174,14 @@ const FAQArea = () => {
                   </div>
 
                   <div className="card">
-                    <div className="card-header" id="acc_5">
+                    <div className="card-header" id="acc_55">
                       <h5 className="mb-0">
                         <button
                           className="btn btn-link collapsed"
                           data-bs-toggle="collapse"
-                          data-bs-target="#collapse_5"
+                          data-bs-target="#collapse_55"
                           aria-expanded="true"
-                          aria-controls="collapse_5"
+                          aria-controls="collapse_55"
                         >
                           Must I provide my mobile number on the RSA form?
                         </button>
@@ -2189,10 +2189,10 @@ const FAQArea = () => {
                     </div>
 
                     <div
-                      id="collapse_5"
+                      id="collapse_55"
                       className="collapse"
-                      aria-labelledby="acc_5"
-                      data-bs-parent="#accordionExample"
+                      aria-labelledby="acc_55"
+                      data-bs-parent="#accordionExample6"
                     >
                       <div className="card-body accordion-body">
                         <p>Yes. It is required for seamless communication</p>
@@ -2201,14 +2201,14 @@ const FAQArea = () => {
                   </div>
 
                   <div className="card">
-                    <div className="card-header" id="acc_6">
+                    <div className="card-header" id="acc_65">
                       <h5 className="mb-0">
                         <button
                           className="btn btn-link collapsed"
                           data-bs-toggle="collapse"
-                          data-bs-target="#collapse_6"
+                          data-bs-target="#collapse_65"
                           aria-expanded="true"
-                          aria-controls="collapse_6"
+                          aria-controls="collapse_65"
                         >
                           Why do I need to include my Agent Code on the RSA
                           form?
@@ -2217,10 +2217,10 @@ const FAQArea = () => {
                     </div>
 
                     <div
-                      id="collapse_6"
+                      id="collapse_65"
                       className="collapse"
-                      aria-labelledby="acc_6"
-                      data-bs-parent="#accordionExample"
+                      aria-labelledby="acc_65"
+                      data-bs-parent="#accordionExample6"
                     >
                       <div className="card-body accordion-body">
                         <p>
@@ -2231,14 +2231,14 @@ const FAQArea = () => {
                   </div>
 
                   <div className="card">
-                    <div className="card-header" id="acc_7">
+                    <div className="card-header" id="acc_75">
                       <h5 className="mb-0">
                         <button
                           className="btn btn-link collapsed"
                           data-bs-toggle="collapse"
-                          data-bs-target="#collapse_7"
+                          data-bs-target="#collapse_75"
                           aria-expanded="true"
-                          aria-controls="collapse_7"
+                          aria-controls="collapse_75"
                         >
                           Can I update my records in the database after
                           signing-on?
@@ -2247,10 +2247,10 @@ const FAQArea = () => {
                     </div>
 
                     <div
-                      id="collapse_7"
+                      id="collapse_75"
                       className="collapse"
-                      aria-labelledby="acc_7"
-                      data-bs-parent="#accordionExample"
+                      aria-labelledby="acc_75"
+                      data-bs-parent="#accordionExample6"
                     >
                       <div className="card-body accordion-body">
                         <p>
@@ -2263,14 +2263,14 @@ const FAQArea = () => {
                   </div>
 
                   <div className="card">
-                    <div className="card-header" id="acc_8">
+                    <div className="card-header" id="acc_85">
                       <h5 className="mb-0">
                         <button
                           className="btn btn-link collapsed"
                           data-bs-toggle="collapse"
-                          data-bs-target="#collapse_8"
+                          data-bs-target="#collapse_85"
                           aria-expanded="true"
-                          aria-controls="collapse_8"
+                          aria-controls="collapse_85"
                         >
                           Can I make Voluntary Contribution while my employer is
                           not making the mandatory contribution?
@@ -2279,10 +2279,10 @@ const FAQArea = () => {
                     </div>
 
                     <div
-                      id="collapse_8"
+                      id="collapse_85"
                       className="collapse"
-                      aria-labelledby="acc_8"
-                      data-bs-parent="#accordionExample"
+                      aria-labelledby="acc_85"
+                      data-bs-parent="#accordionExample6"
                     >
                       <div className="card-body accordion-body">
                         <p>
@@ -2295,14 +2295,14 @@ const FAQArea = () => {
                   </div>
 
                   <div className="card">
-                    <div className="card-header" id="acc_9">
+                    <div className="card-header" id="acc_95">
                       <h5 className="mb-0">
                         <button
                           className="btn btn-link collapsed"
                           data-bs-toggle="collapse"
-                          data-bs-target="#collapse_9"
+                          data-bs-target="#collapse_95"
                           aria-expanded="true"
-                          aria-controls="collapse_9"
+                          aria-controls="collapse_95"
                         >
                           How do I download spreadsheet for payment schedule?
                         </button>
@@ -2310,10 +2310,10 @@ const FAQArea = () => {
                     </div>
 
                     <div
-                      id="collapse_9"
+                      id="collapse_95"
                       className="collapse"
-                      aria-labelledby="acc_9"
-                      data-bs-parent="#accordionExample"
+                      aria-labelledby="acc_95"
+                      data-bs-parent="#accordionExample6"
                     >
                       <div className="card-body accordion-body">
                         <p>
@@ -2325,14 +2325,14 @@ const FAQArea = () => {
                   </div>
 
                   <div className="card">
-                    <div className="card-header" id="acc_10">
+                    <div className="card-header" id="acc_105">
                       <h5 className="mb-0">
                         <button
                           className="btn btn-link collapsed"
                           data-bs-toggle="collapse"
-                          data-bs-target="#collapse_10"
+                          data-bs-target="#collapse_105"
                           aria-expanded="true"
-                          aria-controls="collapse_10"
+                          aria-controls="collapse_105"
                         >
                           Can I make withdrawals before my retirement?
                         </button>
@@ -2340,10 +2340,10 @@ const FAQArea = () => {
                     </div>
 
                     <div
-                      id="collapse_10"
+                      id="collapse_105"
                       className="collapse"
-                      aria-labelledby="acc_10"
-                      data-bs-parent="#accordionExample"
+                      aria-labelledby="acc_105"
+                      data-bs-parent="#accordionExample6"
                     >
                       <div className="card-body accordion-body">
                         <p>
@@ -2361,14 +2361,14 @@ const FAQArea = () => {
                   </div>
 
                   <div className="card">
-                    <div className="card-header" id="acc_11">
+                    <div className="card-header" id="acc_115">
                       <h5 className="mb-0">
                         <button
                           className="btn btn-link collapsed"
                           data-bs-toggle="collapse"
-                          data-bs-target="#collapse_11"
+                          data-bs-target="#collapse_115"
                           aria-expanded="true"
-                          aria-controls="collapse_11"
+                          aria-controls="collapse_115"
                         >
                           How can I retrieve my IEI Anchor Pension number?
                         </button>
@@ -2376,10 +2376,10 @@ const FAQArea = () => {
                     </div>
 
                     <div
-                      id="collapse_11"
+                      id="collapse_115"
                       className="collapse"
-                      aria-labelledby="acc_11"
-                      data-bs-parent="#accordionExample"
+                      aria-labelledby="acc_115"
+                      data-bs-parent="#accordionExample6"
                     >
                       <div className="card-body accordion-body">
                         <p>
@@ -2398,16 +2398,16 @@ const FAQArea = () => {
                 <di>
                   <h3>RSA FUND VI (NON-INTEREST FUND) (16)</h3>
                 </di>
-                <div className="accordion" id="accordionExample2">
+                <div className="accordion" id="accordionExample7">
                   <div className="card accordion-item">
-                    <div className="card-header accordion-header" id="acc_1">
+                    <div className="card-header accordion-header" id="acc_16">
                       <h5 className="mb-0">
                         <button
                           className="btn btn-link"
                           data-bs-toggle="collapse"
-                          data-bs-target="#collapse_6"
+                          data-bs-target="#collapse_16"
                           aria-expanded="true"
-                          aria-controls="collapse_1"
+                          aria-controls="collapse_16"
                         >
                           Since the fund is called NON-INTEREST, does it mean
                           there will be no ‘growth’ on my contribution?
@@ -2416,10 +2416,10 @@ const FAQArea = () => {
                     </div>
 
                     <div
-                      id="collapse_6"
+                      id="collapse_16"
                       className="collapse"
-                      aria-labelledby="acc_1"
-                      data-bs-parent="#accordionExample2"
+                      aria-labelledby="acc_16"
+                      data-bs-parent="#accordionExample7"
                     >
                       <div className="card-body accordion-body">
                         <p>
@@ -2444,14 +2444,14 @@ const FAQArea = () => {
                     </div>
                   </div>
                   <div className="card">
-                    <div className="card-header" id="acc_2">
+                    <div className="card-header" id="acc_26">
                       <h5 className="mb-0">
                         <button
                           className="btn btn-link collapsed"
                           data-bs-toggle="collapse"
-                          data-bs-target="#collapse_2"
+                          data-bs-target="#collapse_26"
                           aria-expanded="true"
-                          aria-controls="collapse_2"
+                          aria-controls="collapse_26"
                         >
                           Are there existing Shari’ah compliant Non-Interest
                           Investment in Nigeria?
@@ -2460,10 +2460,10 @@ const FAQArea = () => {
                     </div>
 
                     <div
-                      id="collapse_2"
+                      id="collapse_26"
                       className="collapse"
-                      aria-labelledby="acc_2"
-                      data-bs-parent="#accordionExample"
+                      aria-labelledby="acc_26"
+                      data-bs-parent="#accordionExample7"
                     >
                       <div className="card-body accordion-body">
                         <p>
@@ -2482,14 +2482,14 @@ const FAQArea = () => {
                     </div>
                   </div>
                   <div className="card">
-                    <div className="card-header" id="acc_3">
+                    <div className="card-header" id="acc_36">
                       <h5 className="mb-0">
                         <button
                           className="btn btn-link collapsed"
                           data-bs-toggle="collapse"
-                          data-bs-target="#collapse_3"
+                          data-bs-target="#collapse_36"
                           aria-expanded="true"
-                          aria-controls="collapse_3"
+                          aria-controls="collapse_36"
                         >
                           To support the Fund VI ecosystem for effective
                           implementation, are there existing Shari’ah compliant
@@ -2499,10 +2499,10 @@ const FAQArea = () => {
                     </div>
 
                     <div
-                      id="collapse_3"
+                      id="collapse_36"
                       className="collapse"
-                      aria-labelledby="acc_3"
-                      data-bs-parent="#accordionExample"
+                      aria-labelledby="acc_36"
+                      data-bs-parent="#accordionExample7"
                     >
                       <div className="card-body accordion-body">
                         <p>
@@ -2520,14 +2520,14 @@ const FAQArea = () => {
                     </div>
                   </div>
                   <div className="card">
-                    <div className="card-header" id="acc_4">
+                    <div className="card-header" id="acc_46">
                       <h5 className="mb-0">
                         <button
                           className="btn btn-link collapsed"
                           data-bs-toggle="collapse"
-                          data-bs-target="#collapse_4"
+                          data-bs-target="#collapse_46"
                           aria-expanded="true"
-                          aria-controls="collapse_4"
+                          aria-controls="collapse_46"
                         >
                           Are there opportunities for growth in Non Interest
                           Shari’ah compliant fund in Nigeria?
@@ -2536,10 +2536,10 @@ const FAQArea = () => {
                     </div>
 
                     <div
-                      id="collapse_4"
+                      id="collapse_46"
                       className="collapse"
-                      aria-labelledby="acc_4"
-                      data-bs-parent="#accordionExample"
+                      aria-labelledby="acc_46"
+                      data-bs-parent="#accordionExample7"
                     >
                       <div className="card-body accordion-body">
                         <p>
@@ -2559,14 +2559,14 @@ const FAQArea = () => {
                   </div>
 
                   <div className="card">
-                    <div className="card-header" id="acc_5">
+                    <div className="card-header" id="acc_56">
                       <h5 className="mb-0">
                         <button
                           className="btn btn-link collapsed"
                           data-bs-toggle="collapse"
-                          data-bs-target="#collapse_5"
+                          data-bs-target="#collapse_56"
                           aria-expanded="true"
-                          aria-controls="collapse_5"
+                          aria-controls="collapse_56"
                         >
                           What are Non-Interest Compliant Instrument?
                         </button>
@@ -2574,10 +2574,10 @@ const FAQArea = () => {
                     </div>
 
                     <div
-                      id="collapse_5"
+                      id="collapse_56"
                       className="collapse"
-                      aria-labelledby="acc_5"
-                      data-bs-parent="#accordionExample"
+                      aria-labelledby="acc_56"
+                      data-bs-parent="#accordionExample7"
                     >
                       <div className="card-body accordion-body">
                         <p>
@@ -2597,14 +2597,14 @@ const FAQArea = () => {
                   </div>
 
                   <div className="card">
-                    <div className="card-header" id="acc_6">
+                    <div className="card-header" id="acc_66">
                       <h5 className="mb-0">
                         <button
                           className="btn btn-link collapsed"
                           data-bs-toggle="collapse"
-                          data-bs-target="#collapse_6"
+                          data-bs-target="#collapse_66"
                           aria-expanded="true"
-                          aria-controls="collapse_6"
+                          aria-controls="collapse_66"
                         >
                           What investment instrument is Fund VI eligible to
                           invest in?
@@ -2613,10 +2613,10 @@ const FAQArea = () => {
                     </div>
 
                     <div
-                      id="collapse_6"
+                      id="collapse_66"
                       className="collapse"
-                      aria-labelledby="acc_6"
-                      data-bs-parent="#accordionExample"
+                      aria-labelledby="acc_66"
+                      data-bs-parent="#accordionExample7"
                     >
                       <div className="card-body accordion-body">
                         <p>
@@ -2643,14 +2643,14 @@ const FAQArea = () => {
                   </div>
 
                   <div className="card">
-                    <div className="card-header" id="acc_7">
+                    <div className="card-header" id="acc_76">
                       <h5 className="mb-0">
                         <button
                           className="btn btn-link collapsed"
                           data-bs-toggle="collapse"
-                          data-bs-target="#collapse_7"
+                          data-bs-target="#collapse_76"
                           aria-expanded="true"
-                          aria-controls="collapse_7"
+                          aria-controls="collapse_76"
                         >
                           Can non-compliant assets be included in Fund VI?
                         </button>
@@ -2658,10 +2658,10 @@ const FAQArea = () => {
                     </div>
 
                     <div
-                      id="collapse_7"
+                      id="collapse_76"
                       className="collapse"
-                      aria-labelledby="acc_7"
-                      data-bs-parent="#accordionExample"
+                      aria-labelledby="acc_76"
+                      data-bs-parent="#accordionExample7"
                     >
                       <div className="card-body accordion-body">
                         <p>
@@ -2683,14 +2683,14 @@ const FAQArea = () => {
                   </div>
 
                   <div className="card">
-                    <div className="card-header" id="acc_8">
+                    <div className="card-header" id="acc_86">
                       <h5 className="mb-0">
                         <button
                           className="btn btn-link collapsed"
                           data-bs-toggle="collapse"
-                          data-bs-target="#collapse_8"
+                          data-bs-target="#collapse_86"
                           aria-expanded="true"
-                          aria-controls="collapse_8"
+                          aria-controls="collapse_86"
                         >
                           Who is eligible to transfer to RSA Fund VI?
                         </button>
@@ -2698,10 +2698,10 @@ const FAQArea = () => {
                     </div>
 
                     <div
-                      id="collapse_8"
+                      id="collapse_86"
                       className="collapse"
-                      aria-labelledby="acc_8"
-                      data-bs-parent="#accordionExample"
+                      aria-labelledby="acc_86"
+                      data-bs-parent="#accordionExample7"
                     >
                       <div className="card-body accordion-body">
                         <p>
@@ -2725,14 +2725,14 @@ const FAQArea = () => {
                   </div>
 
                   <div className="card">
-                    <div className="card-header" id="acc_9">
+                    <div className="card-header" id="acc_96">
                       <h5 className="mb-0">
                         <button
                           className="btn btn-link collapsed"
                           data-bs-toggle="collapse"
-                          data-bs-target="#collapse_9"
+                          data-bs-target="#collapse_96"
                           aria-expanded="true"
-                          aria-controls="collapse_9"
+                          aria-controls="collapse_96"
                         >
                           Is RSA Fund VI open to non-Muslims?
                         </button>
@@ -2740,10 +2740,10 @@ const FAQArea = () => {
                     </div>
 
                     <div
-                      id="collapse_9"
+                      id="collapse_96"
                       className="collapse"
-                      aria-labelledby="acc_9"
-                      data-bs-parent="#accordionExample"
+                      aria-labelledby="acc_96"
+                      data-bs-parent="#accordionExample7"
                     >
                       <div className="card-body accordion-body">
                         <p>
@@ -2759,14 +2759,14 @@ const FAQArea = () => {
                   </div>
 
                   <div className="card">
-                    <div className="card-header" id="acc_10">
+                    <div className="card-header" id="acc_106">
                       <h5 className="mb-0">
                         <button
                           className="btn btn-link collapsed"
                           data-bs-toggle="collapse"
-                          data-bs-target="#collapse_10"
+                          data-bs-target="#collapse_106"
                           aria-expanded="true"
-                          aria-controls="collapse_10"
+                          aria-controls="collapse_106"
                         >
                           What are the key benefits in implementing the RSA Fund
                           VI
@@ -2775,10 +2775,10 @@ const FAQArea = () => {
                     </div>
 
                     <div
-                      id="collapse_10"
+                      id="collapse_106"
                       className="collapse"
-                      aria-labelledby="acc_10"
-                      data-bs-parent="#accordionExample"
+                      aria-labelledby="acc_106"
+                      data-bs-parent="#accordionExample7"
                     >
                       <div className="card-body accordion-body">
                         <p>
@@ -2794,14 +2794,14 @@ const FAQArea = () => {
                   </div>
 
                   <div className="card">
-                    <div className="card-header" id="acc_11">
+                    <div className="card-header" id="acc_116">
                       <h5 className="mb-0">
                         <button
                           className="btn btn-link collapsed"
                           data-bs-toggle="collapse"
-                          data-bs-target="#collapse_11"
+                          data-bs-target="#collapse_116"
                           aria-expanded="true"
-                          aria-controls="collapse_11"
+                          aria-controls="collapse_116"
                         >
                           How can I transfer to Fund VI?
                         </button>
@@ -2809,10 +2809,10 @@ const FAQArea = () => {
                     </div>
 
                     <div
-                      id="collapse_11"
+                      id="collapse_116"
                       className="collapse"
-                      aria-labelledby="acc_11"
-                      data-bs-parent="#accordionExample"
+                      aria-labelledby="acc_116"
+                      data-bs-parent="#accordionExample7"
                     >
                       <div className="card-body accordion-body">
                         <p>
@@ -2827,14 +2827,14 @@ const FAQArea = () => {
                   </div>
 
                   <div className="card">
-                    <div className="card-header" id="acc_12">
+                    <div className="card-header" id="acc_126">
                       <h5 className="mb-0">
                         <button
                           className="btn btn-link collapsed"
                           data-bs-toggle="collapse"
-                          data-bs-target="#collapse_12"
+                          data-bs-target="#collapse_126"
                           aria-expanded="true"
-                          aria-controls="collapse_12"
+                          aria-controls="collapse_126"
                         >
                           Are there restrictions for the investment of the RSA
                           Fund VI?
@@ -2843,10 +2843,10 @@ const FAQArea = () => {
                     </div>
 
                     <div
-                      id="collapse_12"
+                      id="collapse_126"
                       className="collapse"
-                      aria-labelledby="acc_12"
-                      data-bs-parent="#accordionExample"
+                      aria-labelledby="acc_126"
+                      data-bs-parent="#accordionExample7"
                     >
                       <div className="card-body accordion-body">
                         <p>
