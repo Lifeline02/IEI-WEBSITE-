@@ -731,7 +731,7 @@ const FAQArea = () => {
                         <button
                           className="btn btn-link"
                           data-bs-toggle="collapse"
-                          data-bs-target="#collapse_1"
+                          data-bs-target="#collapse_11"
                           aria-expanded="false"
                           aria-controls="collapse_11"
                         >
@@ -752,14 +752,14 @@ const FAQArea = () => {
                     </div>
                   </div>
                   <div className="card">
-                    <div className="card-header" id="acc_21">
+                    <div className="card-header" id="acc_212">
                       <h5 className="mb-0">
                         <button
                           className="btn btn-link collapsed"
                           data-bs-toggle="collapse"
-                          data-bs-target="#collapse_21"
+                          data-bs-target="#collapse_212"
                           aria-expanded="true"
-                          aria-controls="collapse_21"
+                          aria-controls="collapse_212"
                         >
                           What is the relationship between Monthly Pension and
                           Lump Sum?
@@ -768,9 +768,9 @@ const FAQArea = () => {
                     </div>
 
                     <div
-                      id="collapse_21"
+                      id="collapse_212"
                       className="collapse"
-                      aria-labelledby="acc_21"
+                      aria-labelledby="acc_212"
                       data-bs-parent="#accordionExample2"
                     >
                       <div className="card-body accordion-body">
@@ -1723,7 +1723,7 @@ const FAQArea = () => {
                         <button
                           className="btn btn-link collapsed"
                           data-bs-toggle="collapse"
-                          data-bs-target="#collapse_4"
+                          data-bs-target="#collapse_24"
                           aria-expanded="true"
                           aria-controls="collapse_24"
                         >
