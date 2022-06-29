@@ -222,7 +222,7 @@ const Sidebar = ({ show, handleClose }) => {
                           <ul className="sidebar_sub_menu submenu text-white">
                             {" "}
                             <li>
-                              <NavLink to="/services">FAQ</NavLink>
+                              <NavLink to="/FAQ">FAQ</NavLink>
                             </li>
                             <li>
                               <NavLink to="/blogs">Download</NavLink>
