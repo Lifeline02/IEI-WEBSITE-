@@ -85,7 +85,7 @@ const HomeBrands = () => {
               </div>
             </div>
           </div>
-          {/* <div className="row">
+          <div className="row">
             <Slider className="brand-active" {...settings}>
               <SingleBrandItem img_1="1" img_2="5" />
               <SingleBrandItem img_1="2" img_2="6" />
@@ -95,7 +95,7 @@ const HomeBrands = () => {
               <SingleBrandItem img_1="2" img_2="6" />
               <SingleBrandItem img_1="2" img_2="6" />
             </Slider>
-          </div> */}
+          </div> 
         </div>
       </section>
     </>

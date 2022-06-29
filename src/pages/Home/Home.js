@@ -3,18 +3,16 @@ import HomeOneHeader from "./HomeOneHeader/HomeOneHeader";
 import HomeHeroSlider from "./HomeHeroArea/HomeHeroSlider";
 import HomeFeatures from "./HomeFeatures/HomeFeatures";
 import HomeCapabilities from "./HomeCapabilities/HomeCapabilities";
-import HomeServices from "./HomeServices/HomeServices";
 import HomeCounterArea from "./HomeCounterArea/HomeCounterArea";
 import HomeTeams from "./HomeTeams/HomeTeams";
-import HomePricing from "./HomePricing/HomePricing";
 // import HomeBrands from "./HomeBrands/HomeBrands";
 import HomeContact from "./HomeContact/HomeContact";
 import Footer from "../../components/shared/Footer";
-import CommonCtaArea from "../../components/CommonCtaArea/CommonCtaArea";
 import PageHelmet from "../../components/shared/PageHelmet";
 import HomeCalculator from "./PenCalculator/PenCalculator";
 import BankAccount from "../../components/BanckAccount/BankAccount";
 import Testimonial from "../Testimonials/Testimonial";
+import HomeBrands from "./HomeBrands/HomeBrands";
 
 const Home = () => {
   return (
@@ -30,7 +28,7 @@ const Home = () => {
       <HomeTeams />
       <HomeCapabilities />
       <Testimonial />
-      {/* <HomeBrands/> */}
+       <HomeBrands/> 
       <HomeContact />
       <Footer />
     </>

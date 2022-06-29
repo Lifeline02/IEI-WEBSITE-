@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
-const SIngleContactInfo = ({image,title,btn_text}) => {
+const SIngleContactInfo = ({image,title,btn_text, link, body_text}) => {
    return (
       <>
          <div className="col-xl-5 col-lg-6 col-md-6 offset-xl-1">
@@ -11,8 +11,8 @@ const SIngleContactInfo = ({image,title,btn_text}) => {
                </div>
                <div className="contact__text">
                   <h3>{title}</h3>
-                  <p>Naff the wireless barney bodge lurgy cuppa cheeky.</p>
-                  <Link to="/contact" className="z-btn z-btn-border">{btn_text}</Link>
+                  <p>{body_text}</p>
+                  <a href={`${link}`} className="z-btn z-btn-border">{btn_text}</a>
                </div>
             </div>
          </div>

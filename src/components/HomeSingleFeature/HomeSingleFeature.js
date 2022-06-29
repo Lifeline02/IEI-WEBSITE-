@@ -16,7 +16,7 @@ const HomeSingleFeature = ({icon,title, description}) => {
                   <h3> {title} </h3>
                   <span style={{'color': '#ffffffde', 'fontSize':'14px'}}>{description}</span>
                   <div className="features__btn">
-                     <Link to="/servicesDetails" className="link-btn">
+                     <Link to="/multifund" className="link-btn">
                         <i > <CgArrowLongRight /> </i>
                         <i > <CgArrowLongRight /> </i>
                      </Link>

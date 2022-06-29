@@ -4,7 +4,7 @@
 
 .page{
     &__title{
-        min-height: 500px;
+        min-height: 400px;
         @include background();
         &::before{
             position: absolute;
@@ -17,7 +17,7 @@
             background-image: -ms-linear-gradient( 60deg, #690ed0 0%, #170da2 100%);
             background-image: -webkit-linear-gradient( 60deg, #690ed0 0%, #170da2 100%);
             background-image: linear-gradient( 60deg, #690ed0 0%, #170da2 100%);
-            opacity: .9;
+            opacity: .5;
         }
         &-2{
             min-height: 700px;

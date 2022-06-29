@@ -20,8 +20,8 @@ const ContactInfoArea = () => {
                </div>
                <div className="row p-relative">
 
-                  <SIngleContactInfo image="headset" title="Customer Support" btn_text="Visit Support Forum" />
-                  <SIngleContactInfo image="msg" title="Any Questions" btn_text="Contact Support" />
+                  <SIngleContactInfo image="headset" title="Customer Support" btn_text="Visit Support Forum" link="mailto:cservice@ieianchorpensions.com.ng" body_text="Reach out to our support team via email address" />
+                  <SIngleContactInfo image="msg" title="Any Questions" btn_text="Contact Support"  link="/faq" body_text="Check out our frequently asked questions page" />
 
                </div>
             </div>

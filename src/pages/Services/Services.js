@@ -5,7 +5,6 @@ import Footer from '../../components/shared/Footer';
 import PageHelmet from '../../components/shared/PageHelmet';
 import HomeCapabilities from '../Home/HomeCapabilities/HomeCapabilities';
 import HomeOneHeader from '../Home/HomeOneHeader/HomeOneHeader';
-import HomeServices from '../Home/HomeServices/HomeServices';
 import HomeThreeSecondServices from '../HomeThree/HomeThreeSecondServices/HomeThreeSecondServices';
 
 const Services = () => {
@@ -15,7 +14,6 @@ const Services = () => {
 
          <HomeOneHeader/>
          <CommonPageHeader title="Services" subtitle="Services" />
-         <HomeServices />
          <HomeCapabilities/>
          <HomeThreeSecondServices />
          <CommonCtaArea/>

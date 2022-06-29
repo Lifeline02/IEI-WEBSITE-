@@ -1,7 +1,6 @@
 import React from 'react';
-import { BiMap } from 'react-icons/bi';
-import { FaEnvelope, FaFacebookF, FaPhoneAlt, FaTwitter, FaVimeoV } from 'react-icons/fa';
-import { Link,useParams } from 'react-router-dom';
+
+import {useParams } from 'react-router-dom';
 
 import teamData from '../../../data/teamData';
 

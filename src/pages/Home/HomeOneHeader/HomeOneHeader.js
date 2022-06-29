@@ -175,7 +175,7 @@ const HomeOneHeader = () => {
                                     </NavLink>
                                   </li>
                                   <li>
-                                    <NavLink to="/servicesDetails">
+                                    <NavLink to="/benefitPayment">
                                       Benefit Payment
                                     </NavLink>
                                   </li>
@@ -187,9 +187,9 @@ const HomeOneHeader = () => {
                                 </NavLink>
                               </li>
                               <li>
-                                <NavLink to="https://datarecapture.ieianchorpensions.com.ng">
+                                <a href="https://datarecapture.ieianchorpensions.com.ng" target="_blank">
                                   Data Recapture
-                                </NavLink>
+                                </a>
                               </li>
 
                               <li>
@@ -210,34 +210,12 @@ const HomeOneHeader = () => {
                             </ul>
                           </li>
                           <li>
-                            <NavLink to="/portfolio">Fund Management</NavLink>
+                            <NavLink to="#">Fund Management</NavLink>
                             <ul className="submenu">
                               <li>
-                                <NavLink to="/portfolio">
+                                <NavLink to="/multifund">
                                   Multi fund Structure
                                 </NavLink>
-                                <ul className="submenu">
-                                  <li>
-                                    <NavLink to="/portfolio">Fund I</NavLink>
-                                  </li>
-                                  <li>
-                                    <NavLink to="/portfolioDetails">
-                                      Fund II
-                                    </NavLink>
-                                  </li>
-                                  <li>
-                                    <NavLink to="/team">Fund III</NavLink>
-                                  </li>
-                                  <li>
-                                    <NavLink to="/teamDetails">Fund IV</NavLink>
-                                  </li>
-                                  <li>
-                                    <NavLink to="/teamDetails">Fund V</NavLink>
-                                  </li>
-                                  <li>
-                                    <NavLink to="/teamDetails">Fund VI</NavLink>
-                                  </li>
-                                </ul>
                               </li>
                               <li>
                                 <NavLink to="/portfolioDetails">
@@ -267,15 +245,15 @@ const HomeOneHeader = () => {
                                 <NavLink to="/contact">Contact us</NavLink>
                               </li>
                               <li>
-                                <NavLink to="/blogDetails">Branches</NavLink>
+                                <NavLink to="/branches">Branches</NavLink>
                               </li>
                               <li>
-                                <NavLink to="/blogDetails">
+                                <a href="https://ffpro.ieianchorpensions.com.ng/pfaweb" target="_blank">
                                   Self Service
-                                </NavLink>
+                                </a>
                               </li>
                               <li>
-                                <NavLink to="/blogDetails">Feedback</NavLink>
+                                <NavLink to="/contact">Feedback</NavLink>
                               </li>
                             </ul>
                           </li>

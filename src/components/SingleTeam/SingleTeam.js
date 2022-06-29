@@ -16,28 +16,7 @@ const SingleTeam = ({image,name,title, id}) => {
                            <Link to={`/teamDetails/${id}`} className="btn btn-dark">View More</Link>
                         </div> 
                      </div>
-                     <div className="team__social theme-social">
-                        <ul>
-                           <li>
-                              <a href="#">
-                                 <i > <FaFacebookF/> </i>
-                                 <i > <FaFacebookF /> </i>
-                              </a>
-                           </li>
-                           <li>
-                              <a href="#">
-                                 <i > <FaTwitter/> </i>
-                                 <i > <FaTwitter /> </i>
-                              </a>
-                           </li>
-                           <li>
-                              <a href="#">
-                                 <i > <FaVimeoV/> </i>
-                                 <i > <FaVimeoV/> </i>
-                              </a>
-                           </li>
-                        </ul>
-                     </div>
+
                </div>
                <div className="team__content">
                   <h3><Link to="/teamDetails">{name}</Link></h3>
