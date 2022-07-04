@@ -3,7 +3,7 @@ import CommonPageHeader from "../../components/CommonPageHeader/CommonPageHeader
 import Footer from "../../components/shared/Footer";
 import PageHelmet from "../../components/shared/PageHelmet";
 import HomeOneHeader from "../Home/HomeOneHeader/HomeOneHeader";
-import PrivacyPolicyArea from "./PrivacyPolicyArea";
+import PrivacyPolicyArea from "./PrivacyPolicyArea/PrivacyPolicyArea";
 
 const PrivacyPolicy = () => {
   return (

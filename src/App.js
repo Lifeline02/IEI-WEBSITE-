@@ -18,6 +18,7 @@ import Services from "./pages/Services/Services";
 import ServicesDetails from "./pages/ServicesDetails/ServicesDetails";
 import TeamDetails from "./pages/TeamDetails/TeamDetails";
 import PrivacyPolicy from "./pages/PrivacyPolicy/PrivacyPolicy";
+import Download from "./pages/Downloads/Download";
 
 function App() {
   return (
@@ -44,6 +45,8 @@ function App() {
           <Route path="/branches" element={<Branch />} />
           <Route path="/multifund" element={<MultiFundHome />} />
           <Route path="/ PrivacyPolicy " element={<PrivacyPolicy />} />
+          <Route path="/ Download" element={<Download />} />
+          DirectorArea
         </Routes>
       </BrowserRouter>
     </>
