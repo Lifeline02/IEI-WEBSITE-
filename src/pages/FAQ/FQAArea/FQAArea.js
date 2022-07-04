@@ -6,20 +6,19 @@ const FAQArea = () => {
       <section className="faq__area pb-200 pt-75">
         <div className="container">
           <div className="row">
-            <div className="col-xl-4 col-lg-5 col-md-5">
+            <div className="col-xl-6 col-lg-6 col-md-6">
               <div className="faq__content">
                 <div className="section-title mb-45">
                   <h3>
                     Do you have <br /> Any question
                   </h3>
                   <p>
-                    We help you weather today's uncertainty through our best
-                    team.
+                    go through our frequently asked questions for quick answers.
                   </p>
                 </div>
               </div>
             </div>
-            <div className="col-xl-6 col-lg-6 col-md-7 offset-xl-2 offset-lg-1">
+            <div className="col-xl-6 col-lg-6 col-md-6">
               <div className="faq__accordion p-relative">
                 <di>
                   <h3>General FAQs </h3>
@@ -719,10 +718,274 @@ const FAQArea = () => {
           </div>
 
           <div className="row">
-            <div className="col-xl-4 col-lg-5 col-md-5">
-              <div className="faq__content"></div>
+          <div className="col-xl-6 col-lg-6 col-md-6">
+              <div className="faq__accordion p-relative">
+                <di>
+                  <h3>Micro Pension Funds </h3>
+                </di>
+                <div className="accordion" id="accordion1">
+                  <div className="card accordion-item">
+                    <div className="card-header accordion-header" id="acc_43">
+                      <h5 className="mb-0">
+                        <button
+                          className="btn btn-link"
+                          data-bs-toggle="collapse"
+                          data-bs-target="#collapse_43"
+                          aria-expanded="true"
+                          aria-controls="collapse_43"
+                        >
+                          What is Micro Pension Funds?
+                        </button>
+                      </h5>
+                    </div>
+
+                    <div
+                      id="collapse_43"
+                      className="collapse"
+                      aria-labelledby="acc_43"
+                      data-bs-parent="#accordion1"
+                    >
+                      <div className="card-body accordion-body">
+                        <p>
+                          Micro Pension refers to an arrangement for the
+                          provision of pension to the self-employed, and persons
+                          operating in the informal sector (fashion designers,
+                          mechanics, market sellers, lawyers, taxi drivers,
+                          etc.) through the Contributory Pension Scheme. The
+                          primary objective of the Micro Pension Plan (MPP) is
+                          to provide retirement benefits to the Micro Pension
+                          contributors.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div className="card">
+                    <div className="card-header" id="acc_44">
+                      <h5 className="mb-0">
+                        <button
+                          className="btn btn-link collapsed"
+                          data-bs-toggle="collapse"
+                          data-bs-target="#collapse_44"
+                          aria-expanded="true"
+                          aria-controls="collapse_44"
+                        >
+                          How old must I be to start Micro pensions?
+                        </button>
+                      </h5>
+                    </div>
+
+                    <div
+                      id="collapse_44"
+                      className="collapse"
+                      aria-labelledby="acc_44"
+                      data-bs-parent="#accordion1"
+                    >
+                      <div className="card-body accordion-body">
+                        <p>
+                          Anyone from ages 18 years can open a Micro Pension
+                          account. However, those below the stated age can still
+                          open an account with the consent of their parents or
+                          guardian.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div className="card">
+                    <div className="card-header" id="acc_45">
+                      <h5 className="mb-0">
+                        <button
+                          className="btn btn-link collapsed"
+                          data-bs-toggle="collapse"
+                          data-bs-target="#collapse_45"
+                          aria-expanded="true"
+                          aria-controls="collapse_45"
+                        >
+                          What is the difference between Micro Pension and
+                          co-operative society?
+                        </button>
+                      </h5>
+                    </div>
+
+                    <div
+                      id="collapse_45"
+                      className="collapse"
+                      aria-labelledby="acc_45"
+                      data-bs-parent="#accordion1"
+                    >
+                      <div className="card-body accordion-body">
+                        <p>
+                          Unlike the co-operative society, Micro Pension’s
+                          primary aim is to help you plan for your retirement.
+                          Funds are invested securely till the time of
+                          retirement. With the Micro Pension, you still have
+                          access to 25% of your contribution at any time before
+                          retirement.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div className="card">
+                    <div className="card-header" id="acc_46">
+                      <h5 className="mb-0">
+                        <button
+                          className="btn btn-link collapsed"
+                          data-bs-toggle="collapse"
+                          data-bs-target="#collapse_46"
+                          aria-expanded="true"
+                          aria-controls="collapse_46"
+                        >
+                          What is the difference between Micro Pensions and
+                          Voluntary Contributions?
+                        </button>
+                      </h5>
+                    </div>
+
+                    <div
+                      id="collapse_46"
+                      className="collapse"
+                      aria-labelledby="acc_46"
+                      data-bs-parent="#accordion1"
+                    >
+                      <div className="card-body accordion-body">
+                        <p>
+                          Voluntary Contribution can only be made through an
+                          employer while Micro Pensions can be made individually
+                          with no maximum limit of contribution.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div className="card">
+                    <div className="card-header" id="acc_47">
+                      <h5 className="mb-0">
+                        <button
+                          className="btn btn-link collapsed"
+                          data-bs-toggle="collapse"
+                          data-bs-target="#collapse_47"
+                          aria-expanded="true"
+                          aria-controls="collapse_47"
+                        >
+                          Can I have access to my savings before retirement?
+                        </button>
+                      </h5>
+                    </div>
+
+                    <div
+                      id="collapse_47"
+                      className="collapse"
+                      aria-labelledby="acc_47"
+                      data-bs-parent="#accordion1"
+                    >
+                      <div className="card-body accordion-body">
+                        <p>
+                          Yes you can access up to 25% of your contributions to
+                          the Micro Pensions Scheme at any time for contingency.
+                          The remaining 75% will be invested on prevalent
+                          compound interest rates until the age of retirement
+                          when you can have access to lumpsum or programmed
+                          withdrawal.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div className="card">
+                    <div className="card-header" id="acc_48">
+                      <h5 className="mb-0">
+                        <button
+                          className="btn btn-link collapsed"
+                          data-bs-toggle="collapse"
+                          data-bs-target="#collapse_48"
+                          aria-expanded="true"
+                          aria-controls="collapse_48"
+                        >
+                          Do I need my employer to make remittance for me?
+                        </button>
+                      </h5>
+                    </div>
+
+                    <div
+                      id="collapse_48"
+                      className="collapse"
+                      aria-labelledby="acc_48"
+                      data-bs-parent="#accordion1"
+                    >
+                      <div className="card-body accordion-body">
+                        <p>No.</p>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div className="card">
+                    <div className="card-header" id="acc_49">
+                      <h5 className="mb-0">
+                        <button
+                          className="btn btn-link collapsed"
+                          data-bs-toggle="collapse"
+                          data-bs-target="#collapse_49"
+                          aria-expanded="true"
+                          aria-controls="collapse_49"
+                        >
+                          How can I monitor my money with the Micro Pension?
+                        </button>
+                      </h5>
+                    </div>
+
+                    <div
+                      id="collapse_49"
+                      className="collapse"
+                      aria-labelledby="acc_49"
+                      data-bs-parent="#accordion1"
+                    >
+                      <div className="card-body accordion-body">
+                        <p>
+                          Besides receiving SMS alerts on remittances into your
+                          account, Your PFA sends periodic statements to your
+                          specified address. You may also obtain login details
+                          from your PFA for online statements
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div className="card">
+                    <div className="card-header" id="acc_50">
+                      <h5 className="mb-0">
+                        <button
+                          className="btn btn-link collapsed"
+                          data-bs-toggle="collapse"
+                          data-bs-target="#collapse_50"
+                          aria-expanded="true"
+                          aria-controls="collapse_50"
+                        >
+                          How often do I get to make remittance to my Micro
+                          Pension account?{" "}
+                        </button>
+                      </h5>
+                    </div>
+
+                    <div
+                      id="collapse_50"
+                      className="collapse"
+                      aria-labelledby="acc_50"
+                      data-bs-parent="#accordion1"
+                    >
+                      <div className="card-body accordion-body">
+                        <p>
+                          You can schedule your remittance based on your
+                          preferences either daily, weekly or monthly.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
-            <div className="col-xl-6 col-lg-6 col-md-7 offset-xl-2 offset-lg-1">
+            <div className="col-xl-6 col-lg-6 col-md-6">
               <div className="faq__accordion p-relative">
                 <di>
                   <h3>About My Retirement (10)</h3>
@@ -1039,10 +1302,7 @@ const FAQArea = () => {
           </div>
 
           <div className="row">
-            <div className="col-xl-4 col-lg-5 col-md-5">
-              <div className="faq__content"></div>
-            </div>
-            <div className="col-xl-6 col-lg-6 col-md-7 offset-xl-2 offset-lg-1">
+            <div className="col-xl-6 col-lg-6 col-md-6">
               <div className="faq__accordion p-relative">
                 <di>
                   <h3>Multi Funds </h3>
@@ -1415,286 +1675,7 @@ const FAQArea = () => {
                 </div>
               </div>
             </div>
-          </div>
-
-          <div className="row">
-            <div className="col-xl-4 col-lg-5 col-md-5">
-              <div className="faq__content"></div>
-            </div>
-            <div className="col-xl-6 col-lg-6 col-md-7 offset-xl-2 offset-lg-1">
-              <div className="faq__accordion p-relative">
-                <di>
-                  <h3>Micro Pension Funds </h3>
-                </di>
-                <div className="accordion" id="accordion1">
-                  <div className="card accordion-item">
-                    <div className="card-header accordion-header" id="acc_43">
-                      <h5 className="mb-0">
-                        <button
-                          className="btn btn-link"
-                          data-bs-toggle="collapse"
-                          data-bs-target="#collapse_43"
-                          aria-expanded="true"
-                          aria-controls="collapse_43"
-                        >
-                          What is Micro Pension Funds?
-                        </button>
-                      </h5>
-                    </div>
-
-                    <div
-                      id="collapse_43"
-                      className="collapse"
-                      aria-labelledby="acc_43"
-                      data-bs-parent="#accordion1"
-                    >
-                      <div className="card-body accordion-body">
-                        <p>
-                          Micro Pension refers to an arrangement for the
-                          provision of pension to the self-employed, and persons
-                          operating in the informal sector (fashion designers,
-                          mechanics, market sellers, lawyers, taxi drivers,
-                          etc.) through the Contributory Pension Scheme. The
-                          primary objective of the Micro Pension Plan (MPP) is
-                          to provide retirement benefits to the Micro Pension
-                          contributors.
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-
-                  <div className="card">
-                    <div className="card-header" id="acc_44">
-                      <h5 className="mb-0">
-                        <button
-                          className="btn btn-link collapsed"
-                          data-bs-toggle="collapse"
-                          data-bs-target="#collapse_44"
-                          aria-expanded="true"
-                          aria-controls="collapse_44"
-                        >
-                          How old must I be to start Micro pensions?
-                        </button>
-                      </h5>
-                    </div>
-
-                    <div
-                      id="collapse_44"
-                      className="collapse"
-                      aria-labelledby="acc_44"
-                      data-bs-parent="#accordion1"
-                    >
-                      <div className="card-body accordion-body">
-                        <p>
-                          Anyone from ages 18 years can open a Micro Pension
-                          account. However, those below the stated age can still
-                          open an account with the consent of their parents or
-                          guardian.
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-
-                  <div className="card">
-                    <div className="card-header" id="acc_45">
-                      <h5 className="mb-0">
-                        <button
-                          className="btn btn-link collapsed"
-                          data-bs-toggle="collapse"
-                          data-bs-target="#collapse_45"
-                          aria-expanded="true"
-                          aria-controls="collapse_45"
-                        >
-                          What is the difference between Micro Pension and
-                          co-operative society?
-                        </button>
-                      </h5>
-                    </div>
-
-                    <div
-                      id="collapse_45"
-                      className="collapse"
-                      aria-labelledby="acc_45"
-                      data-bs-parent="#accordion1"
-                    >
-                      <div className="card-body accordion-body">
-                        <p>
-                          Unlike the co-operative society, Micro Pension’s
-                          primary aim is to help you plan for your retirement.
-                          Funds are invested securely till the time of
-                          retirement. With the Micro Pension, you still have
-                          access to 25% of your contribution at any time before
-                          retirement.
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-
-                  <div className="card">
-                    <div className="card-header" id="acc_46">
-                      <h5 className="mb-0">
-                        <button
-                          className="btn btn-link collapsed"
-                          data-bs-toggle="collapse"
-                          data-bs-target="#collapse_46"
-                          aria-expanded="true"
-                          aria-controls="collapse_46"
-                        >
-                          What is the difference between Micro Pensions and
-                          Voluntary Contributions?
-                        </button>
-                      </h5>
-                    </div>
-
-                    <div
-                      id="collapse_46"
-                      className="collapse"
-                      aria-labelledby="acc_46"
-                      data-bs-parent="#accordion1"
-                    >
-                      <div className="card-body accordion-body">
-                        <p>
-                          Voluntary Contribution can only be made through an
-                          employer while Micro Pensions can be made individually
-                          with no maximum limit of contribution.
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-
-                  <div className="card">
-                    <div className="card-header" id="acc_47">
-                      <h5 className="mb-0">
-                        <button
-                          className="btn btn-link collapsed"
-                          data-bs-toggle="collapse"
-                          data-bs-target="#collapse_47"
-                          aria-expanded="true"
-                          aria-controls="collapse_47"
-                        >
-                          Can I have access to my savings before retirement?
-                        </button>
-                      </h5>
-                    </div>
-
-                    <div
-                      id="collapse_47"
-                      className="collapse"
-                      aria-labelledby="acc_47"
-                      data-bs-parent="#accordion1"
-                    >
-                      <div className="card-body accordion-body">
-                        <p>
-                          Yes you can access up to 25% of your contributions to
-                          the Micro Pensions Scheme at any time for contingency.
-                          The remaining 75% will be invested on prevalent
-                          compound interest rates until the age of retirement
-                          when you can have access to lumpsum or programmed
-                          withdrawal.
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-
-                  <div className="card">
-                    <div className="card-header" id="acc_48">
-                      <h5 className="mb-0">
-                        <button
-                          className="btn btn-link collapsed"
-                          data-bs-toggle="collapse"
-                          data-bs-target="#collapse_48"
-                          aria-expanded="true"
-                          aria-controls="collapse_48"
-                        >
-                          Do I need my employer to make remittance for me?
-                        </button>
-                      </h5>
-                    </div>
-
-                    <div
-                      id="collapse_48"
-                      className="collapse"
-                      aria-labelledby="acc_48"
-                      data-bs-parent="#accordion1"
-                    >
-                      <div className="card-body accordion-body">
-                        <p>No.</p>
-                      </div>
-                    </div>
-                  </div>
-
-                  <div className="card">
-                    <div className="card-header" id="acc_49">
-                      <h5 className="mb-0">
-                        <button
-                          className="btn btn-link collapsed"
-                          data-bs-toggle="collapse"
-                          data-bs-target="#collapse_49"
-                          aria-expanded="true"
-                          aria-controls="collapse_49"
-                        >
-                          How can I monitor my money with the Micro Pension?
-                        </button>
-                      </h5>
-                    </div>
-
-                    <div
-                      id="collapse_49"
-                      className="collapse"
-                      aria-labelledby="acc_49"
-                      data-bs-parent="#accordion1"
-                    >
-                      <div className="card-body accordion-body">
-                        <p>
-                          Besides receiving SMS alerts on remittances into your
-                          account, Your PFA sends periodic statements to your
-                          specified address. You may also obtain login details
-                          from your PFA for online statements
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-
-                  <div className="card">
-                    <div className="card-header" id="acc_50">
-                      <h5 className="mb-0">
-                        <button
-                          className="btn btn-link collapsed"
-                          data-bs-toggle="collapse"
-                          data-bs-target="#collapse_50"
-                          aria-expanded="true"
-                          aria-controls="collapse_50"
-                        >
-                          How often do I get to make remittance to my Micro
-                          Pension account?{" "}
-                        </button>
-                      </h5>
-                    </div>
-
-                    <div
-                      id="collapse_50"
-                      className="collapse"
-                      aria-labelledby="acc_50"
-                      data-bs-parent="#accordion1"
-                    >
-                      <div className="card-body accordion-body">
-                        <p>
-                          You can schedule your remittance based on your
-                          preferences either daily, weekly or monthly.
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div className="row">
-            <div className="col-xl-4 col-lg-5 col-md-5">
-              <div className="faq__content"></div>
-            </div>
-            <div className="col-xl-6 col-lg-6 col-md-7 offset-xl-2 offset-lg-1">
+            <div className="col-xl-6 col-lg-6 col-md-6">
               <div className="faq__accordion p-relative">
                 <di>
                   <h3>Corvid 19 - Impact On Investment Returns (10)</h3>
@@ -2086,12 +2067,8 @@ const FAQArea = () => {
               </div>
             </div>
           </div>
-
           <div className="row">
-            <div className="col-xl-4 col-lg-5 col-md-5">
-              <div className="faq__content"></div>
-            </div>
-            <div className="col-xl-6 col-lg-6 col-md-7 offset-xl-2 offset-lg-1">
+            <div className="col-xl-6 col-lg-6 col-md-6">
               <div className="faq__accordion p-relative">
                 <di>
                   <h3>My Retirement Savings Account</h3>
@@ -2438,13 +2415,7 @@ const FAQArea = () => {
                 </div>
               </div>
             </div>
-          </div>
-
-          <div className="row">
-            <div className="col-xl-4 col-lg-5 col-md-5">
-              <div className="faq__content"></div>
-            </div>
-            <div className="col-xl-6 col-lg-6 col-md-7 offset-xl-2 offset-lg-1">
+            <div className="col-xl-6 col-lg-6 col-md-6">
               <div className="faq__accordion p-relative">
                 <di>
                   <h3>RSA FUND VI (NON-INTEREST FUND)</h3>

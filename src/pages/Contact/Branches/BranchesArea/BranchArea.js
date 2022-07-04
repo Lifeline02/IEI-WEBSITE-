@@ -260,8 +260,6 @@ const FAQArea = () => {
                 </div>
               </div>
             </div>
-          </div>
-          <div className="row">
             <div className="col-xl-6 col-lg-6 col-md-6">
               <div className="faq__accordion p-relative">
                 <di>
@@ -506,6 +504,7 @@ const FAQArea = () => {
               </div>
             </div>
           </div>
+
 
           <div className="row">
             <div className="col-xl-6 col-lg-6 col-md-6">
@@ -753,9 +752,6 @@ const FAQArea = () => {
                 </div>
               </div>
             </div>
-          </div>
-
-          <div className="row">
             <div className="col-xl-6 col-lg-6 col-md-6">
               <div className="faq__accordion p-relative">
                 <di>
@@ -1225,9 +1221,6 @@ const FAQArea = () => {
                 </div>
               </div>
             </div>
-          </div>
-
-          <div className="row">
             <div className="col-xl-6 col-lg-6 col-md-6">
               <div className="faq__accordion p-relative">
                 <di>
@@ -1482,6 +1475,7 @@ const FAQArea = () => {
               </div>
             </div>
           </div>
+
         </div>
       </section>
     </>
