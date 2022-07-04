@@ -7,10 +7,333 @@ const FAQArea = () => {
         <div className="container">
           <div className="row">
             <div className="col-xl-6 col-lg-6 col-md-6">
-            <div className="faq__accordion p-relative">
+              <div className="faq__accordion p-relative">
+                <di>
+                  <h3>North Central</h3>
+                </di>
+
+                <div className="card">
+                  <div className="card-header" id="northcentral_1">
+                    <h5 className="mb-0">
+                      <button
+                        className="btn btn-link collapsed"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#nc_1"
+                        aria-expanded="true"
+                        aria-controls="nc_1"
+                      >
+                        HEADQUARTERS (ABUJA)
+                      </button>
+                    </h5>
+                  </div>
+
+                  <div
+                    id="nc_1"
+                    className="collapse"
+                    aria-labelledby="northcentral_1"
+                    data-bs-parent="#accordion"
+                  >
+                    <div className="card-body accordion-body">
+                      <h4>Personnel: JOLAADE ODUNTAN</h4>
+                      <address>
+                        22, Otukpo Street,Off Gimbiya Street,Area 11, Garki,
+                        Abuja, Nigeria
+                      </address>
+                      <p>
+                        <strong>Phone:</strong>
+                        <a href="tel:+2348165722731"> (234) 0816 5722 731</a>
+                      </p>
+                      <p>
+                        <strong>Phone:</strong>
+                        <a href="tel:+2348078450652"> (234) 0807 8450 652</a>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+
+                <div className="card">
+                  <div className="card-header" id="northcentral_2">
+                    <h5 className="mb-0">
+                      <button
+                        className="btn btn-link collapsed"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#nc_2"
+                        aria-expanded="true"
+                        aria-controls="nc_2"
+                      >
+                        BENUE OFFICE
+                      </button>
+                    </h5>
+                  </div>
+
+                  <div
+                    id="nc_2"
+                    className="collapse"
+                    aria-labelledby="northcentral_2"
+                    data-bs-parent="#accordion"
+                  >
+                    <div className="card-body accordion-body">
+                      <h4>Personnel: VITALIS HWANDE</h4>
+                      <address>
+                        No. 67 Old Otukpo Road High Level Makurdi,Benue State
+                      </address>
+                      <p>
+                        <strong>Phone:</strong>
+                        <a href="tel:+2349087450920"> (234) 0908 7450 920</a>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+
+                <div className="card">
+                  <div className="card-header" id="northcentral_3">
+                    <h5 className="mb-0">
+                      <button
+                        className="btn btn-link collapsed"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#nc_3"
+                        aria-expanded="true"
+                        aria-controls="nc_3"
+                      >
+                        JOS OFFICE
+                      </button>
+                    </h5>
+                  </div>
+
+                  <div
+                    id="nc_3"
+                    className="collapse"
+                    aria-labelledby="northcentral_3"
+                    data-bs-parent="#accordion"
+                  >
+                    <div className="card-body accordion-body">
+                      <h4>Personnel: ABDULKARIM MOHAMMED AWULU</h4>
+                      <address>
+                        No. 6 Lugard Road UTC Junction Jos, Plateau State
+                      </address>
+                      <p>
+                        <strong>Phone:</strong>
+                        <a href="tel:+2349095439423"> (234) 09095439423</a>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+
+                <div className="card">
+                  <div className="card-header" id="northcentral_4">
+                    <h5 className="mb-0">
+                      <button
+                        className="btn btn-link collapsed"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#nc_4"
+                        aria-expanded="true"
+                        aria-controls="nc_4"
+                      >
+                        KOGI OFFICE
+                      </button>
+                    </h5>
+                  </div>
+
+                  <div
+                    id="nc_4"
+                    className="collapse"
+                    aria-labelledby="northcentral_4"
+                    data-bs-parent="#accordion"
+                  >
+                    <div className="card-body accordion-body">
+                      <h4>Personnel: EMMANUEL OSE I.</h4>
+                      <address>
+                        Papinda plaza, No. 6 Aliyu Attah Road, along GT Bank
+                        Road,Beside Ava Hotel, Lokoja, Kogi State{" "}
+                      </address>
+                      <p>
+                        <strong>Phone:</strong>
+                        <a href="tel:+2349095439423"> (234) 08095352415</a>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+
+                <div className="card">
+                  <div className="card-header" id="northcentral_5">
+                    <h5 className="mb-0">
+                      <button
+                        className="btn btn-link collapsed"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#nc_5"
+                        aria-expanded="true"
+                        aria-controls="nc_5"
+                      >
+                        KWARA OFFICE
+                      </button>
+                    </h5>
+                  </div>
+
+                  <div
+                    id="nc_5"
+                    className="collapse"
+                    aria-labelledby="northcentral_5"
+                    data-bs-parent="#accordion"
+                  >
+                    <div className="card-body accordion-body">
+                      <h4>Personnel: KOLAWOLE OLUMOH</h4>
+                      <address>
+                        IEI Anchor Pension Managers Ltd, 22 Zulu Gambari Road,
+                        Ilorin, Kwara State
+                      </address>
+                      <p>
+                        <strong>Phone:</strong>
+                        <a href="tel:+2348095352375"> (234) 0809 5352 375</a>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+
+                <div className="card">
+                  <div className="card-header" id="northcentral_6">
+                    <h5 className="mb-0">
+                      <button
+                        className="btn btn-link collapsed"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#nc_6"
+                        aria-expanded="true"
+                        aria-controls="nc_6"
+                      >
+                        NASARAWA OFFICE
+                      </button>
+                    </h5>
+                  </div>
+
+                  <div
+                    id="nc_6"
+                    className="collapse"
+                    aria-labelledby="northcentral_6"
+                    data-bs-parent="#accordion"
+                  >
+                    <div className="card-body accordion-body">
+                      <h4>Personnel: MARTHA GABASA</h4>
+                      <address>
+                        Keffi Road near Royal dream Hotel mararaba, Nasarawa
+                        State
+                      </address>
+                      <p>
+                        <strong>Phone:</strong>
+                        <a href="tel:+2348095353358"> (234) 08095353358</a>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+
+                <div className="card">
+                  <div className="card-header" id="northcentral_7">
+                    <h5 className="mb-0">
+                      <button
+                        className="btn btn-link collapsed"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#nc_7"
+                        aria-expanded="true"
+                        aria-controls="nc_7"
+                      >
+                        NIGER OFFICE
+                      </button>
+                    </h5>
+                  </div>
+
+                  <div
+                    id="nc_7"
+                    className="collapse"
+                    aria-labelledby="northcentral_7"
+                    data-bs-parent="#accordion"
+                  >
+                    <div className="card-body accordion-body">
+                      <h4>Personnel: AHMED NURAIN OLA</h4>
+                      <address>
+                        20 Paiko Road, Beside Former Etisalat Office, Tunga,
+                        Minna Niger State
+                      </address>
+                      <p>
+                        <strong>Phone:</strong>
+                        <a href="tel:+2349087248119"> (234) 09087248119</a>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="row">
+            <div className="col-xl-6 col-lg-6 col-md-6">
+              <div className="faq__accordion p-relative">
                 <di>
                   <h3>North West</h3>
                 </di>
+
+                <div className="card">
+                  <div className="card-header" id="northwest_1">
+                    <h5 className="mb-0">
+                      <button
+                        className="btn btn-link collapsed"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#nw_1"
+                        aria-expanded="true"
+                        aria-controls="nw_1"
+                      >
+                        JIGAWA OFFICE
+                      </button>
+                    </h5>
+                  </div>
+
+                  <div
+                    id="nw_1"
+                    className="collapse"
+                    aria-labelledby="northwest_1"
+                    data-bs-parent="#accordion"
+                  >
+                    <div className="card-body accordion-body">
+                      <h4>Personnel: BASHIR JIBRIN</h4>
+                      <address>
+                        C/O UBA Plc,Sani Abacha Way,Kiyawa Road, Dutse, Jigawa
+                        State
+                      </address>
+                      <p>
+                        <strong>Phone:</strong>
+                        <a href="tel:+2348060141119"> (234) 08060141119</a>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+
+                <div className="card">
+                  <div className="card-header" id="northwest_2">
+                    <h5 className="mb-0">
+                      <button
+                        className="btn btn-link collapsed"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#nw_2"
+                        aria-expanded="true"
+                        aria-controls="nw_2"
+                      >
+                        KEBBI OFFICE
+                      </button>
+                    </h5>
+                  </div>
+
+                  <div
+                    id="nw_2"
+                    className="collapse"
+                    aria-labelledby="northwest_2"
+                    data-bs-parent="#accordion"
+                  >
+                    <div className="card-body accordion-body">
+                      <h4>Personnel: ABDULBASID HANGA</h4>
+                      <address></address>
+                      <p>
+                        <strong>Phone:</strong>
+                        <a href="tel:+2348095353493"> (234) 08095353493</a>
+                      </p>
+                    </div>
+                  </div>
+                </div>
                 <div className="accordion" id="accordion">
                   <div className="card accordion-item">
                     <div className="card-header accordion-header" id="nortest1">
@@ -18,9 +341,9 @@ const FAQArea = () => {
                         <button
                           className="btn btn-link"
                           data-bs-toggle="collapse"
-                          data-bs-target="#nw_1"
+                          data-bs-target="#nw_3"
                           aria-expanded="true"
-                          aria-controls="nw_1"
+                          aria-controls="nw_3"
                         >
                           KANO OFFICE
                         </button>
@@ -28,7 +351,7 @@ const FAQArea = () => {
                     </div>
 
                     <div
-                      id="nw_1"
+                      id="nw_3"
                       className="collapse"
                       aria-labelledby="nortest1"
                       data-bs-parent="#accordion"
@@ -36,667 +359,145 @@ const FAQArea = () => {
                       <div className="card-body accordion-body">
                         <h4>Personnel: Abdullahi Abdurrahman Mohammed</h4>
                         <address>
-                            No. 1 Iro Kurfi Plaza, 2nd Floor, Beside Yasara Filling Station,Ibrahim Taiwo Road, Kano state.
+                          No. 1 Iro Kurfi Plaza, 2nd Floor, Beside Yasara
+                          Filling Station,Ibrahim Taiwo Road, Kano state.
                         </address>
-                        <p><strong>Phone:</strong><a href="tel:+2348095354072">(234) 08095354072</a></p>
+                        <p>
+                          <strong>Phone:</strong>
+                          <a href="tel:+2348095354072">(234) 08095354072</a>
+                        </p>
                       </div>
                     </div>
                   </div>
                   <div className="card">
-                    <div className="card-header" id="northwest_2">
+                    <div className="card-header" id="northwest_4">
                       <h5 className="mb-0">
                         <button
                           className="btn btn-link collapsed"
                           data-bs-toggle="collapse"
-                          data-bs-target="#nw_2"
+                          data-bs-target="#nw_4"
                           aria-expanded="true"
-                          aria-controls="nw_2"
+                          aria-controls="nw_4"
                         >
-                          Is CPS backed by any Government Regulation?
+                          KADUNA OFFICE
                         </button>
                       </h5>
                     </div>
 
                     <div
-                      id="nw_2"
+                      id="nw_4"
                       className="collapse"
-                      aria-labelledby="northwest_2"
+                      aria-labelledby="northwest_4"
                       data-bs-parent="#accordion"
                     >
-                   <div className="card-body accordion-body">
-                        <h4>Personnel: Abdullahi Abdurrahman Mohammed</h4>
+                      <div className="card-body accordion-body">
+                        <h4>Personnel: SUNDAY IORTYANGE</h4>
                         <address>
-                            No. 1 Iro Kurfi Plaza, 2nd Floor, Beside Yasara Filling Station,Ibrahim Taiwo Road, Kano state.
+                          Bank of Industry Building, (Former NIDB), 18 Muhammadu
+                          Buhari Way, (Former WAff Road) Kaduna{" "}
                         </address>
-                        <p><strong>Phone:</strong><a href="tel:+2348095354072">(234) 08095354072</a></p>
-                      </div>
-                    </div>
-                  </div>
-                  <div className="card">
-                    <div className="card-header" id="acc_3">
-                      <h5 className="mb-0">
-                        <button
-                          className="btn btn-link collapsed"
-                          data-bs-toggle="collapse"
-                          data-bs-target="#collapse_3"
-                          aria-expanded="true"
-                          aria-controls="collapse_3"
-                        >
-                          What regulatory body supervises this scheme?
-                        </button>
-                      </h5>
-                    </div>
-
-                    <div
-                      id="collapse_3"
-                      className="collapse"
-                      aria-labelledby="acc_3"
-                      data-bs-parent="#accordion1"
-                    >
-                      <div className="card-body accordion-body">
                         <p>
-                          The National Pension Commission regulates and
-                          supervises the CPS. This body is also responsible for
-                          licensing and regulating the activities of Pension
-                          Fund Administrators (PFA) and Pension Fund Custodians
-                          (PFC), as well as overseeing the all policies and
-                          guidelines connected to Pension Matters.
+                          <strong>Phone:</strong>
+                          <a href="tel:+2348095354072"> (234) 0908 7050 396</a>
                         </p>
                       </div>
                     </div>
                   </div>
 
                   <div className="card">
-                    <div className="card-header" id="acc_4">
+                    <div className="card-header" id="northwest_5">
                       <h5 className="mb-0">
                         <button
                           className="btn btn-link collapsed"
                           data-bs-toggle="collapse"
-                          data-bs-target="#collapse_4"
+                          data-bs-target="#nw_5"
                           aria-expanded="true"
-                          aria-controls="collapse_4"
+                          aria-controls="nw_5"
                         >
-                          Is Contributory Pension Scheme (CPS) mandatory for
-                          every worker?
+                          KATSINA OFFICE
                         </button>
                       </h5>
                     </div>
 
                     <div
-                      id="collapse_4"
+                      id="nw_5"
                       className="collapse"
-                      aria-labelledby="acc_4"
-                      data-bs-parent="#accordion1"
+                      aria-labelledby="northwest_5"
+                      data-bs-parent="#accordion"
                     >
                       <div className="card-body accordion-body">
+                        <h4>Personnel: Aliyu Yahaya Said</h4>
+                        <address>
+                          UBA Katsina 2, IBB Way, Opposite Former Nakowa Bakery
+                          Katsina State
+                        </address>
                         <p>
-                          The scheme is mandatory for employees of the Federal
-                          Government, the FCT and Private sector employers with
-                          more than three employees.
+                          <strong>Phone:</strong>
+                          <a href="tel:+2349087446647"> (234) 09087446647</a>
                         </p>
                       </div>
                     </div>
                   </div>
 
                   <div className="card">
-                    <div className="card-header" id="acc_5">
+                    <div className="card-header" id="northwest_6">
                       <h5 className="mb-0">
                         <button
                           className="btn btn-link collapsed"
                           data-bs-toggle="collapse"
-                          data-bs-target="#collapse_5"
+                          data-bs-target="#nw_6"
                           aria-expanded="true"
-                          aria-controls="collapse_5"
+                          aria-controls="nw_6"
                         >
-                          How do I participate in the Scheme?
+                          SOKOTO OFFICE
                         </button>
                       </h5>
                     </div>
 
                     <div
-                      id="collapse_5"
+                      id="nw_6"
                       className="collapse"
-                      aria-labelledby="acc_5"
-                      data-bs-parent="#accordion1"
+                      aria-labelledby="northwest_6"
+                      data-bs-parent="#accordion"
                     >
                       <div className="card-body accordion-body">
+                        <h4>Personnel: ABDULBASID HANGA</h4>
+                        <address></address>
                         <p>
-                          As an employee or contributor, you are required to
-                          open a Retirement Savings Account (RSA) with any of
-                          the Licensed Pension Fund Administrators (PFA) where
-                          you remit your monthly contributions.
+                          <strong>Phone:</strong>
+                          <a href="tel:+2348095353493"> (234) 08095353493</a>
                         </p>
                       </div>
                     </div>
                   </div>
 
                   <div className="card">
-                    <div className="card-header" id="acc_6">
+                    <div className="card-header" id="northwest_7">
                       <h5 className="mb-0">
                         <button
                           className="btn btn-link collapsed"
                           data-bs-toggle="collapse"
-                          data-bs-target="#collapse_6"
+                          data-bs-target="#nw_7"
                           aria-expanded="true"
-                          aria-controls="collapse_6"
+                          aria-controls="nw_7"
                         >
-                          How do I participate in the Scheme?
+                          ZAMFARA OFFICE
                         </button>
                       </h5>
                     </div>
 
                     <div
-                      id="collapse_6"
+                      id="nw_7"
                       className="collapse"
-                      aria-labelledby="acc_6"
-                      data-bs-parent="#accordion1"
+                      aria-labelledby="northwest_7"
+                      data-bs-parent="#accordion"
                     >
                       <div className="card-body accordion-body">
+                        <h4>Personnel: ABDULBASID HANGA</h4>
+                        <address></address>
                         <p>
-                          Once you have your RSA, you would contribute 8% of
-                          your monthly emolument while your employer would make
-                          an additional contribution of 10% into your RSA.
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-
-                  <div className="card">
-                    <div className="card-header" id="acc_7">
-                      <h5 className="mb-0">
-                        <button
-                          className="btn btn-link collapsed"
-                          data-bs-toggle="collapse"
-                          data-bs-target="#collapse_7"
-                          aria-expanded="true"
-                          aria-controls="collapse_7"
-                        >
-                          Can I contribute more than the requested 8%?
-                        </button>
-                      </h5>
-                    </div>
-
-                    <div
-                      id="collapse_7"
-                      className="collapse"
-                      aria-labelledby="acc_7"
-                      data-bs-parent="#accordion1"
-                    >
-                      <div className="card-body accordion-body">
-                        <p>
-                          Yes you can. It is called Voluntary contributions.
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-
-                  <div className="card">
-                    <div className="card-header" id="acc_8">
-                      <h5 className="mb-0">
-                        <button
-                          className="btn btn-link collapsed"
-                          data-bs-toggle="collapse"
-                          data-bs-target="#collapse_8"
-                          aria-expanded="true"
-                          aria-controls="collapse_8"
-                        >
-                          What if my employer deducts my contribution of 8% but
-                          fails to remit to my RSA?
-                        </button>
-                      </h5>
-                    </div>
-
-                    <div
-                      id="collapse_8"
-                      className="collapse"
-                      aria-labelledby="acc_8"
-                      data-bs-parent="#accordion1"
-                    >
-                      <div className="card-body accordion-body">
-                        <p>
-                          The Pension Act demands that such employer would pay a
-                          penalty of 2% for every month of default once the case
-                          is reported to and verified by PENCOM.{" "}
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-
-                  <div className="card">
-                    <div className="card-header" id="acc_9">
-                      <h5 className="mb-0">
-                        <button
-                          className="btn btn-link collapsed"
-                          data-bs-toggle="collapse"
-                          data-bs-target="#collapse_9"
-                          aria-expanded="true"
-                          aria-controls="collapse_9"
-                        >
-                          What does the PFA do with my contributions?
-                        </button>
-                      </h5>
-                    </div>
-
-                    <div
-                      id="collapse_9"
-                      className="collapse"
-                      aria-labelledby="acc_9"
-                      data-bs-parent="#accordion1"
-                    >
-                      <div className="card-body accordion-body">
-                        <p>
-                          The PFA invests your contributions in accordance with
-                          the guidelines of PENCOM. Proceeds from such
-                          investments will be credited to your RSA.
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-
-                  <div className="card">
-                    <div className="card-header" id="acc_10">
-                      <h5 className="mb-0">
-                        <button
-                          className="btn btn-link collapsed"
-                          data-bs-toggle="collapse"
-                          data-bs-target="#collapse_10"
-                          aria-expanded="true"
-                          aria-controls="collapse_10"
-                        >
-                          How do I contact my PFA?
-                        </button>
-                      </h5>
-                    </div>
-
-                    <div
-                      id="collapse_10"
-                      className="collapse"
-                      aria-labelledby="acc_10"
-                      data-bs-parent="#accordion1"
-                    >
-                      <div className="card-body accordion-body">
-                        <p>
-                          You may contact us via any of our communication
-                          channels. Call us on 08165722731, 097000800 or send us
-                          an email at cservice@ieianchorpensions.com
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-
-                  <div className="card">
-                    <div className="card-header" id="acc_11">
-                      <h5 className="mb-0">
-                        <button
-                          className="btn btn-link collapsed"
-                          data-bs-toggle="collapse"
-                          data-bs-target="#collapse_11"
-                          aria-expanded="true"
-                          aria-controls="collapse_11"
-                        >
-                          How do I monitor my Savings?
-                        </button>
-                      </h5>
-                    </div>
-
-                    <div
-                      id="collapse_11"
-                      className="collapse"
-                      aria-labelledby="acc_11"
-                      data-bs-parent="#accordion1"
-                    >
-                      <div className="card-body accordion-body">
-                        <p>
-                          Besides receiving SMS alerts on remittances into your
-                          account, Your PFA sends periodic statements to your
-                          specified address. You may also obtain login details
-                          from your PFA for online statements.
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-
-                  <div className="card">
-                    <div className="card-header" id="acc_12">
-                      <h5 className="mb-0">
-                        <button
-                          className="btn btn-link collapsed"
-                          data-bs-toggle="collapse"
-                          data-bs-target="#collapse_12"
-                          aria-expanded="true"
-                          aria-controls="collapse_12"
-                        >
-                          Is it possible for me to change my PFA?
-                        </button>
-                      </h5>
-                    </div>
-
-                    <div
-                      id="collapse_12"
-                      className="collapse"
-                      aria-labelledby="acc_12"
-                      data-bs-parent="#accordion1"
-                    >
-                      <div className="card-body accordion-body">
-                        <p>
-                          Under the Pension Reform Act 2014, an employee or
-                          contributor is allowed to move his RSA from one PFA to
-                          another once in a year only without having to tender
-                          reasons for the change. However, this window is
-                          managed and will soon be opened by PENCOM.
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-
-                  <div className="card">
-                    <div className="card-header" id="acc_13">
-                      <h5 className="mb-0">
-                        <button
-                          className="btn btn-link collapsed"
-                          data-bs-toggle="collapse"
-                          data-bs-target="#collapse_13"
-                          aria-expanded="true"
-                          aria-controls="collapse_13"
-                        >
-                          When can I start to withdraw money from my RSA
-                        </button>
-                      </h5>
-                    </div>
-
-                    <div
-                      id="collapse_13"
-                      className="collapse"
-                      aria-labelledby="acc_13"
-                      data-bs-parent="#accordion1"
-                    >
-                      <div className="card-body accordion-body">
-                        <p>
-                          Withdrawals are permitted upon retirement. If you
-                          retire at 50years old and above, or you had to retire
-                          below 50years old due to physical and mental
-                          incapacity, you would have access to withdrawals from
-                          your RSA. However, if you are below 50years old and
-                          you resign or are disengaged from your employment, you
-                          would be allowed to withdraw from your RSA only after
-                          4 months of being unable to secure an employment.
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-
-                  <div className="card">
-                    <div className="card-header" id="acc_14">
-                      <h5 className="mb-0">
-                        <button
-                          className="btn btn-link collapsed"
-                          data-bs-toggle="collapse"
-                          data-bs-target="#collapse_14"
-                          aria-expanded="true"
-                          aria-controls="collapse_14"
-                        >
-                          What are the charges on my RSA?
-                        </button>
-                      </h5>
-                    </div>
-
-                    <div
-                      id="collapse_14"
-                      className="collapse"
-                      aria-labelledby="acc_14"
-                      data-bs-parent="#accordion1"
-                    >
-                      <div className="card-body accordion-body">
-                        <p>
-                          Under the current regulation, a maximum monthly charge
-                          of NGN100 and N5 VAT for every monthly contribution.
-                          Kindly note that PFA Charges for the services provided
-                          on the RSA are determined by the guidelines as
-                          provided by PENCOM per time.
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-
-                  <div className="card">
-                    <div className="card-header" id="acc_15">
-                      <h5 className="mb-0">
-                        <button
-                          className="btn btn-link collapsed"
-                          data-bs-toggle="collapse"
-                          data-bs-target="#collapse_15"
-                          aria-expanded="true"
-                          aria-controls="collapse_15"
-                        >
-                          As an intending Client, is my biometrics required?
-                        </button>
-                      </h5>
-                    </div>
-
-                    <div
-                      id="collapse_15"
-                      className="collapse"
-                      aria-labelledby="acc_15"
-                      data-bs-parent="#accordion1"
-                    >
-                      <div className="card-body accordion-body">
-                        <p>
-                          Yes. The use of Fingerprint Identification System
-                          (biometrics) for RSA holder’s identification by PENCOM
-                          is soon to commence.
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-
-                  <div className="card">
-                    <div className="card-header" id="acc_16">
-                      <h5 className="mb-0">
-                        <button
-                          className="btn btn-link collapsed"
-                          data-bs-toggle="collapse"
-                          data-bs-target="#collapse_16"
-                          aria-expanded="true"
-                          aria-controls="collapse_16"
-                        >
-                          Can a PIN be generated for an RSA holder without an
-                          Employer Code?
-                        </button>
-                      </h5>
-                    </div>
-
-                    <div
-                      id="collapse_16"
-                      className="collapse"
-                      aria-labelledby="acc_16"
-                      data-bs-parent="#accordion1"
-                    >
-                      <div className="card-body accordion-body">
-                        <p>
-                          No. The Employer code must be obtained before a PIN
-                          can be generated.
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-
-                  <div className="card">
-                    <div className="card-header" id="acc_17">
-                      <h5 className="mb-0">
-                        <button
-                          className="btn btn-link collapsed"
-                          data-bs-toggle="collapse"
-                          data-bs-target="#collapse_17"
-                          aria-expanded="true"
-                          aria-controls="collapse_17"
-                        >
-                          What are the requirements for generating Employer
-                          Code?
-                        </button>
-                      </h5>
-                    </div>
-
-                    <div
-                      id="collapse_17"
-                      className="collapse"
-                      aria-labelledby="acc_17"
-                      data-bs-parent="#accordion1"
-                    >
-                      <div className="card-body accordion-body">
-                        <p>
-                          The required documents include: Copy of CAC
-                          certificates, Tax Identification Number (TIN),
-                          Company's Business Address and Nature of Business
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-
-                  <div className="card">
-                    <div className="card-header" id="acc_18">
-                      <h5 className="mb-0">
-                        <button
-                          className="btn btn-link collapsed"
-                          data-bs-toggle="collapse"
-                          data-bs-target="#collapse_18"
-                          aria-expanded="true"
-                          aria-controls="collapse_18"
-                        >
-                          Can an employer choose to bear full responsibility of
-                          the contributions to the scheme?
-                        </button>
-                      </h5>
-                    </div>
-
-                    <div
-                      id="collapse_18"
-                      className="collapse"
-                      aria-labelledby="acc_18"
-                      data-bs-parent="#accordion1"
-                    >
-                      <div className="card-body accordion-body">
-                        <p>
-                          Yes. Where an employer chooses to bear the full
-                          responsibility of the Scheme, the employer
-                          contribution shall not be less than 20 percent of the
-                          monthly emolument of the employee. The required
-                          documents include: Copy of CAC certificates, Tax
-                          Identification Number (TIN), Company's Business
-                          Address and Nature of Business
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-
-                  <div className="card">
-                    <div className="card-header" id="acc_19">
-                      <h5 className="mb-0">
-                        <button
-                          className="btn btn-link collapsed"
-                          data-bs-toggle="collapse"
-                          data-bs-target="#collapse_19"
-                          aria-expanded="true"
-                          aria-controls="collapse_19"
-                        >
-                          Are pension contributions taxable?
-                        </button>
-                      </h5>
-                    </div>
-
-                    <div
-                      id="collapse_19"
-                      className="collapse"
-                      aria-labelledby="acc_19"
-                      data-bs-parent="#accordion1"
-                    >
-                      <div className="card-body accordion-body">
-                        <p>
-                          All interest, dividends, profits, investment and other
-                          income accruable to pension fund and amount payable as
-                          a retirement benefit shall not be taxed.
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-
-                  <div className="card">
-                    <div className="card-header" id="acc_20">
-                      <h5 className="mb-0">
-                        <button
-                          className="btn btn-link collapsed"
-                          data-bs-toggle="collapse"
-                          data-bs-target="#collapse_20"
-                          aria-expanded="true"
-                          aria-controls="collapse_20"
-                        >
-                          In an event of death, how would my beneficiaries
-                          access my savings and what documents are needed?
-                        </button>
-                      </h5>
-                    </div>
-
-                    <div
-                      id="collapse_20"
-                      className="collapse"
-                      aria-labelledby="acc_20"
-                      data-bs-parent="#accordion1"
-                    >
-                      <div className="card-body accordion-body">
-                        <h3>
-                          Below are the following documents that would be
-                          needed:
-                        </h3>
-                        <p>
-                          1. Letter of Administration issued from high
-                          court/enrolment order/will admitted to probate stating
-                          the legal beneficiary/beneficiaries.<br></br> 2.
-                          Medical certificate of the cause of death issued by a
-                          certified physician.<br></br>3. Certificate of death
-                          registration obtained from National population
-                          commission <br></br> 4. Letter of introduction from
-                          deceased employer stating the date of death/birth ,it
-                          should also introduce the next of kin
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-
-                  <div className="card">
-                    <div className="card-header" id="acc_21">
-                      <h5 className="mb-0">
-                        <button
-                          className="btn btn-link collapsed"
-                          data-bs-toggle="collapse"
-                          data-bs-target="#collapse_21"
-                          aria-expanded="true"
-                          aria-controls="collapse_21"
-                        >
-                          What are “Non-Interest Funds”?
-                        </button>
-                      </h5>
-                    </div>
-
-                    <div
-                      id="collapse_21"
-                      className="collapse"
-                      aria-labelledby="acc_21"
-                      data-bs-parent="#accordions1"
-                    >
-                      <div className="card-body accordion-body">
-                        <p>
-                          Non-Interest Funds are investment instrument that
-                          complies with Sharia (Islamic law). They are also
-                          known as “Ethical Investments”, “Islamic Financing” or
-                          “Shari’ah Compliant Finance” as it has its own
-                          product, services and contracts that differ from
-                          conventional investment instrument. Non interest
-                          finance is based on the principles of profit and risk
-                          sharing, transparency in pricing, equitability,
-                          fairness and a business model that prohibits
-                          uncertainty. As ethical investments evolve in frontier
-                          markets like Nigeria, retail and institutional
-                          investors are showing increasing interest in
-                          Shari’ah-compliant funds due to its ethical nature.
+                          <strong>Phone:</strong>
+                          <a href="tel:+2348095353493"> (234) 08095353493</a>
                         </p>
                       </div>
                     </div>
@@ -704,698 +505,977 @@ const FAQArea = () => {
                 </div>
               </div>
             </div>
+          </div>
+
+          <div className="row">
             <div className="col-xl-6 col-lg-6 col-md-6">
               <div className="faq__accordion p-relative">
                 <di>
-                  <h3>General FAQs (21)</h3>
+                  <h3>North East</h3>
                 </di>
-                <div className="accordion" id="accordion1">
-                  <div className="card accordion-item">
-                    <div className="card-header accordion-header" id="acc_1">
-                      <h5 className="mb-0">
-                        <button
-                          className="btn btn-link"
-                          data-bs-toggle="collapse"
-                          data-bs-target="#collapse_1"
-                          aria-expanded="true"
-                          aria-controls="collapse_1"
-                        >
-                          What is the Contributory Pension Scheme (CPS)?
-                        </button>
-                      </h5>
-                    </div>
-
-                    <div
-                      id="collapse_1"
-                      className="collapse"
-                      aria-labelledby="acc_1"
-                      data-bs-parent="#accordion1"
-                    >
-                      <div className="card-body accordion-body">
-                        <p>
-                          The Contributory Pension Scheme (CPS) which commenced
-                          in 2004 is fully funded, privately managed, with third
-                          party in custody of the funds and assets and is based
-                          on individual accounts. It ensures that everyone who
-                          has worked receives his/her retirement benefits as and
-                          when due
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-                  <div className="card">
-                    <div className="card-header" id="acc_2">
-                      <h5 className="mb-0">
-                        <button
-                          className="btn btn-link collapsed"
-                          data-bs-toggle="collapse"
-                          data-bs-target="#collapse_2"
-                          aria-expanded="true"
-                          aria-controls="collapse_2"
-                        >
-                          Is CPS backed by any Government Regulation?
-                        </button>
-                      </h5>
-                    </div>
-
-                    <div
-                      id="collapse_2"
-                      className="collapse"
-                      aria-labelledby="acc_2"
-                      data-bs-parent="#accordion1"
-                    >
-                      <div className="card-body accordion-body">
-                        <p>The scheme is backed by the Pension Act 2004.</p>
-                      </div>
-                    </div>
-                  </div>
-                  <div className="card">
-                    <div className="card-header" id="acc_3">
-                      <h5 className="mb-0">
-                        <button
-                          className="btn btn-link collapsed"
-                          data-bs-toggle="collapse"
-                          data-bs-target="#collapse_3"
-                          aria-expanded="true"
-                          aria-controls="collapse_3"
-                        >
-                          What regulatory body supervises this scheme?
-                        </button>
-                      </h5>
-                    </div>
-
-                    <div
-                      id="collapse_3"
-                      className="collapse"
-                      aria-labelledby="acc_3"
-                      data-bs-parent="#accordion1"
-                    >
-                      <div className="card-body accordion-body">
-                        <p>
-                          The National Pension Commission regulates and
-                          supervises the CPS. This body is also responsible for
-                          licensing and regulating the activities of Pension
-                          Fund Administrators (PFA) and Pension Fund Custodians
-                          (PFC), as well as overseeing the all policies and
-                          guidelines connected to Pension Matters.
-                        </p>
-                      </div>
-                    </div>
+                <div className="card">
+                  <div className="card-header" id="northeast_1">
+                    <h5 className="mb-0">
+                      <button
+                        className="btn btn-link collapsed"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#ne_1"
+                        aria-expanded="true"
+                        aria-controls="ne_1"
+                      >
+                        ADAMAWA OFFICE
+                      </button>
+                    </h5>
                   </div>
 
-                  <div className="card">
-                    <div className="card-header" id="acc_4">
-                      <h5 className="mb-0">
-                        <button
-                          className="btn btn-link collapsed"
-                          data-bs-toggle="collapse"
-                          data-bs-target="#collapse_4"
-                          aria-expanded="true"
-                          aria-controls="collapse_4"
-                        >
-                          Is Contributory Pension Scheme (CPS) mandatory for
-                          every worker?
-                        </button>
-                      </h5>
-                    </div>
-
-                    <div
-                      id="collapse_4"
-                      className="collapse"
-                      aria-labelledby="acc_4"
-                      data-bs-parent="#accordion1"
-                    >
-                      <div className="card-body accordion-body">
-                        <p>
-                          The scheme is mandatory for employees of the Federal
-                          Government, the FCT and Private sector employers with
-                          more than three employees.
-                        </p>
-                      </div>
+                  <div
+                    id="ne_1"
+                    className="collapse"
+                    aria-labelledby="northeast_1"
+                    data-bs-parent="#accordion"
+                  >
+                    <div className="card-body accordion-body">
+                      <h4>Personnel:BITRUS SAMSON</h4>
+                      <address>
+                        No.8 Opposite Unity Bank, Bekaji Road, Jimeta-Yola
+                        Adamawa State Nigeria.
+                      </address>
+                      <p>
+                        <strong>Phone:</strong>
+                        <a href="tel:+2349087446645"> (234) 09087446645</a>
+                      </p>
                     </div>
                   </div>
+                </div>
 
-                  <div className="card">
-                    <div className="card-header" id="acc_5">
-                      <h5 className="mb-0">
-                        <button
-                          className="btn btn-link collapsed"
-                          data-bs-toggle="collapse"
-                          data-bs-target="#collapse_5"
-                          aria-expanded="true"
-                          aria-controls="collapse_5"
-                        >
-                          How do I participate in the Scheme?
-                        </button>
-                      </h5>
-                    </div>
-
-                    <div
-                      id="collapse_5"
-                      className="collapse"
-                      aria-labelledby="acc_5"
-                      data-bs-parent="#accordion1"
-                    >
-                      <div className="card-body accordion-body">
-                        <p>
-                          As an employee or contributor, you are required to
-                          open a Retirement Savings Account (RSA) with any of
-                          the Licensed Pension Fund Administrators (PFA) where
-                          you remit your monthly contributions.
-                        </p>
-                      </div>
-                    </div>
+                <div className="card">
+                  <div className="card-header" id="northeast_2">
+                    <h5 className="mb-0">
+                      <button
+                        className="btn btn-link collapsed"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#ne_2"
+                        aria-expanded="true"
+                        aria-controls="ne_2"
+                      >
+                        BAUCHI OFFICE
+                      </button>
+                    </h5>
                   </div>
 
-                  <div className="card">
-                    <div className="card-header" id="acc_6">
-                      <h5 className="mb-0">
-                        <button
-                          className="btn btn-link collapsed"
-                          data-bs-toggle="collapse"
-                          data-bs-target="#collapse_6"
-                          aria-expanded="true"
-                          aria-controls="collapse_6"
-                        >
-                          How do I participate in the Scheme?
-                        </button>
-                      </h5>
-                    </div>
-
-                    <div
-                      id="collapse_6"
-                      className="collapse"
-                      aria-labelledby="acc_6"
-                      data-bs-parent="#accordion1"
-                    >
-                      <div className="card-body accordion-body">
-                        <p>
-                          Once you have your RSA, you would contribute 8% of
-                          your monthly emolument while your employer would make
-                          an additional contribution of 10% into your RSA.
-                        </p>
-                      </div>
+                  <div
+                    id="ne_2"
+                    className="collapse"
+                    aria-labelledby="northeast_2"
+                    data-bs-parent="#accordion"
+                  >
+                    <div className="card-body accordion-body">
+                      <h4>Personnel:BUKOYE KAZEEM OLATUNJI</h4>
+                      <address>
+                        UBA Main Branch Bauchi, Behind Central Bank of Nigeria
+                      </address>
+                      <p>
+                        <strong>Phone:</strong>
+                        <a href="tel:+2348093110891"> (234) 08093110891</a>
+                      </p>
                     </div>
                   </div>
+                </div>
 
-                  <div className="card">
-                    <div className="card-header" id="acc_7">
-                      <h5 className="mb-0">
-                        <button
-                          className="btn btn-link collapsed"
-                          data-bs-toggle="collapse"
-                          data-bs-target="#collapse_7"
-                          aria-expanded="true"
-                          aria-controls="collapse_7"
-                        >
-                          Can I contribute more than the requested 8%?
-                        </button>
-                      </h5>
-                    </div>
-
-                    <div
-                      id="collapse_7"
-                      className="collapse"
-                      aria-labelledby="acc_7"
-                      data-bs-parent="#accordion1"
-                    >
-                      <div className="card-body accordion-body">
-                        <p>
-                          Yes you can. It is called Voluntary contributions.
-                        </p>
-                      </div>
-                    </div>
+                <div className="card">
+                  <div className="card-header" id="northeast_3">
+                    <h5 className="mb-0">
+                      <button
+                        className="btn btn-link collapsed"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#ne_3"
+                        aria-expanded="true"
+                        aria-controls="ne_3"
+                      >
+                        BORNO OFFICE
+                      </button>
+                    </h5>
                   </div>
 
-                  <div className="card">
-                    <div className="card-header" id="acc_8">
-                      <h5 className="mb-0">
-                        <button
-                          className="btn btn-link collapsed"
-                          data-bs-toggle="collapse"
-                          data-bs-target="#collapse_8"
-                          aria-expanded="true"
-                          aria-controls="collapse_8"
-                        >
-                          What if my employer deducts my contribution of 8% but
-                          fails to remit to my RSA?
-                        </button>
-                      </h5>
-                    </div>
-
-                    <div
-                      id="collapse_8"
-                      className="collapse"
-                      aria-labelledby="acc_8"
-                      data-bs-parent="#accordion1"
-                    >
-                      <div className="card-body accordion-body">
-                        <p>
-                          The Pension Act demands that such employer would pay a
-                          penalty of 2% for every month of default once the case
-                          is reported to and verified by PENCOM.{" "}
-                        </p>
-                      </div>
+                  <div
+                    id="ne_3"
+                    className="collapse"
+                    aria-labelledby="northeast_3"
+                    data-bs-parent="#accordion"
+                  >
+                    <div className="card-body accordion-body">
+                      <h4>Personnel: Dr. MUHAMMAD ABUBAKAR ARDO</h4>
+                      <address>
+                        UBA Plc, No. 34, Sir Kashim Ibrahim Way, Kwanan Bola,
+                        Maiduguri, Borno State{" "}
+                      </address>
+                      <p>
+                        <strong>Phone:</strong>
+                        <a href="tel:+2348093107553"> (234) 08093107553</a>
+                      </p>
                     </div>
                   </div>
+                </div>
 
-                  <div className="card">
-                    <div className="card-header" id="acc_9">
-                      <h5 className="mb-0">
-                        <button
-                          className="btn btn-link collapsed"
-                          data-bs-toggle="collapse"
-                          data-bs-target="#collapse_9"
-                          aria-expanded="true"
-                          aria-controls="collapse_9"
-                        >
-                          What does the PFA do with my contributions?
-                        </button>
-                      </h5>
-                    </div>
-
-                    <div
-                      id="collapse_9"
-                      className="collapse"
-                      aria-labelledby="acc_9"
-                      data-bs-parent="#accordion1"
-                    >
-                      <div className="card-body accordion-body">
-                        <p>
-                          The PFA invests your contributions in accordance with
-                          the guidelines of PENCOM. Proceeds from such
-                          investments will be credited to your RSA.
-                        </p>
-                      </div>
-                    </div>
+                <div className="card">
+                  <div className="card-header" id="northeast_4">
+                    <h5 className="mb-0">
+                      <button
+                        className="btn btn-link collapsed"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#ne_4"
+                        aria-expanded="true"
+                        aria-controls="ne_4"
+                      >
+                        GOMBE OFFICE
+                      </button>
+                    </h5>
                   </div>
 
-                  <div className="card">
-                    <div className="card-header" id="acc_10">
-                      <h5 className="mb-0">
-                        <button
-                          className="btn btn-link collapsed"
-                          data-bs-toggle="collapse"
-                          data-bs-target="#collapse_10"
-                          aria-expanded="true"
-                          aria-controls="collapse_10"
-                        >
-                          How do I contact my PFA?
-                        </button>
-                      </h5>
-                    </div>
-
-                    <div
-                      id="collapse_10"
-                      className="collapse"
-                      aria-labelledby="acc_10"
-                      data-bs-parent="#accordion1"
-                    >
-                      <div className="card-body accordion-body">
-                        <p>
-                          You may contact us via any of our communication
-                          channels. Call us on 08165722731, 097000800 or send us
-                          an email at cservice@ieianchorpensions.com
-                        </p>
-                      </div>
+                  <div
+                    id="ne_4"
+                    className="collapse"
+                    aria-labelledby="northeast_4"
+                    data-bs-parent="#accordion"
+                  >
+                    <div className="card-body accordion-body">
+                      <h4>Personnel: Dr. MUHAMMAD ABUBAKAR ARDO</h4>
+                      <address>
+                        Suite 8, First Floor,Adamu Fura House, Besides Ecobank,
+                        BIU Road, Gombe, Gombe State Phone{" "}
+                      </address>
+                      <p>
+                        <strong>Phone:</strong>
+                        <a href="tel:+2348093107553"> (234) 08093107553</a>
+                      </p>
                     </div>
                   </div>
+                </div>
 
-                  <div className="card">
-                    <div className="card-header" id="acc_11">
-                      <h5 className="mb-0">
-                        <button
-                          className="btn btn-link collapsed"
-                          data-bs-toggle="collapse"
-                          data-bs-target="#collapse_11"
-                          aria-expanded="true"
-                          aria-controls="collapse_11"
-                        >
-                          How do I monitor my Savings?
-                        </button>
-                      </h5>
-                    </div>
-
-                    <div
-                      id="collapse_11"
-                      className="collapse"
-                      aria-labelledby="acc_11"
-                      data-bs-parent="#accordion1"
-                    >
-                      <div className="card-body accordion-body">
-                        <p>
-                          Besides receiving SMS alerts on remittances into your
-                          account, Your PFA sends periodic statements to your
-                          specified address. You may also obtain login details
-                          from your PFA for online statements.
-                        </p>
-                      </div>
-                    </div>
+                <div className="card">
+                  <div className="card-header" id="northeast_5">
+                    <h5 className="mb-0">
+                      <button
+                        className="btn btn-link collapsed"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#ne_5"
+                        aria-expanded="true"
+                        aria-controls="ne_5"
+                      >
+                        JALINGO OFFICE
+                      </button>
+                    </h5>
                   </div>
 
-                  <div className="card">
-                    <div className="card-header" id="acc_12">
-                      <h5 className="mb-0">
-                        <button
-                          className="btn btn-link collapsed"
-                          data-bs-toggle="collapse"
-                          data-bs-target="#collapse_12"
-                          aria-expanded="true"
-                          aria-controls="collapse_12"
-                        >
-                          Is it possible for me to change my PFA?
-                        </button>
-                      </h5>
-                    </div>
-
-                    <div
-                      id="collapse_12"
-                      className="collapse"
-                      aria-labelledby="acc_12"
-                      data-bs-parent="#accordion1"
-                    >
-                      <div className="card-body accordion-body">
-                        <p>
-                          Under the Pension Reform Act 2014, an employee or
-                          contributor is allowed to move his RSA from one PFA to
-                          another once in a year only without having to tender
-                          reasons for the change. However, this window is
-                          managed and will soon be opened by PENCOM.
-                        </p>
-                      </div>
+                  <div
+                    id="ne_5"
+                    className="collapse"
+                    aria-labelledby="northeast_5"
+                    data-bs-parent="#accordion"
+                  >
+                    <div className="card-body accordion-body">
+                      <h4>Personnel: SAIDU ILIYASU</h4>
+                      <address>
+                        No. 134 Hammaruwa Way, UBA Plc Investment House, Jalingo
+                      </address>
+                      <p>
+                        <strong>Phone:</strong>
+                        <a href="tel:+2348095354205"> (234) 08095354205</a>
+                      </p>
                     </div>
                   </div>
+                </div>
 
-                  <div className="card">
-                    <div className="card-header" id="acc_13">
-                      <h5 className="mb-0">
-                        <button
-                          className="btn btn-link collapsed"
-                          data-bs-toggle="collapse"
-                          data-bs-target="#collapse_13"
-                          aria-expanded="true"
-                          aria-controls="collapse_13"
-                        >
-                          When can I start to withdraw money from my RSA
-                        </button>
-                      </h5>
-                    </div>
-
-                    <div
-                      id="collapse_13"
-                      className="collapse"
-                      aria-labelledby="acc_13"
-                      data-bs-parent="#accordion1"
-                    >
-                      <div className="card-body accordion-body">
-                        <p>
-                          Withdrawals are permitted upon retirement. If you
-                          retire at 50years old and above, or you had to retire
-                          below 50years old due to physical and mental
-                          incapacity, you would have access to withdrawals from
-                          your RSA. However, if you are below 50years old and
-                          you resign or are disengaged from your employment, you
-                          would be allowed to withdraw from your RSA only after
-                          4 months of being unable to secure an employment.
-                        </p>
-                      </div>
-                    </div>
+                <div className="card">
+                  <div className="card-header" id="northeast_6">
+                    <h5 className="mb-0">
+                      <button
+                        className="btn btn-link collapsed"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#ne_6"
+                        aria-expanded="true"
+                        aria-controls="ne_6"
+                      >
+                        WUKARI BRANCH
+                      </button>
+                    </h5>
                   </div>
 
-                  <div className="card">
-                    <div className="card-header" id="acc_14">
-                      <h5 className="mb-0">
-                        <button
-                          className="btn btn-link collapsed"
-                          data-bs-toggle="collapse"
-                          data-bs-target="#collapse_14"
-                          aria-expanded="true"
-                          aria-controls="collapse_14"
-                        >
-                          What are the charges on my RSA?
-                        </button>
-                      </h5>
-                    </div>
-
-                    <div
-                      id="collapse_14"
-                      className="collapse"
-                      aria-labelledby="acc_14"
-                      data-bs-parent="#accordion1"
-                    >
-                      <div className="card-body accordion-body">
-                        <p>
-                          Under the current regulation, a maximum monthly charge
-                          of NGN100 and N5 VAT for every monthly contribution.
-                          Kindly note that PFA Charges for the services provided
-                          on the RSA are determined by the guidelines as
-                          provided by PENCOM per time.
-                        </p>
-                      </div>
+                  <div
+                    id="ne_6"
+                    className="collapse"
+                    aria-labelledby="northeast_6"
+                    data-bs-parent="#accordion"
+                  >
+                    <div className="card-body accordion-body">
+                      <h4>Personnel: BUHARI ALI</h4>
+                      <address>WORKS DEPARTMENT FED UNI WUKARI</address>
+                      <p>
+                        <strong>Phone:</strong>
+                        <a href="tel:+2347033105775"> (234) 07033105775</a>
+                      </p>
                     </div>
                   </div>
+                </div>
 
-                  <div className="card">
-                    <div className="card-header" id="acc_15">
-                      <h5 className="mb-0">
-                        <button
-                          className="btn btn-link collapsed"
-                          data-bs-toggle="collapse"
-                          data-bs-target="#collapse_15"
-                          aria-expanded="true"
-                          aria-controls="collapse_15"
-                        >
-                          As an intending Client, is my biometrics required?
-                        </button>
-                      </h5>
-                    </div>
-
-                    <div
-                      id="collapse_15"
-                      className="collapse"
-                      aria-labelledby="acc_15"
-                      data-bs-parent="#accordion1"
-                    >
-                      <div className="card-body accordion-body">
-                        <p>
-                          Yes. The use of Fingerprint Identification System
-                          (biometrics) for RSA holder’s identification by PENCOM
-                          is soon to commence.
-                        </p>
-                      </div>
-                    </div>
+                <div className="card">
+                  <div className="card-header" id="northeast_7">
+                    <h5 className="mb-0">
+                      <button
+                        className="btn btn-link collapsed"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#ne_7"
+                        aria-expanded="true"
+                        aria-controls="ne_7"
+                      >
+                        YOBE OFFICE
+                      </button>
+                    </h5>
                   </div>
 
-                  <div className="card">
-                    <div className="card-header" id="acc_16">
-                      <h5 className="mb-0">
-                        <button
-                          className="btn btn-link collapsed"
-                          data-bs-toggle="collapse"
-                          data-bs-target="#collapse_16"
-                          aria-expanded="true"
-                          aria-controls="collapse_16"
-                        >
-                          Can a PIN be generated for an RSA holder without an
-                          Employer Code?
-                        </button>
-                      </h5>
-                    </div>
-
-                    <div
-                      id="collapse_16"
-                      className="collapse"
-                      aria-labelledby="acc_16"
-                      data-bs-parent="#accordion1"
-                    >
-                      <div className="card-body accordion-body">
-                        <p>
-                          No. The Employer code must be obtained before a PIN
-                          can be generated.
-                        </p>
-                      </div>
+                  <div
+                    id="ne_7"
+                    className="collapse"
+                    aria-labelledby="northeast_7"
+                    data-bs-parent="#accordion"
+                  >
+                    <div className="card-body accordion-body">
+                      <h4>Personnel:Dr. MUHAMMAD ABUBAKAR ARDO</h4>
+                      <address>
+                        NO 1, BALLAMA CLOSE, SABON FEGI, DAMATURU, YOBE
+                      </address>
+                      <p>
+                        <strong>Phone:</strong>
+                        <a href="tel:+2348093107553"> (234) 08093107553</a>
+                      </p>
                     </div>
                   </div>
+                </div>
+              </div>
+            </div>
+          </div>
 
-                  <div className="card">
-                    <div className="card-header" id="acc_17">
-                      <h5 className="mb-0">
-                        <button
-                          className="btn btn-link collapsed"
-                          data-bs-toggle="collapse"
-                          data-bs-target="#collapse_17"
-                          aria-expanded="true"
-                          aria-controls="collapse_17"
-                        >
-                          What are the requirements for generating Employer
-                          Code?
-                        </button>
-                      </h5>
-                    </div>
+          <div className="row">
+            <div className="col-xl-6 col-lg-6 col-md-6">
+              <div className="faq__accordion p-relative">
+                <di>
+                  <h3>South West</h3>
+                </di>
 
-                    <div
-                      id="collapse_17"
-                      className="collapse"
-                      aria-labelledby="acc_17"
-                      data-bs-parent="#accordion1"
-                    >
-                      <div className="card-body accordion-body">
-                        <p>
-                          The required documents include: Copy of CAC
-                          certificates, Tax Identification Number (TIN),
-                          Company's Business Address and Nature of Business
-                        </p>
-                      </div>
-                    </div>
+                <div className="card">
+                  <div className="card-header" id="southwest_0">
+                    <h5 className="mb-0">
+                      <button
+                        className="btn btn-link collapsed"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#sw_0"
+                        aria-expanded="true"
+                        aria-controls="sw_0"
+                      >
+                        ANTHONY OFFICE
+                      </button>
+                    </h5>
                   </div>
 
-                  <div className="card">
-                    <div className="card-header" id="acc_18">
-                      <h5 className="mb-0">
-                        <button
-                          className="btn btn-link collapsed"
-                          data-bs-toggle="collapse"
-                          data-bs-target="#collapse_18"
-                          aria-expanded="true"
-                          aria-controls="collapse_18"
-                        >
-                          Can an employer choose to bear full responsibility of
-                          the contributions to the scheme?
-                        </button>
-                      </h5>
-                    </div>
-
-                    <div
-                      id="collapse_18"
-                      className="collapse"
-                      aria-labelledby="acc_18"
-                      data-bs-parent="#accordion1"
-                    >
-                      <div className="card-body accordion-body">
-                        <p>
-                          Yes. Where an employer chooses to bear the full
-                          responsibility of the Scheme, the employer
-                          contribution shall not be less than 20 percent of the
-                          monthly emolument of the employee. The required
-                          documents include: Copy of CAC certificates, Tax
-                          Identification Number (TIN), Company's Business
-                          Address and Nature of Business
-                        </p>
-                      </div>
+                  <div
+                    id="sw_0"
+                    className="collapse"
+                    aria-labelledby="southwest_0"
+                    data-bs-parent="#accordion"
+                  >
+                    <div className="card-body accordion-body">
+                      <h4>Personnel: TEMITOPE ONASANWO</h4>
+                      <address>
+                        UBA Building, 300 Ikorodu Road, Anthony Lagos
+                      </address>
+                      <p>
+                        <strong>Phone:</strong>
+                        <a href="tel:+2348095353110"> (234) 08095353110</a>
+                      </p>
                     </div>
                   </div>
+                </div>
 
-                  <div className="card">
-                    <div className="card-header" id="acc_19">
-                      <h5 className="mb-0">
-                        <button
-                          className="btn btn-link collapsed"
-                          data-bs-toggle="collapse"
-                          data-bs-target="#collapse_19"
-                          aria-expanded="true"
-                          aria-controls="collapse_19"
-                        >
-                          Are pension contributions taxable?
-                        </button>
-                      </h5>
-                    </div>
-
-                    <div
-                      id="collapse_19"
-                      className="collapse"
-                      aria-labelledby="acc_19"
-                      data-bs-parent="#accordion1"
-                    >
-                      <div className="card-body accordion-body">
-                        <p>
-                          All interest, dividends, profits, investment and other
-                          income accruable to pension fund and amount payable as
-                          a retirement benefit shall not be taxed.
-                        </p>
-                      </div>
-                    </div>
+                <div className="card">
+                  <div className="card-header" id="southwest_1">
+                    <h5 className="mb-0">
+                      <button
+                        className="btn btn-link collapsed"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#sw_1"
+                        aria-expanded="true"
+                        aria-controls="sw_1"
+                      >
+                        AKURE OFFICE
+                      </button>
+                    </h5>
                   </div>
 
-                  <div className="card">
-                    <div className="card-header" id="acc_20">
-                      <h5 className="mb-0">
-                        <button
-                          className="btn btn-link collapsed"
-                          data-bs-toggle="collapse"
-                          data-bs-target="#collapse_20"
-                          aria-expanded="true"
-                          aria-controls="collapse_20"
-                        >
-                          In an event of death, how would my beneficiaries
-                          access my savings and what documents are needed?
-                        </button>
-                      </h5>
-                    </div>
-
-                    <div
-                      id="collapse_20"
-                      className="collapse"
-                      aria-labelledby="acc_20"
-                      data-bs-parent="#accordion1"
-                    >
-                      <div className="card-body accordion-body">
-                        <h3>
-                          Below are the following documents that would be
-                          needed:
-                        </h3>
-                        <p>
-                          1. Letter of Administration issued from high
-                          court/enrolment order/will admitted to probate stating
-                          the legal beneficiary/beneficiaries.<br></br> 2.
-                          Medical certificate of the cause of death issued by a
-                          certified physician.<br></br>3. Certificate of death
-                          registration obtained from National population
-                          commission <br></br> 4. Letter of introduction from
-                          deceased employer stating the date of death/birth ,it
-                          should also introduce the next of kin
-                        </p>
-                      </div>
+                  <div
+                    id="sw_1"
+                    className="collapse"
+                    aria-labelledby="southwest_1"
+                    data-bs-parent="#accordion"
+                  >
+                    <div className="card-body accordion-body">
+                      <h4>Personnel: HEZEKIAH OLUSEUN BABATUNDE</h4>
+                      <address>
+                        1st Floor, Bank of Agriculture Building, Alagbaka,
+                        Akure, Ondo State.
+                      </address>
+                      <p>
+                        <strong>Phone:</strong>
+                        <a href="tel:+2348095352449"> (234) 0809 5352 449</a>
+                      </p>
                     </div>
                   </div>
+                </div>
 
-                  <div className="card">
-                    <div className="card-header" id="acc_21">
-                      <h5 className="mb-0">
-                        <button
-                          className="btn btn-link collapsed"
-                          data-bs-toggle="collapse"
-                          data-bs-target="#collapse_21"
-                          aria-expanded="true"
-                          aria-controls="collapse_21"
-                        >
-                          What are “Non-Interest Funds”?
-                        </button>
-                      </h5>
+                <div className="card">
+                  <div className="card-header" id="southwest_2">
+                    <h5 className="mb-0">
+                      <button
+                        className="btn btn-link collapsed"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#sw_2"
+                        aria-expanded="true"
+                        aria-controls="sw_2"
+                      >
+                        ABEOKUTA OFFICE
+                      </button>
+                    </h5>
+                  </div>
+
+                  <div
+                    id="sw_2"
+                    className="collapse"
+                    aria-labelledby="southwest_2"
+                    data-bs-parent="#accordion"
+                  >
+                    <div className="card-body accordion-body">
+                      <h4>Personnel: MANUWA SAMUEL OLISEH</h4>
+                      <address>
+                        UBA Building 5 Onikolobo Road, Panseke, Abeokuta Ogun
+                        State
+                      </address>
+                      <p>
+                        <strong>Phone:</strong>
+                        <a href="tel:+2349087628242"> (234) 09087628242</a>
+                      </p>
                     </div>
+                  </div>
+                </div>
 
-                    <div
-                      id="collapse_21"
-                      className="collapse"
-                      aria-labelledby="acc_21"
-                      data-bs-parent="#accordions1"
-                    >
-                      <div className="card-body accordion-body">
-                        <p>
-                          Non-Interest Funds are investment instrument that
-                          complies with Sharia (Islamic law). They are also
-                          known as “Ethical Investments”, “Islamic Financing” or
-                          “Shari’ah Compliant Finance” as it has its own
-                          product, services and contracts that differ from
-                          conventional investment instrument. Non interest
-                          finance is based on the principles of profit and risk
-                          sharing, transparency in pricing, equitability,
-                          fairness and a business model that prohibits
-                          uncertainty. As ethical investments evolve in frontier
-                          markets like Nigeria, retail and institutional
-                          investors are showing increasing interest in
-                          Shari’ah-compliant funds due to its ethical nature.
-                        </p>
-                      </div>
+                <div className="card">
+                  <div className="card-header" id="southwest_3">
+                    <h5 className="mb-0">
+                      <button
+                        className="btn btn-link collapsed"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#sw_3"
+                        aria-expanded="true"
+                        aria-controls="sw_3"
+                      >
+                        IKOYI OFFICE
+                      </button>
+                    </h5>
+                  </div>
+
+                  <div
+                    id="sw_3"
+                    className="collapse"
+                    aria-labelledby="southwest_3"
+                    data-bs-parent="#accordion"
+                  >
+                    <div className="card-body accordion-body">
+                      <h4>Personnel: AMINA MOCHI</h4>
+                      <address>
+                        2B, Okotie Eboh Street, Off Awolowo Road, Ikoyi, Lagos
+                      </address>
+                      <p>
+                        <strong>Phone:</strong>
+                        <a href="tel:+2349088745192"> (234) 09088745192</a>
+                      </p>
+                      <p>
+                        <strong>Phone:</strong>
+                        <a href="tel:+2348095352155"> (234) 08095352155</a>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+
+                <div className="card">
+                  <div className="card-header" id="southwest_4">
+                    <h5 className="mb-0">
+                      <button
+                        className="btn btn-link collapsed"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#sw_4"
+                        aria-expanded="true"
+                        aria-controls="sw_4"
+                      >
+                        IBADAN OFFICE
+                      </button>
+                    </h5>
+                  </div>
+
+                  <div
+                    id="sw_4"
+                    className="collapse"
+                    aria-labelledby="southwest_4"
+                    data-bs-parent="#accordion"
+                  >
+                    <div className="card-body accordion-body">
+                      <h4>Personnel: EBENEZER ADERIBOYE</h4>
+                      <address>
+                        Baseone Office Complex, Right Wing, 1st Floor, Opp.
+                        Adeoye Ososami Round About, Ring Road, Ibadan, Oyo State
+                      </address>
+                      <p>
+                        <strong>Phone:</strong>
+                        <a href="tel:+2348095353021"> (234) 0809 5353 021</a>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+
+                <div className="card">
+                  <div className="card-header" id="southwest_5">
+                    <h5 className="mb-0">
+                      <button
+                        className="btn btn-link collapsed"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#sw_5"
+                        aria-expanded="true"
+                        aria-controls="sw_5"
+                      >
+                        OSUN OFFICE
+                      </button>
+                    </h5>
+                  </div>
+
+                  <div
+                    id="sw_5"
+                    className="collapse"
+                    aria-labelledby="southwest_5"
+                    data-bs-parent="#accordion"
+                  >
+                    <div className="card-body accordion-body">
+                      <h4>Personnel: TIJANI LUKMAN</h4>
+                      <address>
+                        Trinity House Km 3 along Gbongan/Ibadan Road, OgoOluwa
+                        Area, Osogbo Osun State.
+                      </address>
+                      <p>
+                        <strong>Phone:</strong>
+                        <a href="tel:+2348095352481"> (234) 0809 5352 481</a>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+
+                <div className="card">
+                  <div className="card-header" id="southwest_6">
+                    <h5 className="mb-0">
+                      <button
+                        className="btn btn-link collapsed"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#sw_6"
+                        aria-expanded="true"
+                        aria-controls="sw_6"
+                      >
+                        OTTA OFFICE
+                      </button>
+                    </h5>
+                  </div>
+
+                  <div
+                    id="sw_6"
+                    className="collapse"
+                    aria-labelledby="southwest_6"
+                    data-bs-parent="#accordion"
+                  >
+                    <div className="card-body accordion-body">
+                      <h4>Personnel: OLUSEGUN ADEGBAJU</h4>
+                      <address>91, Idiroko Road, Otta, Ogun State</address>
+                      <p>
+                        <strong>Phone:</strong>
+                        <a href="tel:+2348095352688"> (234) 0809 5352 688</a>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div className="row">
+            <div className="col-xl-6 col-lg-6 col-md-6">
+              <div className="faq__accordion p-relative">
+                <di>
+                  <h3>South East</h3>
+                </di>
+
+                <div className="card">
+                  <div className="card-header" id="southeast_1">
+                    <h5 className="mb-0">
+                      <button
+                        className="btn btn-link collapsed"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#se_1"
+                        aria-expanded="true"
+                        aria-controls="se_1"
+                      >
+                        ABA OFFICE
+                      </button>
+                    </h5>
+                  </div>
+
+                  <div
+                    id="se_1"
+                    className="collapse"
+                    aria-labelledby="southeast_1"
+                    data-bs-parent="#accordion"
+                  >
+                    <div className="card-body accordion-body">
+                      <h4>Personnel: LORDENS ONWUMA</h4>
+                      <address>
+                        UBA PLC, NO.5 FACTORY ROAD ABA, ABIA STATE
+                      </address>
+                      <p>
+                        <strong>Phone:</strong>
+                        <a href="tel:+2349087383154"> (234) 09087383154</a>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div className="card">
+                  <div className="card-header" id="southeast_2">
+                    <h5 className="mb-0">
+                      <button
+                        className="btn btn-link collapsed"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#se_2"
+                        aria-expanded="true"
+                        aria-controls="se_2"
+                      >
+                        ABAKALIKI OFFICE
+                      </button>
+                    </h5>
+                  </div>
+
+                  <div
+                    id="se_2"
+                    className="collapse"
+                    aria-labelledby="southeast_2"
+                    data-bs-parent="#accordion"
+                  >
+                    <div className="card-body accordion-body">
+                      <h4>Personnel: NKECHI NWEWE</h4>
+                      <address>
+                        1B Ogoja Road, Opposite Access Bank, Abakaliki, Ebonyi
+                        State
+                      </address>
+                      <p>
+                        <strong>Phone:</strong>
+                        <a href="tel:+2349087006842"> (234) 09087006842</a>
+                      </p>
+                      <p>
+                        <strong>Phone:</strong>
+                        <a href="tel:+2348095353089"> (234) 08095353089</a>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+
+                <div className="card">
+                  <div className="card-header" id="southeast_3">
+                    <h5 className="mb-0">
+                      <button
+                        className="btn btn-link collapsed"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#se_3"
+                        aria-expanded="true"
+                        aria-controls="se_3"
+                      >
+                        ANAMBRA OFFICE
+                      </button>
+                    </h5>
+                  </div>
+
+                  <div
+                    id="se_3"
+                    className="collapse"
+                    aria-labelledby="southeast_3"
+                    data-bs-parent="#accordion"
+                  >
+                    <div className="card-body accordion-body">
+                      <h4>Personnel: MARY OKEKE</h4>
+                      <address>
+                        14 Zik Avenue, Awka, Anambra State Nigeria
+                      </address>
+                      <p>
+                        <strong>Phone:</strong>
+                        <a href="tel:+2349087446646"> (234) 09087446646</a>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+
+                <div className="card">
+                  <div className="card-header" id="southeast_4">
+                    <h5 className="mb-0">
+                      <button
+                        className="btn btn-link collapsed"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#se_4"
+                        aria-expanded="true"
+                        aria-controls="se_4"
+                      >
+                        ENUGU OFFICE
+                      </button>
+                    </h5>
+                  </div>
+
+                  <div
+                    id="se_4"
+                    className="collapse"
+                    aria-labelledby="southeast_4"
+                    data-bs-parent="#accordion"
+                  >
+                    <div className="card-body accordion-body">
+                      <h4>Personnel: NNENA JULIET MADUKWE</h4>
+                      <address>
+                        C/O UBA Plc,53, Okpara Avenue,Enugu,Enugu State
+                      </address>
+                      <p>
+                        <strong>Phone:</strong>
+                        <a href="tel:+2348095353458"> (234) 08095353458</a>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+
+                <div className="card">
+                  <div className="card-header" id="southeast_5">
+                    <h5 className="mb-0">
+                      <button
+                        className="btn btn-link collapsed"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#se_5"
+                        aria-expanded="true"
+                        aria-controls="se_5"
+                      >
+                        IMO OFFICE
+                      </button>
+                    </h5>
+                  </div>
+
+                  <div
+                    id="se_5"
+                    className="collapse"
+                    aria-labelledby="southeast_5"
+                    data-bs-parent="#accordion"
+                  >
+                    <div className="card-body accordion-body">
+                      <h4>Personnel: IJEOMA OBASI</h4>
+                      <address>
+                        C/O UBA Plc,60, Welthral Road,Oweri,Imo State
+                      </address>
+                      <p>
+                        <strong>Phone:</strong>
+                        <a href="tel:+2348095353116"> (234) 0809 5353 116</a>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+
+                <div className="card">
+                  <div className="card-header" id="southeast_6">
+                    <h5 className="mb-0">
+                      <button
+                        className="btn btn-link collapsed"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#se_6"
+                        aria-expanded="true"
+                        aria-controls="se_6"
+                      >
+                        UMUAHIA OFFICE
+                      </button>
+                    </h5>
+                  </div>
+
+                  <div
+                    id="se_6"
+                    className="collapse"
+                    aria-labelledby="southeast_6"
+                    data-bs-parent="#accordion"
+                  >
+                    <div className="card-body accordion-body">
+                      <h4>Personnel: PROMISE ANYANWU</h4>
+                      <address>
+                        UBA PLC, NO.1 FACTORY ROAD UMUAHIA , ABIA STATE
+                      </address>
+                      <p>
+                        <strong>Phone:</strong>
+                        <a href="tel:+2349087740175"> (234) 09087740175</a>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div className="row">
+            <div className="col-xl-6 col-lg-6 col-md-6">
+              <div className="faq__accordion p-relative">
+                <di>
+                  <h3>South South</h3>
+                </di>
+
+                <div className="card">
+                  <div className="card-header" id="southsouth_1">
+                    <h5 className="mb-0">
+                      <button
+                        className="btn btn-link collapsed"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#ss_1"
+                        aria-expanded="true"
+                        aria-controls="ss_1"
+                      >
+                        ASABA OFFICE
+                      </button>
+                    </h5>
+                  </div>
+
+                  <div
+                    id="ss_1"
+                    className="collapse"
+                    aria-labelledby="southsouth_1"
+                    data-bs-parent="#accordion"
+                  >
+                    <div className="card-body accordion-body">
+                      <h4>Personnel: KELLY ETAIFO</h4>
+                      <address>
+                        10, Maryam Babangidas Way, Opp. SUBEB, Bureaucrat House,
+                        Off Okpanam Road, Asaba, Delta State
+                      </address>
+                      <p>
+                        <strong>Phone:</strong>
+                        <a href="tel:+2348095352692"> (234) 08095352692</a>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+
+                <div className="card">
+                  <div className="card-header" id="southsouth_2">
+                    <h5 className="mb-0">
+                      <button
+                        className="btn btn-link collapsed"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#ss_2"
+                        aria-expanded="true"
+                        aria-controls="ss_2"
+                      >
+                        AUCHI OFFICE
+                      </button>
+                    </h5>
+                  </div>
+
+                  <div
+                    id="ss_2"
+                    className="collapse"
+                    aria-labelledby="southsouth_2"
+                    data-bs-parent="#accordion"
+                  >
+                    <div className="card-body accordion-body">
+                      <h4>Personnel: ANDREW ALUGBE</h4>
+                      <address>
+                        IEI-Anchor Pensions, No. 62, Jattu Road, UBA Bank
+                        Building, Auchi, Edo State
+                      </address>
+                      <p>
+                        <strong>Phone:</strong>
+                        <a href="tel:+2348097008285"> (234) 08097008285</a>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+
+                <div className="card">
+                  <div className="card-header" id="southsouth_3">
+                    <h5 className="mb-0">
+                      <button
+                        className="btn btn-link collapsed"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#ss_3"
+                        aria-expanded="true"
+                        aria-controls="ss_3"
+                      >
+                        CROSS-RIVER OFFICE
+                      </button>
+                    </h5>
+                  </div>
+
+                  <div
+                    id="ss_3"
+                    className="collapse"
+                    aria-labelledby="southsouth_3"
+                    data-bs-parent="#accordion"
+                  >
+                    <div className="card-body accordion-body">
+                      <h4>Personnel: BENJAMIN EMMANUEL</h4>
+                      <address>38 MCC Road Calabar</address>
+                      <p>
+                        <strong>Phone:</strong>
+                        <a href="tel:+234809 5352 506"> (234) 08095352506</a>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+
+                <div className="card">
+                  <div className="card-header" id="southsouth_4">
+                    <h5 className="mb-0">
+                      <button
+                        className="btn btn-link collapsed"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#ss_4"
+                        aria-expanded="true"
+                        aria-controls="ss_4"
+                      >
+                        EDO OFFICE
+                      </button>
+                    </h5>
+                  </div>
+
+                  <div
+                    id="ss_4"
+                    className="collapse"
+                    aria-labelledby="southsouth_4"
+                    data-bs-parent="#accordion"
+                  >
+                    <div className="card-body accordion-body">
+                      <h4>Personnel:HETTY IVRIE NOSA-UWUIGBE</h4>
+                      <address>
+                        IEI-Anchor Pensions, 4d/5a Aruosa Street, Off Sakponba
+                        Road, Benin City Edo State
+                      </address>
+                      <p>
+                        <strong>Phone:</strong>
+                        <a href="tel:+2348095352873"> (234) 0809 5352 873</a>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+
+                <div className="card">
+                  <div className="card-header" id="southsouth_5">
+                    <h5 className="mb-0">
+                      <button
+                        className="btn btn-link collapsed"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#ss_5"
+                        aria-expanded="true"
+                        aria-controls="ss_5"
+                      >
+                        PORT-HARCOUT OFFICE
+                      </button>
+                    </h5>
+                  </div>
+
+                  <div
+                    id="ss_5"
+                    className="collapse"
+                    aria-labelledby="southsouth_"
+                    data-bs-parent="#accordion"
+                  >
+                    <div className="card-body accordion-body">
+                      <h4>Personnel:ONYEDIKACHI OGUAMAH</h4>
+                      <address>
+                        Open Haven Plaza,4 Ezimgbu/Mummy B Link Road,GRA Phase
+                        4, Port HarcourtRivers State
+                      </address>
+                      <p>
+                        <strong>Phone:</strong>
+                        <a href="tel:+2349087360234"> (234) 09087360234</a>
+                      </p>
+
+                      <p>
+                        <strong>Phone:</strong>
+                        <a href="tel:97000803"> (234) 09 7000 803</a>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+
+                <div className="card">
+                  <div className="card-header" id="southsouth_6">
+                    <h5 className="mb-0">
+                      <button
+                        className="btn btn-link collapsed"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#ss_6"
+                        aria-expanded="true"
+                        aria-controls="ss_6"
+                      >
+                        UYO OFFICE
+                      </button>
+                    </h5>
+                  </div>
+
+                  <div
+                    id="ss_6"
+                    className="collapse"
+                    aria-labelledby="southsouth_6"
+                    data-bs-parent="#accordion"
+                  >
+                    <div className="card-body accordion-body">
+                      <h4>Personnel:RICHARD NSIKAK U.</h4>
+                      <address>7 Ibiam Street, Uyoe</address>
+                      <p>
+                        <strong>Phone:</strong>
+                        <a href="tel:+2348095352546"> (234) 0809 5352 546</a>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+
+                <div className="card">
+                  <div className="card-header" id="southsouth_7">
+                    <h5 className="mb-0">
+                      <button
+                        className="btn btn-link collapsed"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#ss_7"
+                        aria-expanded="true"
+                        aria-controls="ss_7"
+                      >
+                        WARRI OFFICE
+                      </button>
+                    </h5>
+                  </div>
+
+                  <div
+                    id="ss_7"
+                    className="collapse"
+                    aria-labelledby="southsouth_7"
+                    data-bs-parent="#accordion"
+                  >
+                    <div className="card-body accordion-body">
+                      <h4>Personnel: MARIAM EGHORIETA</h4>
+                      <address>7 Ibiam Street, Uyoe</address>
+                      <p>
+                        <strong>Phone:</strong>
+                        <a href="tel:+234817433114"> (234) 0817433114</a>
+                      </p>
+
+                      <p>
+                        <strong>Phone:</strong>
+                        <a href="tel:+2348149273443"> (234) 08149273443</a>
+                      </p>
                     </div>
                   </div>
                 </div>
