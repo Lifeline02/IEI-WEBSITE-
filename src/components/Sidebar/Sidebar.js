@@ -243,6 +243,11 @@ const Sidebar = ({ show, handleClose }) => {
                                 Data Protection
                               </NavLink>
                             </li>
+                            <li>
+                              <NavLink to="/PrivacyPolicy">
+                                Privacy Policy
+                              </NavLink>
+                            </li>
                           </ul>
                         </Collapsible>
                       </div>

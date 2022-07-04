@@ -28,7 +28,7 @@ const Home = () => {
       <HomeTeams />
       <HomeCapabilities />
       <Testimonial />
-       <HomeBrands/> 
+      <HomeBrands />
       <HomeContact />
       <Footer />
     </>

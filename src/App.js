@@ -17,6 +17,7 @@ import BenefitPayment from "./pages/Retirement Plans/Benefit/BenefitPayment/Bene
 import Services from "./pages/Services/Services";
 import ServicesDetails from "./pages/ServicesDetails/ServicesDetails";
 import TeamDetails from "./pages/TeamDetails/TeamDetails";
+import PrivacyPolicy from "./pages/PrivacyPolicy/PrivacyPolicy";
 
 function App() {
   return (
@@ -30,9 +31,7 @@ function App() {
           <Route path="/about" element={<About />} />
           <Route path="/career" element={<Career />} />
           <Route path="/services" element={<Services />} />
-
           <Route path="/benefitPayment" element={<BenefitPayment />} />
-          
           <Route path="/servicesDetails" element={<ServicesDetails />} />
           <Route path="/directors" element={<Director />} />
           <Route path="/management" element={<Management />} />
@@ -44,9 +43,7 @@ function App() {
           <Route path="/contact" element={<Contact />} />
           <Route path="/branches" element={<Branch />} />
           <Route path="/multifund" element={<MultiFundHome />} />
-          
-
-          
+          <Route path="/ PrivacyPolicy " element={<PrivacyPolicy />} />
         </Routes>
       </BrowserRouter>
     </>
