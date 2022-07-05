@@ -14,7 +14,11 @@ const Calculator = () => {
             <PageHelmet pageTitle="Pension calculator" />
             <HomeOneHeader/>
             <CommonPageHeader title="Pension Calculator" subtitle="penCalculator" />
-            <PenCalculator />
+            <div className="container">
+                <div className="shadow-lg p-3 mb-5 bg-body rounded  m-5">
+                 <PenCalculator />
+                </div>
+            </div>  
             <HomeBrands/>
             <HomeContact/>
             <Footer/>

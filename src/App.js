@@ -44,8 +44,8 @@ function App() {
           <Route path="/contact" element={<Contact />} />
           <Route path="/branches" element={<Branch />} />
           <Route path="/multifund" element={<MultiFundHome />} />
-          <Route path="/ PrivacyPolicy " element={<PrivacyPolicy />} />
-          <Route path="/ Download" element={<Download />} />
+          <Route path="/PrivacyPolicy" element={<PrivacyPolicy />} />
+          <Route path="/Download" element={<Download />} />
           DirectorArea
         </Routes>
       </BrowserRouter>

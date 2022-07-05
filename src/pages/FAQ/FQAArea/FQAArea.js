@@ -1,8 +1,9 @@
-import React from "react";
+import React, { useState } from "react";
 
 const FAQArea = () => {
   return (
     <>
+ 
       <section className="faq__area pb-200 pt-75">
         <div className="container">
           <div className="row">
@@ -2871,5 +2872,6 @@ const FAQArea = () => {
     </>
   );
 };
+
 
 export default FAQArea;

@@ -4,11 +4,8 @@ const PrivacyPolicyArea = () => {
   return (
     <>
       <section className="faq__area pb-200 pt-75">
-        <div className="container">
+        <div className="container"> 
           <div className="row">
-            <div className="col-xl-4 col-lg-5 col-md-5">
-              <div className="faq__content"></div>
-            </div>
             <div className="col-xl-6 col-lg-6 col-md-7 offset-xl-2 offset-lg-1">
               <div className="faq__accordion p-relative">
                 <di>
@@ -37,6 +34,8 @@ const PrivacyPolicyArea = () => {
                       data-bs-parent="#accordion1"
                     >
                       <div className="card-body accordion-body">
+                        <div className ="privacy-policy">
+                        
                         <ul>
                           <li>
                             This policy explains when and why we collect
@@ -50,7 +49,6 @@ const PrivacyPolicyArea = () => {
                             described when we collect data from you.
                           </li>
                           <li>
-                            {" "}
                             We reserve the right to amend this Data Privacy
                             Policy from time to time without prior notice. We
                             may be required to amend this Data Privacy Policy
@@ -59,7 +57,6 @@ const PrivacyPolicyArea = () => {
                             website for the latest Privacy Policy.
                           </li>
                           <li>
-                            {" "}
                             We will always comply with the Nigeria Data
                             Protection Regulation (NDPR) when dealing with your
                             personal data. For the purposes of the NDPR, we will
@@ -67,13 +64,13 @@ const PrivacyPolicyArea = () => {
                             about you.
                           </li>
                           <li>
-                            {" "}
                             Consenting to our use of cookies in accordance with
                             the terms of this policy when you first visit our
                             website permits us to use cookies every time you
                             visit our website.
                           </li>
                         </ul>
+                        </div>
                       </div>
                     </div>
                   </div>
@@ -99,6 +96,7 @@ const PrivacyPolicyArea = () => {
                       data-bs-parent="#accordion1"
                     >
                       <div className="card-body accordion-body">
+                        <div className="privacy-policy">
                         <ul>
                           <li>
                             We are IEI Anchor Pension Managers Limited. We can
@@ -106,6 +104,8 @@ const PrivacyPolicyArea = () => {
                             Street,Area 11, Garki, Abuja, Nigeria.
                           </li>
                         </ul>
+                        </div>
+                        
                       </div>
                     </div>
                   </div>

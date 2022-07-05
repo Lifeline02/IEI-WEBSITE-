@@ -107,7 +107,7 @@ const Footer = () => {
                            </div>
                         </div>
                      </div>
-                     <div class="mobile_app">
+                     <div className="mobile_app">
                         <a href="https://tinyurl.com/mthtpkzf" className='px-3'>
                            <img src="/assets/img/mobile/playstore.png" alt="Android"  width='240px' height="70px"/>
                         </a>

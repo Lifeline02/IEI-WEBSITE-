@@ -659,3 +659,12 @@ p {
 		}
 	}
 }
+
+
+.privacy-policy{
+	& ul{
+		& li{
+		 list-style: disc
+		}
+	}	
+}

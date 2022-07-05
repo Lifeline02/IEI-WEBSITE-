@@ -20,7 +20,11 @@ const HomeCalculator = () => {
                     </div>
                     <div className="col-xl-5 col-lg-5">
                         <div className="about__content">
-                                <PenCalculator />
+                            <div className="container">
+                            <div className="shadow-lg p-3 mb-5 bg-body rounded">
+                               <PenCalculator />
+                            </div>
+                            </div>  
                         </div>
                     </div>
                 </div>
