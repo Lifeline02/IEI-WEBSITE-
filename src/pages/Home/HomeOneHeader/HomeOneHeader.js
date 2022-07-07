@@ -160,9 +160,7 @@ const HomeOneHeader = () => {
                             <NavLink to="/services">Retirement Plans</NavLink>
                             <ul className="submenu">
                               <li>
-                                <NavLink to="#">
-                                  Benfit Administrations
-                                </NavLink>
+                                <NavLink to="#">Benfit Administrations</NavLink>
                                 <ul className="submenu">
                                   <li>
                                     <NavLink to="/servicesDetails">
@@ -223,15 +221,13 @@ const HomeOneHeader = () => {
                                 </NavLink>
                               </li>
                               <li>
-                                <NavLink to="/portfolioDetails">
-                                  Strategy
-                                </NavLink>
+                                <NavLink to="/Strategy">Strategy</NavLink>
                               </li>
                               <li>
                                 <NavLink to="/team">Portfolio</NavLink>
                               </li>
                               <li>
-                                <NavLink to="/teamDetails">Scheme</NavLink>
+                                <NavLink to="/scheme">Scheme</NavLink>
                               </li>
                               <li>
                                 <NavLink to="/teamDetails">

@@ -19,6 +19,8 @@ import ServicesDetails from "./pages/ServicesDetails/ServicesDetails";
 import TeamDetails from "./pages/TeamDetails/TeamDetails";
 import PrivacyPolicy from "./pages/PrivacyPolicy/PrivacyPolicy";
 import Download from "./pages/Downloads/Download";
+import Scheme from "./pages/FundManagement/Scheme";
+import Strategy from "./pages/FundManagement/Strategy";
 
 function App() {
   return (
@@ -46,7 +48,8 @@ function App() {
           <Route path="/multifund" element={<MultiFundHome />} />
           <Route path="/PrivacyPolicy" element={<PrivacyPolicy />} />
           <Route path="/Download" element={<Download />} />
-          DirectorArea
+          <Route path="/scheme" element={<Scheme />} />
+          <Route path="/Strategy" element={<Strategy />} />
         </Routes>
       </BrowserRouter>
     </>
