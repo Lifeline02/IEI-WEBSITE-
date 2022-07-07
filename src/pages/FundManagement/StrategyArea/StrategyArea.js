@@ -1,6 +1,6 @@
 import React from "react";
 
-const SchemeArea = () => {
+const StrategyArea = () => {
   return (
     <>
       <section className="faq__area pb-200 pt-5">
@@ -10,7 +10,7 @@ const SchemeArea = () => {
               <div className="col-xl-6 col-lg-6 col-md-6">
                 <div className="faq__accordion p-relative">
                   <di>
-                    <h3>Retirement Advices</h3>
+                    <h3>Business Services</h3>
                   </di>
 
                   <div className="card">
@@ -93,71 +93,37 @@ const SchemeArea = () => {
               </div>
             </div>
             <div className="container">
-              <h3>Retirement planning service</h3>
+              <h3>Our investment strategy</h3>
 
               <p>
-                Retirement Planning involves all activities from your first
-                employment, up to and after your retirement geared towards
-                ensuring that you and your needs are well provided for in the
-                retirement phase of your life. In drawing up a retirement plan,
-                it is critical to identify the following:
+                In line with PENCOM guidelines, we have designed a robust
+                investment strategy, which deploys both active and passive
+                Investment approaches. The active investment strategy leverages
+                current trends to achieve industry rate of returns while the
+                passive strategy minimizes the inherent risk in investments
+                through a buy and hold approach. The combination of these
+                approaches and thorough assets classification ensure the
+                security of your investment.
               </p>
               <hr></hr>
 
-              <h3>When would you retire?</h3>
+              <h3>Investment selection criteria</h3>
 
               <p>
-                Depending on your outlook, and personal circumstances, people
-                may choose to retire early, say before 50 years, while others
-                will retire later, just at 60 years, or for however long their
-                terms of employment permit. Many factors including your state of
-                health, desire to pursue other activities, and very importantly
-                the level of financial resources and responsibilities will
-                affect the timing of your retirement. For some others, however,
-                the timing of retirement is not entirely up to them. Sometimes
-                accidents, ill-health, and employer-distress may lead to a
-                pre-mature retirement.
+                With an objective to ensure that investment performances are
+                optimal, investment windows are selected based on thorough
+                criteria that rests on safety (minimal risk), yield
+                (profitability) and liquidity (marketability).
               </p>
               <hr></hr>
 
-              <h3>What your activities could be during your retirement</h3>
+              <h3>Exit strategy</h3>
 
               <p>
-                During retirement, some people choose to continue in active
-                life, supporting their communities, participating in politics or
-                even running a full time business. Others may choose to limit
-                themselves to light activities as traveling, visiting children
-                and grandchildren, etc. It is important to plan ahead for how
-                you will like to spend your retirement, and prepare yourself
-                mentally and financially for whichever choice you make.
-              </p>
-              <hr></hr>
-
-              <h3>What kind of income will you need in retirement?</h3>
-
-              <p>
-                Planning adequately for your financial needs in retirement is
-                very important. It is therefore necessary to ascertain ahead of
-                time, how much income you will need in retirement. In planning
-                towards this, one may envisage family responsibilities, state of
-                health, and life expectancy. For example, having children of
-                school age at retirement, your financial needs will outstrip
-                those who do not. If you already live in your own house and will
-                not be paying rent during your retirement, then your financial
-                needs will differ from someone who does not own a home.
-              </p>
-              <hr></hr>
-
-              <h3>What income to expect at retirement</h3>
-
-              <p>
-                Once you have ascertained your financial requirements at
-                retirement, it is necessary to determine your income streams.
-                For someone that has planned retirement early enough, income may
-                come from investments such as dividends, capital appreciation,
-                rental income as well as pension and other retirement benefits.
-                Estimating your sources of income is important to enable you
-                plan how to meet your needs at retirement.
+                We understand that a credible investment strategy requires a
+                comprehensive exit strategy. Employing an array of matrices, we
+                are apt to identify the appropriate exit period for our
+                investments to minimizes losses.
               </p>
               <hr></hr>
             </div>
@@ -168,4 +134,4 @@ const SchemeArea = () => {
   );
 };
 
-export default SchemeArea;
+export default StrategyArea;
