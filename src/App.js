@@ -19,6 +19,8 @@ import ServicesDetails from "./pages/ServicesDetails/ServicesDetails";
 import TeamDetails from "./pages/TeamDetails/TeamDetails";
 import PrivacyPolicy from "./pages/PrivacyPolicy/PrivacyPolicy";
 import Download from "./pages/Downloads/Download";
+import TransferNow from "./pages/Retirement Plans/TransferNow";
+import OpenAccount from "./pages/Retirement Plans/OpenAccount";
 
 function App() {
   return (
@@ -37,6 +39,8 @@ function App() {
           <Route path="/directors" element={<Director />} />
           <Route path="/management" element={<Management />} />
           <Route path="/teamDetails/:teamId" element={<TeamDetails />} />
+          <Route path="/transfer" element={<TransferNow />} />
+          <Route path="/register" element={<OpenAccount />} />
           <Route path="/blogs" element={<Blogs />} />
           <Route path="/blogDetails" element={<BlogDetails />} />
           <Route path="/penCalculator" element={<Calculator />} />
