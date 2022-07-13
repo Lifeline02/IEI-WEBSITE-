@@ -271,7 +271,7 @@ const HomeOneHeader = () => {
                                 <NavLink to="/Download">Download</NavLink>
                               </li>
                               <li>
-                                <NavLink to="/blogDetails">
+                                <NavLink to="/financial_statement">
                                   Financial Statements
                                 </NavLink>
                               </li>

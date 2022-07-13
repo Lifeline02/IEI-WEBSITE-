@@ -23,6 +23,7 @@ import TransferNow from "./pages/Retirement Plans/TransferNow";
 import OpenAccount from "./pages/Retirement Plans/OpenAccount";
 import Scheme from "./pages/FundManagement/Scheme";
 import Strategy from "./pages/FundManagement/Strategy";
+import Financial from "./pages/Downloads/Financial";
 
 
 function App() {
@@ -46,6 +47,7 @@ function App() {
           <Route path="/register" element={<OpenAccount />} />
           <Route path="/blogs" element={<Blogs />} />
           <Route path="/blogDetails" element={<BlogDetails />} />
+          <Route path="/financial_statement" element={<Financial />} />
           <Route path="/penCalculator" element={<Calculator />} />
           <Route path="/faq" element={<FAQ />} />
           <Route path="/contact" element={<Contact />} />

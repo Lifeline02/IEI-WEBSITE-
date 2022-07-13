@@ -1,6 +1,8 @@
 import React, { useRef, useState, useEffect}from 'react';
 import moment from 'moment';
 
+import {FaDownload} from 'react-icons/fa'
+
 
 
 const Register = () => {
