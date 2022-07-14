@@ -10,7 +10,6 @@ const TeamDetails = () => {
    return (
       <>
          <PageHelmet pageTitle="Team Details Page" />
-
          <HomeOneHeader/>
          <CommonPageHeader title="Team Details" subtitle="Team Details" />
          <TeamDetailsArea/>
