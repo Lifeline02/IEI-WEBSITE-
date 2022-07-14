@@ -4,7 +4,6 @@ import {
   FaInstagram,
   FaLinkedin,
   FaTwitter,
-  FaVimeoV,
 } from "react-icons/fa";
 import { Link } from "react-router-dom";
 
@@ -36,7 +35,7 @@ const BlogFooter = () => {
                       <div className="footer__social footer__social-2 theme-social mb-30">
                         <ul>
                           <li>
-                            <a href="#">
+                            <a href="https://www.facebook.com/ieianchorpensionltd ">
                               <i>
                                 <FaFacebookF />
                               </i>
@@ -46,7 +45,7 @@ const BlogFooter = () => {
                             </a>
                           </li>
                           <li>
-                            <a href="#">
+                            <a href="https://twitter.com/ieianchorpens ">
                               <i>
                                 <FaTwitter />{" "}
                               </i>
@@ -56,7 +55,7 @@ const BlogFooter = () => {
                             </a>
                           </li>
                           <li>
-                            <a href="#">
+                            <a href="https://www.instagram.com/ieianchorpens/">
                               <i>
                                 <FaInstagram />{" "}
                               </i>
@@ -66,7 +65,7 @@ const BlogFooter = () => {
                             </a>
                           </li>
                           <li>
-                            <a href="#">
+                            <a href="https://www.linkedin.com/company/ieianchorpens">
                               <i>
                                 <FaLinkedin />{" "}
                               </i>
@@ -92,19 +91,25 @@ const BlogFooter = () => {
                       <div className="footer__links footer__links-2">
                         <ul>
                           <li>
-                            <a href="#">PenCom</a>
+                            <a href="https://www.pencom.gov.ng/">PenCom</a>
                           </li>
                           <li>
-                            <a href="#">Politics</a>
+                            <a href="https://norrenberger.com/">
+                              Masters in Wealth Creation
+                            </a>
                           </li>
                           <li>
-                            <a href="#">Sport</a>
+                            <a href="career">career</a>
                           </li>
                           <li>
-                            <a href="#">Finance</a>
+                            <a href="about">About us</a>
+                          </li>
+
+                          <li>
+                            <a href="directors">Board of Directors</a>
                           </li>
                           <li>
-                            <a href="#">Entertainment</a>
+                            <a href="management">Management Team</a>
                           </li>
                         </ul>
                       </div>
@@ -123,22 +128,29 @@ const BlogFooter = () => {
                       <div className="footer__links footer__links-2">
                         <ul>
                           <li>
-                            <a href="#">Data Protection</a>
+                            <a href="dataProtection">Data Protection</a>
                           </li>
                           <li>
-                            <a href="#">Privacy Policy</a>
+                            <a href="privacyPolicy">Privacy Policy</a>
+                          </li>
+
+                          <li>
+                            <a href="fanancialStatement">
+                              Financial Statements
+                            </a>
                           </li>
                           <li>
-                            <a href="#">Blog</a>
+                            <a href="https://ffpro.ieianchorpensions.com.ng/pfaweb/#/login">
+                              Online Statements
+                            </a>
                           </li>
                           <li>
-                            <a href="#">Financial Statements</a>
+                            <a href="download">Download</a>
                           </li>
                           <li>
-                            <a href="#">Online Statements</a>
-                          </li>
-                          <li>
-                            <a href="#">Download</a>
+                            <a href="https://ffpro.ieianchorpensions.com.ng/pfaweb/#/login">
+                              Self Service
+                            </a>
                           </li>
                         </ul>
                       </div>
@@ -157,25 +169,28 @@ const BlogFooter = () => {
                       <div className="footer__links footer__links-2">
                         <ul>
                           <li>
-                            <a href="#">Pension Calculator</a>
+                            <a href="penCalculator">Pension Calculator</a>
                           </li>
                           <li>
-                            <a href="#">Open Account</a>
+                            <a href="openAccount">Open Account</a>
                           </li>
                           <li>
-                            <a href="#">Data Recapture</a>
+                            <a href="https://datarecapture.ieianchorpensions.com.ng/">
+                              Data Recapture
+                            </a>
                           </li>
                           <li>
-                            <a href="#">Transfer Now</a>
+                            <a href="transferNow">Transfer Now</a>
+                          </li>
+
+                          <li>
+                            <a href="branches">Branches</a>
                           </li>
                           <li>
-                            <a href="#">Onboarding</a>
+                            <a href="strategy">strategy</a>
                           </li>
                           <li>
-                            <a href="#">Branches</a>
-                          </li>
-                          <li>
-                            <a href="#"></a>
+                            <a href="scheme">strategy</a>
                           </li>
                         </ul>
                       </div>
