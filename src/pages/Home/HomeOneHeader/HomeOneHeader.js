@@ -163,12 +163,13 @@ const HomeOneHeader = () => {
                                 <NavLink to="#">Benfit Administrations</NavLink>
                                 <ul className="submenu">
                                   <li>
-                                    <NavLink to="/servicesDetails">
+                                <NavLink to="#">Benfit Administrations</NavLink>
+                                    <NavLink to="#">
                                       Micropension
                                     </NavLink>
                                   </li>
                                   <li>
-                                    <NavLink to="/servicesDetails">
+                                    <NavLink to="#">
                                       Voluntary Contributions
                                     </NavLink>
                                   </li>
@@ -204,7 +205,7 @@ const HomeOneHeader = () => {
                                 </NavLink>
                               </li>
                               <li>
-                                <NavLink to="/servicesDetails">
+                                <NavLink to="#">
                                   Onboarding
                                 </NavLink>
                               </li>
@@ -230,12 +231,12 @@ const HomeOneHeader = () => {
                                 <NavLink to="/scheme">Scheme</NavLink>
                               </li>
                               <li>
-                                <NavLink to="/teamDetails">
+                                <NavLink to="#">
                                   Rate of Return
                                 </NavLink>
                               </li>
                               <li>
-                                <NavLink to="/teamDetails">Unit Price</NavLink>
+                                <NavLink to="#">Unit Price</NavLink>
                               </li>
                             </ul>
                           </li>
@@ -285,13 +286,13 @@ const HomeOneHeader = () => {
                                 </a>
                               </li>
                               <li>
-                                <NavLink to="/blogDetails">Blog</NavLink>
+                                <NavLink to="#">Blog</NavLink>
                               </li>
                               <li>
-                                <NavLink to="/blogDetails">Newsletter</NavLink>
+                                <NavLink to="#">Newsletter</NavLink>
                               </li>
                               <li>
-                                <NavLink to="/blogDetails">
+                                <NavLink to="#">
                                   Data Protection
                                 </NavLink>
                               </li>
