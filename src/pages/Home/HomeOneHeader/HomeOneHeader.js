@@ -162,25 +162,13 @@ const HomeOneHeader = () => {
                                 <NavLink to="#">Benfit Administrations</NavLink>
                                 <ul className="submenu">
                                   <li>
-<<<<<<< HEAD
                                 <NavLink to="#">Benfit Administrations</NavLink>
                                     <NavLink to="#">
-||||||| 3dd1bf2
-                                    <NavLink to="/servicesDetails">
-=======
-                                    <NavLink to="/microPension">
->>>>>>> 263e6785dbece5c75f981a59841ef1f8d09a80e6
                                       Micropension
                                     </NavLink>
                                   </li>
                                   <li>
-<<<<<<< HEAD
                                     <NavLink to="#">
-||||||| 3dd1bf2
-                                    <NavLink to="/servicesDetails">
-=======
-                                    <NavLink to="/VoluntaryContribution">
->>>>>>> 263e6785dbece5c75f981a59841ef1f8d09a80e6
                                       Voluntary Contributions
                                     </NavLink>
                                   </li>
@@ -211,28 +199,15 @@ const HomeOneHeader = () => {
                                 </NavLink>
                               </li>
                               <li>
-<<<<<<< HEAD
                                 <NavLink to="/transferNow">
-=======
-                                <NavLink to="/transfer">
->>>>>>> 3dd1bf2ea4f85d8bc55c25c5bd50944a2ca494be
                                   Transfer Now
                                 </NavLink>
                               </li>
-<<<<<<< HEAD
                               <li>
                                 <NavLink to="#">
                                   Onboarding
                                 </NavLink>
                               </li>
-||||||| 3dd1bf2
-                              <li>
-                                <NavLink to="/servicesDetails">
-                                  Onboarding
-                                </NavLink>
-                              </li>
-=======
->>>>>>> 263e6785dbece5c75f981a59841ef1f8d09a80e6
                             </ul>
                           </li>
                           <li>
@@ -255,24 +230,12 @@ const HomeOneHeader = () => {
                                 <NavLink to="/scheme">Scheme</NavLink>
                               </li>
                               <li>
-<<<<<<< HEAD
                                 <NavLink to="#">
-||||||| 3dd1bf2
-                                <NavLink to="/teamDetails">
-=======
-                                <NavLink to="/rateOfReturn">
->>>>>>> 263e6785dbece5c75f981a59841ef1f8d09a80e6
                                   Rate of Return
                                 </NavLink>
                               </li>
                               <li>
-<<<<<<< HEAD
                                 <NavLink to="#">Unit Price</NavLink>
-||||||| 3dd1bf2
-                                <NavLink to="/teamDetails">Unit Price</NavLink>
-=======
-                                <NavLink to="/unitPrice">Unit Price</NavLink>
->>>>>>> 263e6785dbece5c75f981a59841ef1f8d09a80e6
                               </li>
                             </ul>
                           </li>
@@ -308,11 +271,7 @@ const HomeOneHeader = () => {
                                 <NavLink to="/Download">Download</NavLink>
                               </li>
                               <li>
-<<<<<<< HEAD
                                 <NavLink to="/financialStatement">
-=======
-                                <NavLink to="/financial_statement">
->>>>>>> 3dd1bf2ea4f85d8bc55c25c5bd50944a2ca494be
                                   Financial Statements
                                 </NavLink>
                               </li>
@@ -332,13 +291,7 @@ const HomeOneHeader = () => {
                                 <NavLink to="#">Newsletter</NavLink>
                               </li>
                               <li>
-<<<<<<< HEAD
                                 <NavLink to="#">
-||||||| 3dd1bf2
-                                <NavLink to="/blogDetails">
-=======
-                                <NavLink to="/dataProtection">
->>>>>>> 263e6785dbece5c75f981a59841ef1f8d09a80e6
                                   Data Protection
                                 </NavLink>
                               </li>
