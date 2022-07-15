@@ -193,16 +193,12 @@ const HomeOneHeader = () => {
                               </li>
 
                               <li>
-                                <NavLink to="/register">
+                                <NavLink to="/servicesDetails">
                                   Open Account
                                 </NavLink>
                               </li>
                               <li>
-<<<<<<< HEAD
                                 <NavLink to="/transferNow">
-=======
-                                <NavLink to="/transfer">
->>>>>>> 3dd1bf2ea4f85d8bc55c25c5bd50944a2ca494be
                                   Transfer Now
                                 </NavLink>
                               </li>
@@ -269,11 +265,7 @@ const HomeOneHeader = () => {
                                 <NavLink to="/Download">Download</NavLink>
                               </li>
                               <li>
-<<<<<<< HEAD
                                 <NavLink to="/financialStatement">
-=======
-                                <NavLink to="/financial_statement">
->>>>>>> 3dd1bf2ea4f85d8bc55c25c5bd50944a2ca494be
                                   Financial Statements
                                 </NavLink>
                               </li>
