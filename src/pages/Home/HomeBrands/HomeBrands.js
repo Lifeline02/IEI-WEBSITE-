@@ -95,7 +95,7 @@ const HomeBrands = () => {
               <SingleBrandItem img_1="2" img_2="6" />
               <SingleBrandItem img_1="2" img_2="6" />
             </Slider>
-          </div> 
+          </div>
         </div>
       </section>
     </>

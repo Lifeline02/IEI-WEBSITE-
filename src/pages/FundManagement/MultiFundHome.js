@@ -22,9 +22,7 @@ const MultiFundHome = () => {
       <HomeTwoFaq />
       <HomeTwoAchievement />
       <HomeTwoExpertArea />
-
       <HomeTwoTestimonial />
-
       <HomeTwoBlogs />
       <CommonCtaArea />
       <Footer />

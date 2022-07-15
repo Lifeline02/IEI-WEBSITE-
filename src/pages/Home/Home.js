@@ -12,7 +12,7 @@ import PageHelmet from "../../components/shared/PageHelmet";
 import HomeCalculator from "./PenCalculator/PenCalculator";
 import BankAccount from "../../components/BanckAccount/BankAccount";
 import Testimonial from "../Testimonials/Testimonial";
-import HomeBrands from "./HomeBrands/HomeBrands";
+// import HomeBrands from "./HomeBrands/HomeBrands";
 
 const Home = () => {
   return (
@@ -28,7 +28,7 @@ const Home = () => {
       <HomeTeams />
       <HomeCapabilities />
       <Testimonial />
-      <HomeBrands />
+      {/* <HomeBrands /> */}
       <HomeContact />
       <Footer />
     </>
