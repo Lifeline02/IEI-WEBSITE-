@@ -2,23 +2,26 @@
 /*  08. CTA CSS START
 /*----------------------------------------*/
 
-.cta{
-    &__area{
-        @include background();
-        position: relative;
-        &::before{
-            position: absolute;
-            content: '';
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-            background-image: -moz-linear-gradient( 60deg, #ee4535  0ed0 0%, #f05c4f 100%);
-            background-image: -ms-linear-gradient( 60deg, #ee4535 0%, #f05c4f 100%);
-            background-image: -webkit-linear-gradient( 60deg, #ee4535 0%, #f05c4f 100%);
-            background-image: linear-gradient( 60deg, #ee4535 0%, #f05c4f 100%);
-            opacity: .8;
-        }
+.cta {
+  &__area {
+    @include background();
+    position: relative;
+    &::before {
+      position: absolute;
+      content: "";
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-image: -moz-linear-gradient(60deg, #dc2f20 0%, #ff4c3ce9 100%);
+      background-image: -ms-linear-gradient(60deg, #dc2f20 0%, #ff4c3ce9 100%);
+      background-image: -webkit-linear-gradient(
+        60deg,
+        #dc2f20 0%,
+        #ff4c3ce9 100%
+      );
+      background-image: linear-gradient(60deg, #dc2f20 0%, #ff4c3ce9 100%);
+      opacity: 0.8;
     }
   }
   &__content {

@@ -119,14 +119,14 @@
             color: $theme-color;
           }
         }
-        &-2{
-            & ul{
-                & li{
-                    & a{
-                        background: rgb(85, 43, 39);
-                        color: $white;
-                    }
-                }
+      }
+      &-2 {
+        & p {
+          color: #868395;
+          & a {
+            color: $white;
+            &:hover {
+              color: $white;
             }
           }
         }
@@ -167,7 +167,7 @@
       & ul {
         & li {
           & a {
-            background: #363054;
+            background: #753833;
             color: $white;
           }
         }

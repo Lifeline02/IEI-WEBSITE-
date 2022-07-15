@@ -223,33 +223,25 @@ p {
 .gradient-bg {
   background-image: -moz-linear-gradient(
     40deg,
-    rgb(250, 147, 85) 0%,
-    rgb(245, 173, 130) 100%
+    rgba(255, 76, 60, 0.914) 0%,
+    rgb(220, 47, 32) 100%
   );
   background-image: -webkit-linear-gradient(
     40deg,
-    rgb(250, 147, 85) 0%,
-    rgb(245, 173, 130) 100%
+    rgba(255, 76, 60, 0.914) 0%,
+    rgb(220, 47, 32) 100%
   );
   background-image: -ms-linear-gradient(
     40deg,
-    rgb(250, 147, 85) 0%,
-    rgb(245, 173, 130) 100%
+    rgba(255, 76, 60, 0.914) 0%,
+    rgb(220, 47, 32) 100%
   );
   background-image: linear-gradient(
     40deg,
-    rgb(250, 147, 85) 0%,
-    rgb(245, 173, 130) 100%
+    rgba(255, 76, 60, 0.914) 0%,
+    rgb(220, 47, 32) 100%
   );
 }
-
-.gradient-bg{
-	background-image: -moz-linear-gradient( 40deg, #ee4535 0%, #e7574a 100%);
-	background-image: -webkit-linear-gradient( 40deg, #ee4535 0%, #e7574a 100%);
-	background-image: -ms-linear-gradient( 40deg, #ee4535 0%, #e7574a 100%);
-	background-image: linear-gradient( 40deg, #ee4535 0%, #e7574a 100%);
-}
-
 
 // .primary-bg {
 // 	background: #222;
