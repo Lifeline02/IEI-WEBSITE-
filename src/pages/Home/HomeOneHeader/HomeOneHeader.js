@@ -194,7 +194,7 @@ const HomeOneHeader = () => {
                               </li>
 
                               <li>
-                                <NavLink to="/register">
+                                <NavLink to="/servicesDetails">
                                   Open Account
                                 </NavLink>
                               </li>
