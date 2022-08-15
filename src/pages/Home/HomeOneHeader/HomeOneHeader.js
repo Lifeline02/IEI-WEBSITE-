@@ -162,10 +162,10 @@ const HomeOneHeader = () => {
                                 <NavLink to="#">Benfit Administrations</NavLink>
                                 <ul className="submenu">
                                   <li>
-                                <NavLink to="#">Benfit Administrations</NavLink>
                                     <NavLink to="#">
-                                      Micropension
+                                      Benfit Administrations
                                     </NavLink>
+                                    <NavLink to="#">Micropension</NavLink>
                                   </li>
                                   <li>
                                     <NavLink to="#">
@@ -173,9 +173,7 @@ const HomeOneHeader = () => {
                                     </NavLink>
                                   </li>
                                   <li>
-                                    <NavLink to="/benefitPayment">
-                                      Benefit Payment
-                                    </NavLink>
+                                    <NavLink to="#">Benefit Payment</NavLink>
                                   </li>
                                 </ul>
                               </li>
@@ -194,9 +192,7 @@ const HomeOneHeader = () => {
                               </li>
 
                               <li>
-                                <NavLink to="/register">
-                                  Open Account
-                                </NavLink>
+                                <NavLink to="/register">Open Account</NavLink>
                               </li>
                               <li>
                                 <NavLink to="/transferNow">
@@ -204,9 +200,7 @@ const HomeOneHeader = () => {
                                 </NavLink>
                               </li>
                               <li>
-                                <NavLink to="#">
-                                  Onboarding
-                                </NavLink>
+                                <NavLink to="#">Onboarding</NavLink>
                               </li>
                             </ul>
                           </li>
@@ -216,9 +210,7 @@ const HomeOneHeader = () => {
                             </NavLink>
                             <ul className="submenu">
                               <li>
-                                <NavLink to="/multifund">
-                                  Multi fund Structure
-                                </NavLink>
+                                <NavLink to="#">Multi fund Structure</NavLink>
                               </li>
                               <li>
                                 <NavLink to="/Strategy">Strategy</NavLink>
@@ -230,9 +222,7 @@ const HomeOneHeader = () => {
                                 <NavLink to="/scheme">Scheme</NavLink>
                               </li>
                               <li>
-                                <NavLink to="#">
-                                  Rate of Return
-                                </NavLink>
+                                <NavLink to="#">Rate of Return</NavLink>
                               </li>
                               <li>
                                 <NavLink to="#">Unit Price</NavLink>
@@ -291,9 +281,7 @@ const HomeOneHeader = () => {
                                 <NavLink to="#">Newsletter</NavLink>
                               </li>
                               <li>
-                                <NavLink to="#">
-                                  Data Protection
-                                </NavLink>
+                                <NavLink to="#">Data Protection</NavLink>
                               </li>
 
                               <li>
